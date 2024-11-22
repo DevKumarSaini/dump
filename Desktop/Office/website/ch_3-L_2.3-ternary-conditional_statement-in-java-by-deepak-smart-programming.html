@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="description"
+        content="Verify Students enrollments from Smart Programming. Students purchased premium courses or online and industrial trainings can verify their details by HR or Deepak Sir." />
+    <meta name="keywords"
+        content="verify students, enrollments, seminars, workshops, development, campus, placements, colleges, online classes, industrial training, free courses, premium courses, industrial trainings, chandigarh, mohali, internships" />
+
+    <title>Java Introduction</title>
+
+    <link rel="icon" href="images/favicon.png" type="image/png" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/themes/prism.min.css" rel="stylesheet"> -->
+    <link href="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/themes/prism-tomorrow.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-4 d-flex justify-content-center justify-content-md-start">
+                    <div class="social-icons">
+                        <a href="https://www.youtube.com/c/SmartProgramming" target="_blank" class="me-2">
+                            <i class="bi bi-youtube"></i>
+                        </a>
+                        <a href="https://www.facebook.com/smartprogramming.india" target="_blank" class="me-2">
+                            <i class="bi bi-facebook"></i></a>
+                        <a href="https://www.instagram.com/smart_programming/" target="_blank" class="me-2">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="https://t.me/smart_programming_deepak" target="_blank" class="me-2">
+                            <i class="bi bi-telegram"></i>
+                        </a>
+                        <a href="https://discord.gg/Up9dQ3gP6k" target="_blank" class="me-2">
+                            <i class="bi bi-discord"></i>
+                        </a>
+                        <a href="https://whatsapp.com/channel/0029Va6n2Gs42Dckpa2T1U1i" target="_blank" class="me-2">
+                            <i class="bi bi-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 d-flex justify-content-center my-2 my-md-0">
+                    <div class="phone-numbers text-center text-md-start">
+                        <a href="tel:+919888755565">+91 98887-55565</a>
+                        <span class="mx-2">||</span>
+                        <a href="tel:+916283830308">+91 62838-30308</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 d-flex justify-content-center justify-content-md-end">
+                    <div class="auth-links text-center text-md-end">
+                        <a href="https://courses.smartprogramming.in/learn/account/signin" target="_blank"
+                            class="me-2">Login</a>
+                        <a href="https://courses.smartprogramming.in/learn/account/signup" target="_blank">Register</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+        <div class="container">
+            <button class="btn btn-primary" id="notes-hamburger-btn">
+                <i class="bi bi-list text-white"></i>
+            </button>
+            <a class="navbar-brand" href="index.html">
+                <h3 class="text-white">Smart Programming</h3>
+            </a>
+            <div class="col-12 col-md-6 d-flex justify-content-center my-2 my-md-0">
+                <div class="auth-links text-center text-md-end">
+                    <a href="#" class="me-5 notes-header-navlinks">Courses</a>
+                    <a href="#" class="notes-header-navlinks">Tutorials</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="row">
+
+        <div class="col-lg-3 col-12">
+            <!-- left side navbar -->
+            <nav class="notes-sidebar pb-5" id="notes-sidebar">
+                <button class="btn-close notes-sidebar-closeBtn" id="notes-sidebar-close-btn"
+                    aria-label="Close"></button>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="java-introduction-by-deepak-smart-programming.html">
+                            <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Java Introduction </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="data-types-in-java-by-deepak-smart-programming.html">
+                            <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Programming Language Terminologies
+                        </a>
+                        <ul class="nav flex-column ms-3 mb-3">
+                            <li class="nav-item">
+                                <a class="nav-link" href="data-types-in-java-by-deepak-smart-programming.html">&nbsp;
+                                    <i class="bi bi-arrow-right"></i>
+                                    &nbsp; Data Types</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">&nbsp; <i class="bi bi-arrow-right"></i>
+                                    &nbsp; Variables
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">&nbsp; <i class="bi bi-arrow-right"></i>
+                                    &nbsp; Literals
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">&nbsp; <i class="bi bi-arrow-right"></i>
+                                    &nbsp; Operators
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">&nbsp; <i class="bi bi-arrow-right"></i>
+                                    &nbsp; Keywords
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">&nbsp; <i class="bi bi-arrow-right"></i>
+                                    &nbsp; Identifiers
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">&nbsp; <i class="bi bi-arrow-right"></i>
+                                    &nbsp; Constants
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">&nbsp; <i class="bi bi-arrow-right"></i>
+                                    &nbsp; Interview
+                                    Questions</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Control
+                            Statements </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; OOP's
+                            Concepts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Java
+                            Reflection API</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Exception
+                            Handling</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Strings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; File Input /
+                            Output </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp;
+                            Multithreading</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Arrays</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp;
+                            Collections</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Core Java
+                            Advance Concepts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Java 8
+                            Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Java 9
+                            Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Java 10
+                            Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Java 11
+                            Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Java 12
+                            Features</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="col-lg-7 col-12">
+            <div class="notes-content">
+                <div class="notes-div">
+
+                    <h3 class="text-center"> Ternary</h3>
+                    <hr />
+
+                   <section> 
+                    
+                    <section>
+                        <h4 class="notes-heading"><i class="bi bi-brightness-low-fill"></i>Ternary Operator</h4>
+                        <p>The ternary operator in Java is a concise way to perform conditional evaluations. It allows you to return one of two values based on a condition. The operator is often used as a shorthand for <strong>if-else </strong>statements. The ternary operator is represented by the <strong>?</strong> and <strong>:</strong> symbols
+                        </p>
+                    </section>
+                    
+                    <section class="ms-3">
+                        <h5 class="notes-subheading">Detailed Working</h5>
+                        <section class="ms-3">
+                            <div class="mt-4">
+                                <h6 class="notes-sub-subheading">Syntax</h6>
+                                <pre><code class="language-java">result = (condition) ? valueIfTrue : valueIfFalse; // 'result', 'condition', 'valueIfTrue', 'valueIfFalse' are identifiers</code></pre>
+                                <ul>
+                                    <li class="mt-2"><strong>Condition:</strong> The expression that is evaluated. If it evaluates to true, the valueIfTrue is assigned to result; otherwise, valueIfFalse is assigned. (condition, valueIfTrue, valueIfFalse are identifiers)</li>
+                                    <li class="mt-2"><strong>Value If True:</strong> The value that is assigned to result if the condition evaluates to true. (valueIfTrue is an identifier)</li>
+                                    <li class="mt-2"><strong>Value If False:</strong> The value that is assigned to result if the condition evaluates to false. (valueIfFalse is an identifier)</li>
+                                    <li class="mt-2"><strong>Result:</strong> The variable where the result of the ternary operation is stored. (result is an identifier)</li>
+                                </ul>
+                            </div>
+
+                            <div class="mt-4">
+                                <h6 class="notes-sub-subheading">Flow</h6>
+                                <ol>
+                                    <li>Evaluate the condition. (condition is an identifier)</li>
+                                    <li>If the condition is true, assign the valueIfTrue to the result. (valueIfTrue, result are identifiers)</li>
+                                    <li>If the condition is false, assign the valueIfFalse to the result. (valueIfFalse, result are identifiers)</li>
+                                </ol>
+                            </div>
+                            
+                            <div class="mt-4">
+                                <h6 class="notes-sub-subheading">Example</h6>
+                                    <pre><code class="language-java">int a = 10; // 'a' is a variable identifier
+String result = (a > 5) ? "Greater than 5" : "less than 5"; 
+System.out.println(result); // 'System', 'out', 'println', 'result' are identifiers</code></pre>
+                            </div>
+                            
+                            <div class="mt-4">
+                                <h6 class="notes-sub-subheading">Explanation of Identifiers</h6>
+                                <ul>
+                                    <li><strong>Variable Identifier:</strong> a, result</li>
+                                    <li><strong>Condition Identifier:</strong> a > 5</li>
+                                    <li><strong>Values:</strong> "Greater than 5", "less than 5"</li>
+                                    <li><strong>Output Identifiers:</strong> System, out, println</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="mt-4">
+                                <h6 class="notes-sub-subheading">Real-life Example</h6>
+                                <p><strong>Condition:</strong> Based on whether a number is greater than 5 (e.g., a > 5). (a, 5 are identifiers)</p>
+                                <p><strong>Action:</strong> If a is greater than 5, the result is "Greater than 5". If not, the result is "less than 5". (result, "Greater than 5", "less than 5" are identifiers)</p>
+                            </div>
+
+                            <div class="mt-4">
+                                <h6 class="notes-sub-subheading">Some more example of ( Ternary ) statements</h6>
+                            </div>
+                        </section>
+                    </section>
+                    
+                    <!-- Programming section -->
+                    <section>
+                        <ul class="ms-5">
+                            <li class="mt-3">
+                                <strong>Basic Comparison</strong>
+<pre><code class="language-java">public class Main {
+    public static void main(String[] args) {
+        int number = -10;
+        String result = (number >= 0) ? "Positive" : "Negative";
+        System.out.println(result); // Outputs: Negative
+    }
+}
+</code></pre>
+<div class="java-output">
+    <h5 class="output-heading">Output</h5><hr>
+    
+    <pre><code>Negative</code></pre>
+    </div>
+
+                            </li>
+
+                            <li class="mt-5">
+                                <strong>Check for Voting Eligibility</strong>
+<pre><code class="language-java">public class Main {
+    public static void main(String[] args) {
+        int age = 22;
+        String canVote = (age >= 18) ? "Eligible to vote" : "Not eligible to vote";
+        System.out.println(canVote); // Outputs: Eligible to vote
+    }
+}
+</code></pre>
+<div class="java-output">
+    <h5 class="output-heading">Output</h5><hr>
+    
+    <pre><code>Eligible to vote</code></pre>
+    </div>
+
+                            </li>
+
+                            <li class="mt-5">
+                                <strong>Find the Maximum of two number</strong>
+<pre><code class="language-java">public class Main {
+    public static void main(String[] args) {
+        int a = 15, b = 20;
+        int max = (a > b) ? a : b;
+        System.out.println("Maximum: " + max); // Outputs: Maximum: 20
+    }
+}
+</code></pre>
+<div class="java-output">
+    <h5 class="output-heading">Output</h5><hr>
+    
+    <pre><code>Maximum: 20</code></pre>
+    </div>
+
+                            </li>
+
+                            <li class="mt-5">
+                                <strong>String Length Check</strong>
+<pre><code class="language-java">public class Main {
+    public static void main(String[] args) {
+        String str = "Java";
+        String lengthCheck = (str.length() > 5) ? "Long String" : "Short String";
+        System.out.println(lengthCheck); // Outputs: Short String
+    }
+}
+</code></pre>
+<div class="java-output">
+    <h5 class="output-heading">Output</h5><hr>
+    
+    <pre><code>Short String</code></pre>
+    </div>
+
+                            </li>
+
+                            <li class="mt-5">
+                                <strong>Discount Calculation</strong>
+<pre><code class="language-java">public class Main {
+    public static void main(String[] args) {
+        double price = 150.0;
+        double discount = (price > 100) ? price * 0.1 : 0;
+        System.out.println("Discount: " + discount); // Outputs: Discount: 15.0
+    }
+}
+</code></pre>
+<div class="java-output">
+    <h5 class="output-heading">Output</h5><hr>
+    
+    <pre><code>Discount: 15.0</code></pre>
+    </div>
+
+                            </li>
+
+                            <li class="mt-5">
+                                <strong>Ternary Statement inside if-else</strong>
+<pre><code class="language-java">public class TernaryUsingIf {
+    public static void main(String[] args) {
+        String email = "checkprogramming@gmail.com";
+
+        // Using an if statement to decide whether to print the message
+        if (email.contains("@gmail.com") ? true : false) {
+        System.out.println("This is valid email."); // Output valid email
+        } else {
+        System.out.println("This is not valid email.");
+        }
+    }
+}
+</code></pre>
+<div class="java-output">
+    <h5 class="output-heading">Output</h5><hr>
+    
+    <pre><code>This is valid email.</code></pre>
+    </div>
+                            </li>
+
+                        </ul>
+                    </section>
+                    
+                   </section>
+                    
+                </div>
+            </div>
+
+            <!-- Button COde -->
+            <div class="row my-4">
+                <div class="col-6 d-flex justify-content-start">
+                    <button class="btn btn-warning"> <i class="bi bi-arrow-left-short"></i> Previous
+                        Topic</button>
+                </div>
+                <div class="col-6 d-flex justify-content-end">
+                    <button class="btn btn-success">Next Topic <i class="bi bi-arrow-right-short"></i></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-2 col-12 bg-secondary">this is for
+            advertisement</div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer mt-4">
+        <div class="container">
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <h5 class="text-white">Menus</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="footer-link">Home</a></li>
+                        <li>
+                            <a href="free-courses-by-smart-programming.html" class="footer-link">Free Courses</a>
+                        </li>
+                        <li>
+                            <a href="premium-courses-by-smart-programming.html" class="footer-link">Premium Courses</a>
+                        </li>
+                        <li>
+                            <a href="trainings-by-smart-programming.html" class="footer-link">Trainings</a>
+                        </li>
+                        <li>
+                            <a href="development-by-smart-programming.html" class="footer-link">Development</a>
+                        </li>
+                        <li>
+                            <a href="contact-smart-programming.html" class="footer-link">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-8">
+                    <h5 class="text-white">
+                        Useful links for Industrial Training in Chandigarh
+                    </h5>
+                    <div class="row">
+                        <div class="col-md-6 col-12">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="core-java-free-course-by-deepak-smart-programming.html"
+                                        class="footer-link">Core Java Free
+                                        Course</a>
+                                </li>
+                                <li>
+                                    <a href="advance-java-free-course-by-deepak-smart-programming.html"
+                                        class="footer-link">Advance Java
+                                        Free Course</a>
+                                </li>
+                                <li>
+                                    <a href="spring-framework-free-course-by-deepak-smart-programming.html"
+                                        class="footer-link">Spring Framework
+                                        Free Course</a>
+                                </li>
+                                <li>
+                                    <a href="springboot-framework-free-course-by-deepak-smart-programming.html"
+                                        class="footer-link">Springboot Free
+                                        Course</a>
+                                </li>
+                                <li>
+                                    <a href="android-free-course-by-deepak-smart-programming.html"
+                                        class="footer-link">Android Free
+                                        Course</a>
+                                </li>
+                                <li>
+                                    <a href="java-logical-questions-free-course-by-deepak-smart-programming.html"
+                                        class="footer-link">Java Logical
+                                        Questioning Free Course</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="https://courses.smartprogramming.in/learn/Core-Java-With-5-Projects"
+                                        target="_blank" class="footer-link">Core Java
+                                        Premium Course</a>
+                                </li>
+                                <li>
+                                    <a href="https://courses.smartprogramming.in/learn/Advance-Java" target="_blank"
+                                        class="footer-link">Advance Java
+                                        Premium Course</a>
+                                </li>
+                                <li>
+                                    <a href="https://courses.smartprogramming.in/learn/Spring-Framework" target="_blank"
+                                        class="footer-link">Spring Framework
+                                        Premium Course</a>
+                                </li>
+                                <li>
+                                    <a href="https://courses.smartprogramming.in/learn/Spring-Boot-Framework"
+                                        target="_blank" class="footer-link">Springboot
+                                        Premium Course</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center mt-5">
+                <div class="col-md-8">
+                    <footer>
+                        <p>
+                            &copy; 2024 Smart Programming, Chandigarh. All
+                            Rights Reserved.
+                            <br />
+                            <a href="privacy-policy.html" class="footer-link">Privacy Policy</a>
+                            &nbsp; | &nbsp;
+                            <a href="terms-of-service.html" class="footer-link">Terms Of Services</a>
+                            &nbsp; | &nbsp;
+                            <a href="cancellation-refund-policy.html" class="footer-link">Cancellation/Refund
+                                Policy</a>
+                        </p>
+                    </footer>
+                </div>
+                <div class="col-md-4">
+                    <div class="social-icons">
+                        <a href="https://www.youtube.com/c/SmartProgramming" target="_blank"
+                            class="me-2 text-decoration-none">
+                            <i class="bi bi-youtube"></i>
+                        </a>
+                        <a href="https://www.facebook.com/smartprogramming.india" target="_blank"
+                            class="me-2 text-decoration-none">
+                            <i class="bi bi-facebook"></i></a>
+                        <a href="https://www.instagram.com/smart_programming/" target="_blank"
+                            class="me-2 text-decoration-none">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="https://t.me/smart_programming_deepak" target="_blank"
+                            class="me-2 text-decoration-none">
+                            <i class="bi bi-telegram"></i>
+                        </a>
+                        <a href="https://discord.gg/Up9dQ3gP6k" target="_blank" class="me-2 text-decoration-none">
+                            <i class="bi bi-discord"></i>
+                        </a>
+                        <a href="https://whatsapp.com/channel/0029Va6n2Gs42Dckpa2T1U1i" target="_blank"
+                            class="me-2 text-decoration-none">
+                            <i class="bi bi-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document
+            .getElementById("notes-hamburger-btn")
+            .addEventListener("click", function () {
+                document.getElementById("notes-sidebar").classList.toggle("active");
+            });
+
+        document
+            .getElementById("notes-sidebar-close-btn")
+            .addEventListener("click", function () {
+                document.getElementById("notes-sidebar").classList.remove("active");
+            });
+    </script>
+
+    <!-- Prism.js for Syntax Highlighting -->
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/prism.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/components/prism-java.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="description"
+        content="Verify Students enrollments from Smart Programming. Students purchased premium courses or online and industrial trainings can verify their details by HR or Deepak Sir." />
+    <meta name="keywords"
+        content="verify students, enrollments, seminars, workshops, development, campus, placements, colleges, online classes, industrial training, free courses, premium courses, industrial trainings, chandigarh, mohali, internships" />
+
+    <title>Java Introduction</title>
+
+    <link rel="icon" href="images/favicon.png" type="image/png" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/themes/prism.min.css" rel="stylesheet"> -->
+    <link href="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/themes/prism-tomorrow.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-4 d-flex justify-content-center justify-content-md-start">
+                    <div class="social-icons">
+                        <a href="https://www.youtube.com/c/SmartProgramming" target="_blank" class="me-2">
+                            <i class="bi bi-youtube"></i>
+                        </a>
+                        <a href="https://www.facebook.com/smartprogramming.india" target="_blank" class="me-2">
+                            <i class="bi bi-facebook"></i></a>
+                        <a href="https://www.instagram.com/smart_programming/" target="_blank" class="me-2">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="https://t.me/smart_programming_deepak" target="_blank" class="me-2">
+                            <i class="bi bi-telegram"></i>
+                        </a>
+                        <a href="https://discord.gg/Up9dQ3gP6k" target="_blank" class="me-2">
+                            <i class="bi bi-discord"></i>
+                        </a>
+                        <a href="https://whatsapp.com/channel/0029Va6n2Gs42Dckpa2T1U1i" target="_blank" class="me-2">
+                            <i class="bi bi-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 d-flex justify-content-center my-2 my-md-0">
+                    <div class="phone-numbers text-center text-md-start">
+                        <a href="tel:+919888755565">+91 98887-55565</a>
+                        <span class="mx-2">||</span>
+                        <a href="tel:+916283830308">+91 62838-30308</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 d-flex justify-content-center justify-content-md-end">
+                    <div class="auth-links text-center text-md-end">
+                        <a href="https://courses.smartprogramming.in/learn/account/signin" target="_blank"
+                            class="me-2">Login</a>
+                        <a href="https://courses.smartprogramming.in/learn/account/signup" target="_blank">Register</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+        <div class="container">
+            <button class="btn btn-primary" id="notes-hamburger-btn">
+                <i class="bi bi-list text-white"></i>
+            </button>
+            <a class="navbar-brand" href="index.html">
+                <h3 class="text-white">Smart Programming</h3>
+            </a>
+            <div class="col-12 col-md-6 d-flex justify-content-center my-2 my-md-0">
+                <div class="auth-links text-center text-md-end">
+                    <a href="#" class="me-5 notes-header-navlinks">Courses</a>
+                    <a href="#" class="notes-header-navlinks">Tutorials</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="row">
+
+        <div class="col-lg-3 col-12">
+            <!-- left side navbar -->
+            <nav class="notes-sidebar pb-5" id="notes-sidebar">
+                <button class="btn-close notes-sidebar-closeBtn" id="notes-sidebar-close-btn"
+                    aria-label="Close"></button>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="java-introduction-by-deepak-smart-programming.html"> <i
+                                class="bi bi-arrow-right-circle-fill"></i> &nbsp; Java Introduction </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="data-types-in-java-by-deepak-smart-programming.html"> <i
+                                class="bi bi-arrow-right-circle-fill"></i> &nbsp; Programming Language Terminologies
+                        </a>
+                        <ul class="nav flex-column ms-3 mb-3">
+                            <li class="nav-item">
+                                <a class="nav-link" href="data-types-in-java-by-deepak-smart-programming.html">&nbsp; <i
+                                        class="bi bi-arrow-right"></i> &nbsp; Data Types</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">&nbsp; <i class="bi bi-arrow-right"></i> &nbsp; Variables
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">&nbsp; <i class="bi bi-arrow-right"></i> &nbsp; Literals
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">&nbsp; <i class="bi bi-arrow-right"></i> &nbsp; Operators
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">&nbsp; <i class="bi bi-arrow-right"></i> &nbsp; Keywords
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">&nbsp; <i class="bi bi-arrow-right"></i> &nbsp; Identifiers
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">&nbsp; <i class="bi bi-arrow-right"></i> &nbsp; Constants
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">&nbsp; <i class="bi bi-arrow-right"></i> &nbsp; Interview
+                                    Questions</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i> &nbsp; Control
+                            Statements </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i> &nbsp; OOP's
+                            Concepts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i> &nbsp; Java
+                            Reflection API</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i> &nbsp; Exception
+                            Handling</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i> &nbsp; Strings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i> &nbsp; File Input /
+                            Output </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i> &nbsp;
+                            Multithreading</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i> &nbsp; Arrays</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i> &nbsp;
+                            Collections</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i> &nbsp; Core Java
+                            Advance Concepts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i> &nbsp; Java 8
+                            Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i> &nbsp; Java 9
+                            Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i> &nbsp; Java 10
+                            Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i> &nbsp; Java 11
+                            Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i> &nbsp; Java 12
+                            Features</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="col-lg-7 col-12">
+            <div class="notes-content">
+                <div class="notes-div">
+
+                    <h3 class="text-center"> Java Datatypes</h3>
+                    <hr />
+
+                    <section class="mt-5">
+                        <h4 class="notes-heading"> <i class="bi bi-brightness-low-fill"></i> Datatype in Java </h4>
+                        <p class="ms-4">
+                            In Java, data types define the kind of data that can be stored and manipulated within a
+                            program. They specify the size and type of values that can be stored in variables.
+                        </p>
+                    </section>
+
+                    <section class="mt-5">
+                        <h5 class="notes-subheading"><i class="bi bi-arrow-90deg-down"
+                                style="position: relative;top: 13px;"></i> Points to remember</h5>
+                        <ol type="decimal" style="line-height: 1.6;">
+                            <li>
+                                <strong>Every Variable Has a Defined Type</strong>: In Java, every variable, expression,
+                                and operation has a specific, predefined type (like int, float, String, etc.)
+                            </li>
+
+                            <li><strong>Strict Type Checking</strong>: Java ensures that the types you use are
+                                consistent and compatible with each other. For example, if a variable is declared as an
+                                int, you can't just assign a String to it.</li>
+
+                            <li><strong>No Automatic Type Conversions</strong>: Unlike some other programming languages,
+                                Java doesn’t automatically convert between incompatible types. For instance, you can't
+                                directly assign a float to an int without explicitly
+                                converting it.
+                            </li>
+
+                            <li><strong>Compiler Enforces Type Safety</strong>: During compilation, the Java compiler
+                                checks all code to make sure the types match. If there's a mismatch, the compiler will
+                                throw an error, and the code won't compile until
+                                the issue is fixed.
+                            </li>
+                        </ol>
+                    </section>
+
+                    <section class="mt-5">
+                        <p class="notes-imp-div flag-notes-imp-div">
+                            <i class="bi bi-flag-fill"></i> <br />
+                            Java is a statically-typed programming language. It means, all variables must be declared
+                            before its use. That is why we need to declare variable's type and name.
+                        </p>
+                    </section>
+
+                    <hr class="mt-5" />
+
+                    <section class="mt-5">
+                        <h4 class="notes-heading"><i class="bi bi-brightness-low-fill"></i>Types of Datatype </h4>
+                        <img src="images/notes-images/data-types-in-java.jpg" alt="image could not be lode">
+                    </section>
+
+                    <hr class="mt-5" />
+
+                    <section class="mt-5">
+                        <h4 class="notes-heading"> <i class="bi bi-brightness-low-fill"></i> Primitive Data Types </h4>
+                        <p class="ms-4">
+                        <ul>
+                            <li>
+                                A primitive type is predefined by the language and is named by a reserved keyword.
+                                Primitive values do not share state with other primitive values. The eight primitive
+                                data types supported by the Java programming language.
+                            </li>
+                            <li>
+                                A primitive type is predefined by the language and is named by a reserved keyword.
+                                Primitive values do not share state with other primitive values. The eight primitive
+                                data types supported by the Java programming language.
+                            </li>
+                            <li>
+                                A primitive type is predefined by the language and is named by a reserved keyword.
+                                Primitive values do not share state with other primitive values. The eight primitive
+                                data types supported by the Java programming language.
+                            </li>
+                        </ul>
+                        </p>
+
+                        <table class="table table-striped table-hover table-bordered">
+                            <thead class="table-dark">
+                                <tr>
+                                    <th style="width: 3%">No</th>
+                                    <th style="width: 10%">Datatype</th>
+                                    <th style="width: 10%">In Bit </th>
+                                    <th style="width: 10%">In Byte</th>
+                                    <th style="width: 10%">Range</th>
+                                    <th style="width: 50%">Use Case</th>
+                                </tr>
+                            </thead>
+                            <tr>
+                                <td>1</td>
+                                <td><strong>byte</strong></td>
+                                <td>8 bit</td>
+                                <td>1 byte</td>
+                                <td>-128 to 127</td>
+                                <td>Useful for saving memory in large arrays where the memory savings are critical.
+                                    <hr> Ex-like array of human age because no-one can cross 120 year.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td><strong>short</strong></td>
+                                <td>16 bit</td>
+                                <td>2 byte</td>
+                                <td>-32,768 to 32,767</td>
+                                <td>Can be used to save memory as a byte data type. The short data type is also 2 time
+                                    smaller than an int.
+                                    <hr> Ex-Used in school systems where we assigning student ID number because no one
+                                    school cannot have even 10,000 students in single year.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td><strong>int</strong></td>
+                                <td>32 bit</td>
+                                <td>4 byte</td>
+                                <td>-2^31 to 2^31-1</td>
+                                <td>Can be used to save memory as a byte data type. The short data type is also 2 times
+                                    smaller than an int.</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td><strong>long</strong></td>
+                                <td>64 bit</td>
+                                <td>8 byte</td>
+                                <td>-2^63 to 2^63-1</td>
+                                <td>Used when a wider range than int is needed.</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td><strong>float</strong></td>
+                                <td>32 bit</td>
+                                <td>4 bytes</td>
+                                <td>Approx ±3.40282347E+38F</td>
+                                <td>Used for decimal numbers, with single precision.</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td><strong>double</strong></td>
+                                <td>64 bit</td>
+                                <td>8 byte</td>
+                                <td>Approx ±1.79769313486231570E+308</td>
+                                <td>Used for decimal numbers, with double precision. This is the default data type for
+                                    decimal values.</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td><strong>char</strong></td>
+                                <td>16 bit</td>
+                                <td>2 byte</td>
+                                <td>0 to 65,535 (Represents a single 16-bit Unicode character)</td>
+                                <td>Used to store characters.</td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td><strong>boolean</strong></td>
+                                <td>1 bit</td>
+                                <td> 0.125 byte</td>
+                                <td>" true " / "false "</td>
+                                <td>Used for simple flags that track true/false conditions.
+                                    <hr> Ex: Ex: like used when we make password checker function then we check all
+                                    flags for strong password like (lowercase, uppercase, special-characters and
+                                    numbers).
+                                </td>
+                            </tr>
+                            <tbody>
+
+                            </tbody>
+                        </table>
+
+                        <br />
+                        <p class="more-advanced-concepts-div">
+                            Click Here to read more Advanced Concepts of <a
+                                href="primitive-data-types-in-java-by-deepak-smart-programming.html"
+                                class="more-advanced-concepts-href"> Primitive Data Types </a>
+                        </p>
+                    </section>
+
+                    <hr class="mt-5" />
+
+                    <section class="mt-5">
+                        <h4 class="notes-heading"> <i class="bi bi-brightness-low-fill"></i> Non-Primitive Data Types </h4>
+                        <p class="ms-4">
+                        <ul>
+                            <li>
+                                A primitive type is predefined by the language and is named by a reserved keyword.
+                                Primitive values do not share state with other primitive values. The eight primitive
+                                data types supported by the Java programming language.
+                            </li>
+                            <li>
+                                A primitive type is predefined by the language and is named by a reserved keyword.
+                                Primitive values do not share state with other primitive values. The eight primitive
+                                data types supported by the Java programming language.
+                            </li>
+                            <li>
+                                A primitive type is predefined by the language and is named by a reserved keyword.
+                                Primitive values do not share state with other primitive values. The eight primitive
+                                data types supported by the Java programming language.
+                            </li>
+                        </ul>
+                        </p>
+
+                        <table class="table table-striped table-hover table-bordered">
+                            <thead class="table-dark">
+                                <tr>
+                                    <th style="width: 3%">No</th>
+                                    <th style="width: 10%">Datatype</th>
+                                    <th style="width: 10%">In Bit </th>
+                                    <th style="width: 10%">In Byte</th>
+                                    <th style="width: 10%">Range</th>
+                                    <th style="width: 50%">Use Case</th>
+                                </tr>
+                            </thead>
+                            <tr>
+                                <td>1</td>
+                                <td><strong>byte</strong></td>
+                                <td>8 bit</td>
+                                <td>1 byte</td>
+                                <td>-128 to 127</td>
+                                <td>Useful for saving memory in large arrays where the memory savings are critical.
+                                    <hr> Ex-like array of human age because no-one can cross 120 year.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td><strong>short</strong></td>
+                                <td>16 bit</td>
+                                <td>2 byte</td>
+                                <td>-32,768 to 32,767</td>
+                                <td>Can be used to save memory as a byte data type. The short data type is also 2 time
+                                    smaller than an int.
+                                    <hr> Ex-Used in school systems where we assigning student ID number because no one
+                                    school cannot have even 10,000 students in single year.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td><strong>int</strong></td>
+                                <td>32 bit</td>
+                                <td>4 byte</td>
+                                <td>-2^31 to 2^31-1</td>
+                                <td>Can be used to save memory as a byte data type. The short data type is also 2 times
+                                    smaller than an int.</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td><strong>long</strong></td>
+                                <td>64 bit</td>
+                                <td>8 byte</td>
+                                <td>-2^63 to 2^63-1</td>
+                                <td>Used when a wider range than int is needed.</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td><strong>float</strong></td>
+                                <td>32 bit</td>
+                                <td>4 bytes</td>
+                                <td>Approx ±3.40282347E+38F</td>
+                                <td>Used for decimal numbers, with single precision.</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td><strong>double</strong></td>
+                                <td>64 bit</td>
+                                <td>8 byte</td>
+                                <td>Approx ±1.79769313486231570E+308</td>
+                                <td>Used for decimal numbers, with double precision. This is the default data type for
+                                    decimal values.</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td><strong>char</strong></td>
+                                <td>16 bit</td>
+                                <td>2 byte</td>
+                                <td>0 to 65,535 (Represents a single 16-bit Unicode character)</td>
+                                <td>Used to store characters.</td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td><strong>boolean</strong></td>
+                                <td>1 bit</td>
+                                <td> 0.125 byte</td>
+                                <td>" true " / "false "</td>
+                                <td>Used for simple flags that track true/false conditions.
+                                    <hr> Ex: Ex: like used when we make password checker function then we check all
+                                    flags for strong password like (lowercase, uppercase, special-characters and
+                                    numbers).
+                                </td>
+                            </tr>
+                            <tbody>
+
+                            </tbody>
+                        </table>
+
+                        <br />
+                        <p class="more-advanced-concepts-div">
+                            Click Here to read more Advanced Concepts of <a
+                                href="non-primitive-data-types-in-java-by-deepak-smart-programming.html"
+                                class="more-advanced-concepts-href"> Non-Primitive Data Types </a>
+                        </p>
+                    </section>
+
+                    <hr class="mt-5" />
+
+                    <section class="mt-5">
+                        <h4 class="notes-heading"><i class="bi bi-brightness-low-fill"></i> Difference between Primitive
+                            & Non-Primitive Data Types </h4>
+                        <table class="table table-striped table-hover table-bordered mt-4">
+                            <thead class="table-dark">
+                                <tr>
+                                    <th style="width: 50%">Primitive Data Types</th>
+                                    <th style="width: 50%">Non-Primitive Data Types</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td> Useful for saving memory in large arrays where the memory savings are critical.
+                                    </td>
+                                    <td> Useful for saving memory in large arrays where the memory savings are critical.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td> Useful for saving memory in large arrays where the memory savings are critical.
+                                    </td>
+                                    <td> Useful for saving memory in large arrays where the memory savings are critical.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td> Useful for saving memory in large arrays where the memory savings are critical.
+                                    </td>
+                                    <td> Useful for saving memory in large arrays where the memory savings are critical.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td> Useful for saving memory in large arrays where the memory savings are critical.
+                                    </td>
+                                    <td> Useful for saving memory in large arrays where the memory savings are critical.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td> Useful for saving memory in large arrays where the memory savings are critical.
+                                    </td>
+                                    <td> Useful for saving memory in large arrays where the memory savings are critical.
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>
+                </div>
+            </div>
+
+            <div class="row my-4">
+                <div class="col-6 d-flex justify-content-start">
+                    <button class="btn btn-warning"> <i class="bi bi-arrow-left-short"></i> Previous Topic</button>
+                </div>
+                <div class="col-6 d-flex justify-content-end">
+                    <button class="btn btn-success">Next Topic <i class="bi bi-arrow-right-short"></i></button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-md-2 col-12 bg-secondary">this is for advertisement</div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer mt-4">
+        <div class="container">
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <h5 class="text-white">Menus</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="footer-link">Home</a></li>
+                        <li>
+                            <a href="free-courses-by-smart-programming.html" class="footer-link">Free Courses</a>
+                        </li>
+                        <li>
+                            <a href="premium-courses-by-smart-programming.html" class="footer-link">Premium Courses</a>
+                        </li>
+                        <li>
+                            <a href="trainings-by-smart-programming.html" class="footer-link">Trainings</a>
+                        </li>
+                        <li>
+                            <a href="development-by-smart-programming.html" class="footer-link">Development</a>
+                        </li>
+                        <li>
+                            <a href="contact-smart-programming.html" class="footer-link">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-8">
+                    <h5 class="text-white">
+                        Useful links for Industrial Training in Chandigarh
+                    </h5>
+                    <div class="row">
+                        <div class="col-md-6 col-12">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="core-java-free-course-by-deepak-smart-programming.html"
+                                        class="footer-link">Core Java Free Course</a>
+                                </li>
+                                <li>
+                                    <a href="advance-java-free-course-by-deepak-smart-programming.html"
+                                        class="footer-link">Advance Java Free Course</a>
+                                </li>
+                                <li>
+                                    <a href="spring-framework-free-course-by-deepak-smart-programming.html"
+                                        class="footer-link">Spring Framework Free Course</a>
+                                </li>
+                                <li>
+                                    <a href="springboot-framework-free-course-by-deepak-smart-programming.html"
+                                        class="footer-link">Springboot Free Course</a>
+                                </li>
+                                <li>
+                                    <a href="android-free-course-by-deepak-smart-programming.html"
+                                        class="footer-link">Android Free Course</a>
+                                </li>
+                                <li>
+                                    <a href="java-logical-questions-free-course-by-deepak-smart-programming.html"
+                                        class="footer-link">Java Logical Questioning Free Course</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="https://courses.smartprogramming.in/learn/Core-Java-With-5-Projects"
+                                        target="_blank" class="footer-link">Core Java Premium Course</a>
+                                </li>
+                                <li>
+                                    <a href="https://courses.smartprogramming.in/learn/Advance-Java" target="_blank"
+                                        class="footer-link">Advance Java Premium Course</a>
+                                </li>
+                                <li>
+                                    <a href="https://courses.smartprogramming.in/learn/Spring-Framework" target="_blank"
+                                        class="footer-link">Spring Framework Premium Course</a>
+                                </li>
+                                <li>
+                                    <a href="https://courses.smartprogramming.in/learn/Spring-Boot-Framework"
+                                        target="_blank" class="footer-link">Springboot Premium Course</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center mt-5">
+                <div class="col-md-8">
+                    <footer>
+                        <p>
+                            &copy; 2024 Smart Programming, Chandigarh. All Rights Reserved.
+                            <br />
+                            <a href="privacy-policy.html" class="footer-link">Privacy Policy</a>
+                            &nbsp; | &nbsp;
+                            <a href="terms-of-service.html" class="footer-link">Terms Of Services</a>
+                            &nbsp; | &nbsp;
+                            <a href="cancellation-refund-policy.html" class="footer-link">Cancellation/Refund Policy</a>
+                        </p>
+                    </footer>
+                </div>
+                <div class="col-md-4">
+                    <div class="social-icons">
+                        <a href="https://www.youtube.com/c/SmartProgramming" target="_blank"
+                            class="me-2 text-decoration-none">
+                            <i class="bi bi-youtube"></i>
+                        </a>
+                        <a href="https://www.facebook.com/smartprogramming.india" target="_blank"
+                            class="me-2 text-decoration-none">
+                            <i class="bi bi-facebook"></i></a>
+                        <a href="https://www.instagram.com/smart_programming/" target="_blank"
+                            class="me-2 text-decoration-none">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="https://t.me/smart_programming_deepak" target="_blank"
+                            class="me-2 text-decoration-none">
+                            <i class="bi bi-telegram"></i>
+                        </a>
+                        <a href="https://discord.gg/Up9dQ3gP6k" target="_blank" class="me-2 text-decoration-none">
+                            <i class="bi bi-discord"></i>
+                        </a>
+                        <a href="https://whatsapp.com/channel/0029Va6n2Gs42Dckpa2T1U1i" target="_blank"
+                            class="me-2 text-decoration-none">
+                            <i class="bi bi-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document
+            .getElementById("notes-hamburger-btn")
+            .addEventListener("click", function () {
+                document.getElementById("notes-sidebar").classList.toggle("active");
+            });
+
+        document
+            .getElementById("notes-sidebar-close-btn")
+            .addEventListener("click", function () {
+                document.getElementById("notes-sidebar").classList.remove("active");
+            });
+    </script>
+
+    <!-- Prism.js for Syntax Highlighting -->
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/prism.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/components/prism-java.min.js"></script>
+</body>
+
+</html>

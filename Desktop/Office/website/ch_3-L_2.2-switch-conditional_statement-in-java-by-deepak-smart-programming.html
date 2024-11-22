@@ -1,0 +1,1307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="description"
+        content="Verify Students enrollments from Smart Programming. Students purchased premium courses or online and industrial trainings can verify their details by HR or Deepak Sir." />
+    <meta name="keywords"
+        content="verify students, enrollments, seminars, workshops, development, campus, placements, colleges, online classes, industrial training, free courses, premium courses, industrial trainings, chandigarh, mohali, internships" />
+
+    <title>Java Introduction</title>
+
+    <link rel="icon" href="images/favicon.png" type="image/png" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/themes/prism.min.css" rel="stylesheet"> -->
+    <link href="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/themes/prism-tomorrow.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-4 d-flex justify-content-center justify-content-md-start">
+                    <div class="social-icons">
+                        <a href="https://www.youtube.com/c/SmartProgramming" target="_blank" class="me-2">
+                            <i class="bi bi-youtube"></i>
+                        </a>
+                        <a href="https://www.facebook.com/smartprogramming.india" target="_blank" class="me-2">
+                            <i class="bi bi-facebook"></i></a>
+                        <a href="https://www.instagram.com/smart_programming/" target="_blank" class="me-2">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="https://t.me/smart_programming_deepak" target="_blank" class="me-2">
+                            <i class="bi bi-telegram"></i>
+                        </a>
+                        <a href="https://discord.gg/Up9dQ3gP6k" target="_blank" class="me-2">
+                            <i class="bi bi-discord"></i>
+                        </a>
+                        <a href="https://whatsapp.com/channel/0029Va6n2Gs42Dckpa2T1U1i" target="_blank" class="me-2">
+                            <i class="bi bi-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 d-flex justify-content-center my-2 my-md-0">
+                    <div class="phone-numbers text-center text-md-start">
+                        <a href="tel:+919888755565">+91 98887-55565</a>
+                        <span class="mx-2">||</span>
+                        <a href="tel:+916283830308">+91 62838-30308</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 d-flex justify-content-center justify-content-md-end">
+                    <div class="auth-links text-center text-md-end">
+                        <a href="https://courses.smartprogramming.in/learn/account/signin" target="_blank"
+                            class="me-2">Login</a>
+                        <a href="https://courses.smartprogramming.in/learn/account/signup" target="_blank">Register</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+        <div class="container">
+            <button class="btn btn-primary" id="notes-hamburger-btn">
+                <i class="bi bi-list text-white"></i>
+            </button>
+            <a class="navbar-brand" href="index.html">
+                <h3 class="text-white">Smart Programming</h3>
+            </a>
+            <div class="col-12 col-md-6 d-flex justify-content-center my-2 my-md-0">
+                <div class="auth-links text-center text-md-end">
+                    <a href="#" class="me-5 notes-header-navlinks">Courses</a>
+                    <a href="#" class="notes-header-navlinks">Tutorials</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="row">
+
+        <div class="col-lg-3 col-12">
+            <!-- left side navbar -->
+            <nav class="notes-sidebar pb-5" id="notes-sidebar">
+                <button class="btn-close notes-sidebar-closeBtn" id="notes-sidebar-close-btn"
+                    aria-label="Close"></button>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="java-introduction-by-deepak-smart-programming.html">
+                            <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Java Introduction </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="data-types-in-java-by-deepak-smart-programming.html">
+                            <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Programming Language Terminologies
+                        </a>
+                        <ul class="nav flex-column ms-3 mb-3">
+                            <li class="nav-item">
+                                <a class="nav-link" href="data-types-in-java-by-deepak-smart-programming.html">&nbsp;
+                                    <i class="bi bi-arrow-right"></i>
+                                    &nbsp; Data Types</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">&nbsp; <i class="bi bi-arrow-right"></i>
+                                    &nbsp; Variables
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">&nbsp; <i class="bi bi-arrow-right"></i>
+                                    &nbsp; Literals
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">&nbsp; <i class="bi bi-arrow-right"></i>
+                                    &nbsp; Operators
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">&nbsp; <i class="bi bi-arrow-right"></i>
+                                    &nbsp; Keywords
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">&nbsp; <i class="bi bi-arrow-right"></i>
+                                    &nbsp; Identifiers
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">&nbsp; <i class="bi bi-arrow-right"></i>
+                                    &nbsp; Constants
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">&nbsp; <i class="bi bi-arrow-right"></i>
+                                    &nbsp; Interview
+                                    Questions</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Control
+                            Statements </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; OOP's
+                            Concepts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Java
+                            Reflection API</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Exception
+                            Handling</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Strings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; File Input /
+                            Output </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp;
+                            Multithreading</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Arrays</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp;
+                            Collections</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Core Java
+                            Advance Concepts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Java 8
+                            Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Java 9
+                            Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Java 10
+                            Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Java 11
+                            Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Java 12
+                            Features</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="col-lg-7 col-12">
+            <div class="notes-content">
+                <div class="notes-div">
+
+                    <h3 class="text-center"> Switch Statements</h3>
+                    <hr />
+
+                    <section>
+                        <h4 class="notes-heading"><i class="bi bi-brightness-low-fill"></i>Switch</h4>
+                        <p>The switch statement is used to execute one block of code among many options based on the value of an expression. It is more readable than a series of if-else statements when dealing with multiple conditions.</p>
+
+                        <p>There are two types of switch statements</p>
+                        
+                        <section class="ms-5 mt-4">
+                            <ol>
+                                <li><strong>Normal Switch</strong></li>
+                                <li><strong>Advance Switch</strong></li>
+                            </ol>
+                        </section>
+                        
+                        <section>
+                           <ol>
+                            <!-- Classical Switch Section -->
+                            <li class="mt-4">
+                                <h4 class="notes-subheading">Java Switch Statement</h4>
+                                <ol style="list-style-type: disc;">
+                                    <li class="mt-4">
+                                        <h5 class="notes-sub-subheading">Definition</h5>
+                                        <p>The switch statement in Java is a control flow statement that allows you to choose among multiple options based on the value of a variable or expression. It provides an efficient way to handle multiple conditions by using a single variable to select between several options.</p>
+                                    </li>
+                            
+                                    <li class="mt-4">
+                                        <h5 class="notes-sub-subheading">Detailed Working</h5>
+                                        <ol>
+                                            <li class="mt-3"><strong>Syntax</strong>
+                                                <pre><code class="language-java">switch (expression) {
+    case value1:
+        // code to be executed if expression equals value1
+        break;
+    case value2:
+        // code to be executed if expression equals value2
+        break;
+    case value3:
+        // code to be executed if expression equals value3
+        break;
+    default:
+        // code to be executed if expression doesn't match any case
+}</code></pre>
+                                            </li>
+                            
+                                            <li class="mt-3"><strong>Component</strong>
+                                                <ul>
+                                                    <li><strong>Expression</strong> The variable or expression whose value is tested against the cases.</li>
+                                                    <li><strong>Case</strong> A block of code that executes if the expression matches the case value. Each case is checked sequentially.</li>
+                                                    <li><strong>Break</strong> A statement that terminates the switch block, preventing fall-through to subsequent cases.</li>
+                                                    <li><strong>Default</strong> A block of code that executes if none of the case values match the expression. This block is optional.</li>
+                                                </ul>
+                                            </li>
+
+                                            <li class="mt-3"><strong>Flow</strong>
+                                                <ul>
+                                                    <li>Evaluate the expression.</li>
+                                                    <li>Compare the value of the expression with each case value sequentially.</li>
+                                                    <li>If a match is found, execute the corresponding block of code.</li>
+                                                    <li>Use the `break` statement to exit the switch block. If `break` is omitted, execution continues with the next case (fall-through).</li>
+                                                    <li>If no cases match and a `default` block is provided, execute the `default` block.</li>
+                                                </ul>
+                                            </li>
+
+                                            <li class="mt-3"><strong>Example of Switch Cases</strong>
+                                                <ul>
+                                                    <li>switch (day) { case 1: ... }</li>
+                                                    <li>switch (color) { case "red": ... }</li>
+                                                    <li>switch (grade) { case 'A': ... }</li>
+                                                </ul>
+                                            </li>
+
+                                        </ol>
+                                    </li>
+
+                                    <li class="mt-4">
+                                        <h5 class="notes-sub-subheading">E-R Diagram</h5>
+                                        <p>An ER diagram is not applicable to the switch statement since it pertains to control flow rather than entity relationships.</p>
+                                    </li>
+
+                                    <li class="mt-4">
+                                        <h5 class="notes-sub-subheading">Program</h5>
+                                        <pre><code class="language-java">public class SwitchExample {
+public static void main(String[] args) {
+    int day = 3;
+
+    // Using a switch statement to determine the day of the week
+    switch (day) {
+        case 1:
+            System.out.println("Monday");
+            break;
+        case 2:
+            System.out.println("Tuesday");
+            break;
+        case 3:
+            System.out.println("Wednesday");
+            break;
+        case 4:
+            System.out.println("Thursday");
+            break;
+        case 5:
+            System.out.println("Friday");
+            break;
+        case 6:
+            System.out.println("Saturday");
+            break;
+        case 7:
+            System.out.println("Sunday");
+            break;
+        default:
+            System.out.println("Invalid day");
+            break;
+    }
+
+    System.out.println("This line always executes.");
+}
+</code></pre>
+                                    </li>
+
+                                    <li class="mt-4">
+                                        <h5 class="notes-sub-subheading">Real-life Example</h5>
+                                        <ul>
+                                            <li><strong>Condition</strong> Based on the day of the week (e.g., day = 3).</li>
+                                            <li><strong>Action</strong> If the day is 1, you say "Monday". If the day is 2, you say "Tuesday". If the day is 3, you say "Wednesday", and so on. If the day is not within the range of 1 to 7, you say "Invalid day".</li>
+                                        </ul>
+                                    </li>
+
+                                    <!-- Program section -->
+                                    <li class="mt-4">
+                                    <h6 class="notes-sub-subheading">Some more example of ( normal switch ) statements</h6>
+                                        
+                                    <p class="para-note"> <strong>Note:</strong> In Switch case nesting of switches is also possible so below we gave some more example to understanding switch nesting </p>
+
+                                    <!-- Classic switch program section -->
+                                    <section>
+
+<!-- program 1 -->
+<section class="mt-5">
+   <div>
+<p><strong>Example 1</strong> Nested Switch for Days and Months</p>
+<pre><code class="language-java">public class NestedSwitchExample1 {
+        public static void main(String[] args) {
+            int day = 2;
+            int month = 4;
+     
+            switch (month) {
+                case 4:
+                case 6:
+                case 9:
+                case 11:
+                    switch (day) {
+                        case 30:
+                            System.out.println("The day is the last day of the month.");
+                            break;
+                        default:
+                            System.out.println("The day is not the last day of the month.");
+                    }
+                    break;
+                    default:
+                        System.out.println("The month is not one with 30 days.");
+        }
+    }
+}</code></pre></div>
+
+    <!-- code output -->
+    <div class="java-output">
+        <h5 class="output-heading">Output</h5><hr>
+        <pre><code>The day is not the last day of the month.</code></pre>
+    </div>
+ 
+</section>
+
+<!-- program 2 -->
+<section class="mt-5">
+   <div>
+    <p><strong>Example 2</strong> Nested Switch for Vehicle Types and Models</p>
+    <pre><code class="language-java">public class NestedSwitchExample2 {
+        public static void main(String[] args) {
+            String vehicleType = "Car";
+            String vehicleModel = "Sedan";
+     
+            switch (vehicleType) {
+                case "Car":
+                    switch (vehicleModel) {
+                        case "Sedan":
+                            System.out.println("The vehicle is a Sedan car.");
+                            break;
+                        case "SUV":
+                            System.out.println("The vehicle is an SUV car.");
+                            break;
+                        default:
+                            System.out.println("Unknown car model.");
+                    }
+                    break;
+                case "Motorcycle":
+                    System.out.println("The vehicle is a motorcycle.");
+                    break;
+                default:
+                    System.out.println("Unknown vehicle type.");
+            }
+        }
+    }
+}</code></pre></div>
+
+    <!-- code output -->
+    <div class="java-output">
+        <h5 class="output-heading">Output</h5><hr>
+        <pre><code>The vehicle is a Sedan car.</code></pre>
+    </div>
+ 
+</section>
+
+<!-- program 3 -->
+<section class="mt-5">
+    <div>
+    <p><strong>Example 3</strong> Nested Switch for Department and Courses</p>
+    <pre><code class="language-java">public class NestedSwitchExample3 {
+        public static void main(String[] args) {
+            String department = "Engineering";
+            String course = "Computer Science";
+     
+            switch (department) {
+                case "Engineering":
+                    switch (course) {
+                        case "Computer Science":
+                            System.out.println("The course is Computer Science in the Engineering department.");
+                            break;
+                        case "Electrical":
+                            System.out.println("The course is Electrical Engineering in the Engineering department.");
+                            break;
+                        default:
+                            System.out.println("Unknown course in the Engineering department.");
+                    }
+                    break;
+                case "Arts":
+                    System.out.println("The department is Arts.");
+                    break;
+                default:
+                    System.out.println("Unknown department.");
+            }
+        }
+    }
+}</code></pre></div>
+
+        <!-- code output -->
+<div class="java-output">
+    <h5 class="output-heading">Output</h5><hr>
+    <pre><code>The course is Computer Science in the Engineering department.</code></pre>
+</div>
+
+</section>
+
+<!-- program 4 -->
+<section class="mt-5">
+   <div>
+    <p><strong>Example 4</strong> Nested Switch for Country and State</p>
+    <pre><code class="language-java">public class CountryState {
+        public static void main(String[] args) {
+            String country = "USA";
+            String state = "California";
+     
+            switch (country) {
+                case "USA":
+                    System.out.println("Country: USA");
+                    switch (state) {
+                        case "California":
+                            System.out.println("State: California");
+                            break;
+                        case "Texas":
+                            System.out.println("State: Texas");
+                            break;
+                        case "New York":
+                            System.out.println("State: New York");
+                            break;
+                        default:
+                            System.out.println("Unknown State");
+                    }
+                    break;
+                case "India":
+                    System.out.println("Country: India");
+                    switch (state) {
+                        case "Maharashtra":
+                            System.out.println("State: Maharashtra");
+                            break;
+                        case "Karnataka":
+                            System.out.println("State: Karnataka");
+                            break;
+                        case "Tamil Nadu":
+                            System.out.println("State: Tamil Nadu");
+                            break;
+                        default:
+                            System.out.println("Unknown State");
+                    }
+                    break;
+                default:
+                    System.out.println("Unknown Country");
+            }
+        }
+    }
+}</code></pre></div>
+
+        <!-- code output -->
+<div class="java-output">
+    <h5 class="output-heading">Output</h5><hr>
+    <pre><code>country: USA
+State: California</code></pre>
+</div>
+ 
+</section>
+
+<!-- program 5 -->
+<section class="mt-5">
+   <div>
+    <p><strong>Example 5</strong> Switch Inside Switch Inside Switch for Country, State, and City</p>
+    <pre><code class="language-java">public class NestedSwitchExample4 {
+        public static void main(String[] args) {
+            String country = "USA";	
+            String state = "California";
+            String city = "San Francisco";
+     
+            switch (country) {
+                case "USA":
+                    switch (state) {
+                        case "California":
+                            switch (city) {
+                                case "San Francisco":
+                                    System.out.println("The city is San Francisco in California, USA.");
+                                    break;
+                                case "Los Angeles":
+                                    System.out.println("The city is Los Angeles in California, USA.");
+                                    break;
+                                default:
+                                    System.out.println("Unknown city in California, USA.");
+                            }
+                            break;
+                        case "New York":
+                            System.out.println("The state is New York in the USA.");
+                            break;
+                        default:
+                            System.out.println("Unknown state in the USA.");
+                    }
+                    break;
+                case "Canada":
+                    System.out.println("The country is Canada.");
+                    break;
+                default:
+                    System.out.println("Unknown country.");
+            }
+        }
+    }
+}</code></pre></div>
+
+        <!-- code output -->
+<div class="java-output">
+    <h5 class="output-heading">Output</h5><hr>
+    <pre><code>The city is San Francisco in California, USA.</code></pre>
+</div>
+ 
+</section>
+
+<!-- program 6 -->
+<section class="mt-5">
+    <div>
+    <p><strong>Example 6</strong> Nested Switch for Employee Department and Role</p>
+    <pre><code class="language-java">public class EmployeeDepartmentRole {
+        public static void main(String[] args) {
+            String department = "IT";
+            String role = "Developer";
+     
+            switch (department) {
+                case "HR":
+                    System.out.println("Department: Human Resources");
+                    switch (role) {
+                        case "Manager":
+                            System.out.println("Role: Manager");
+                            break;
+                        case "Executive":
+                            System.out.println("Role: Executive");
+                            break;
+                        default:
+                            System.out.println("Unknown Role");
+                    }
+                    break;
+                case "IT":
+                    System.out.println("Department: Information Technology");
+                    switch (role) {
+                        case "Developer":
+                            System.out.println("Role: Developer");
+                            break;
+                        case "Tester":
+                            System.out.println("Role: Tester");
+                            break;
+                        default:
+                            System.out.println("Unknown Role");
+                    }
+                    break;
+                case "Finance":
+                    System.out.println("Department: Finance");
+                    switch (role) {
+                        case "Analyst":
+                            System.out.println("Role: Analyst");
+                            break;
+                        case "Accountant":
+                            System.out.println("Role: Accountant");
+                            break;
+                        default:
+                            System.out.println("Unknown Role");
+                    }
+                    break;
+                default:
+                    System.out.println("Unknown Department");
+            }
+        }
+    }
+}</code></pre></div>
+
+        <!-- code output -->
+<div class="java-output">
+    <h5 class="output-heading">Output</h5><hr>
+    <pre><code>Information Technology
+Role: Developer</code></pre>
+</div>
+
+</section>
+
+<!-- program 7 -->
+<section class="mt-5">
+    <div>
+    <p><strong>Example 7</strong> Nested Switch for Vehicle Type and Fuel Type</p>
+    <pre><code class="language-java">public class VehicleTypeFuelType {
+        public static void main(String[] args) {
+            String vehicleType = "Car";
+            String fuelType = "Diesel";
+     
+            switch (vehicleType) {
+                case "Car":
+                    System.out.println("Vehicle Type: Car");
+                    switch (fuelType) {
+                        case "Petrol":
+                            System.out.println("Fuel Type: Petrol");
+                            break;
+                        case "Diesel":
+                            System.out.println("Fuel Type: Diesel");
+                            break;
+                        case "Electric":
+                            System.out.println("Fuel Type: Electric");
+                            break;
+                        default:
+                            System.out.println("Unknown Fuel Type");
+                    }
+                    break;
+                case "Motorcycle":
+                    System.out.println("Vehicle Type: Motorcycle");
+                    switch (fuelType) {
+                        case "Petrol":
+                            System.out.println("Fuel Type: Petrol");
+                            break;
+                        case "Electric":
+                            System.out.println("Fuel Type: Electric");
+                            break;
+                        default:
+                            System.out.println("Unknown Fuel Type");
+                    }
+                    break;
+                default:
+                    System.out.println("Unknown Vehicle Type");
+            }
+        }
+    }
+}</code></pre></div>
+
+        <!-- code output -->
+<div class="java-output">
+    <h5 class="output-heading">Output</h5><hr>
+    <pre><code>Vehicle Type: Car
+Fuel Type: Diesel</code></pre>
+</div>
+
+</section>
+
+<!-- program 8 -->
+<section class="mt-5">
+  <div>
+    <p><strong>Example 8</strong> Nested Switch for Academic Grading System</p>
+    <pre><code class="language-java">public class AcademicGradingSystem {
+        public static void main(String[] args) {
+            String grade = "A";
+            int year = 3;
+     
+            switch (year) {
+                case 1:
+                    System.out.println("Freshman Year");
+                    break;
+                case 2:
+                    System.out.println("Sophomore Year");
+                    break;
+                case 3:
+                    System.out.println("Junior Year");
+                    switch (grade) {
+                        case "A":
+                            System.out.println("Excellent");
+                            break;
+                        case "B":
+                            System.out.println("Good");
+                            break;
+                        case "C":
+                            System.out.println("Average");
+                            break;
+                        case "D":
+                            System.out.println("Below Average");
+                            break;
+                        default:
+                            System.out.println("Fail");
+                    }
+                    break;
+                case 4:
+                    System.out.println("Senior Year");
+                    break;
+                default:
+                    System.out.println("Invalid Year");
+            }
+        }
+    }
+}</code></pre></div>
+
+    <!-- code output -->
+<div class="java-output">
+    <h5 class="output-heading">Output</h5><hr>
+    <pre><code>Junior Year
+Excellent</code></pre>
+</div>
+  
+</section>
+
+
+                                    </section>
+
+                                    </li>
+                                </ol>
+                            </li>
+                            
+                            <hr class="mt-5">
+
+                            <!-- Advance Switch Section -->
+                            <li class="mt-5">
+                                <h4 class="notes-subheading">Advanced Java Switch Statement</h4>
+                            
+                                <ol style="list-style-type: disc;">
+                                    <li class="mt-4">
+                                        <h5 class="notes-sub-subheading">Definition</h5>
+                                        <p>The advanced switch statement in Java introduces enhanced features starting from Java 12 as a preview feature and became a standard feature in Java 14. This includes switch expressions, which allow the switch statement to return values, and the ability to use multi-line code blocks. These enhancements provide greater flexibility and functionality in control flow handling.</p>
+                                    </li>
+                            
+                                    <li class="mt-4">
+                                        <h5 class="notes-sub-subheading">Detailed Working</h5>
+                                        <ol>
+                                            <section>
+                                            <li class="mt-5"><strong>Switch Expressions</strong>
+                                                <pre><code class="language-java">int day = 3;
+String dayName = switch (day) {
+    case 1 -> "Monday";
+    case 2 -> "Tuesday";
+    case 3 -> "Wednesday";
+    case 4 -> "Thursday";
+    case 5 -> "Friday";
+    case 6 -> "Saturday";
+    case 7 -> "Sunday";
+    default -> "Invalid day";
+};
+System.out.println(dayName);</code></pre>
+                                            </li>
+                            
+                                            <li class="mt-5"><strong>Block Body with Multiple Statements</strong>
+                                                <pre><code class="language-java">int day = 3;
+switch (day) {
+    case 1: 
+    case 2: 
+        System.out.println("Weekday");
+        break;
+    case 3: 
+    case 4: 
+    case 5:
+        System.out.println("Midweek");
+        break;
+    case 6: 
+    case 7: 
+        System.out.println("Weekend");
+        break;
+    default:
+        System.out.println("Invalid day");
+        break;
+}</code></pre>
+                                            </li>
+                            
+                                            <li class="mt-5"><strong>Enhanced Switch Statements</strong>
+                                                <pre><code class="language-java">int day = 3;
+switch (day) {
+    case 1, 2 -> System.out.println("Weekday");
+    case 3, 4, 5 -> System.out.println("Midweek");
+    case 6, 7 -> System.out.println("Weekend");
+    default -> System.out.println("Invalid day");
+}</code></pre>
+                                            </li>
+                            
+                                            <li class="mt-5"><strong>Label and Yield Statement</strong>
+                    <pre><code class="language-java">String dayType = switch (day) {
+    case 1, 2 -> {
+        System.out.println("Weekday");
+        yield "Weekday";
+    }
+    case 3, 4, 5 -> {
+        System.out.println("Midweek");
+        yield "Midweek";
+    }
+    case 6, 7 -> {
+        System.out.println("Weekend");
+        yield "Weekend";
+    }
+    default -> {
+        System.out.println("Invalid day");
+        yield "Invalid";
+    }
+};
+System.out.println(dayType);</code></pre>
+                                            </li>
+                                            </section>
+                            
+                                            <li class="mt-5"><strong>Flow</strong>
+                                                <ul>
+                                                    <li>Evaluate the expression in the `switch` statement.</li>
+                                                    <li>Compare the value of the expression with each case label.</li>
+                                                    <li>Execute the corresponding block of code if a match is found.</li>
+                                                    <li>Use the `break` statement to exit the `switch` block or let it fall through if `break` is omitted.</li>
+                                                    <li>With switch expressions, return a value directly from the `switch` block.</li>
+                                                    <li>With enhanced switch statements, use `->` and block bodies for multiple statements and the `yield` keyword to return values from cases.</li>
+                                                </ul>
+                                            </li>
+                                        </ol>
+                                    </li>
+
+                                    <li class="mt-4">
+                                        <h5 class="notes-sub-subheading">E-R Diagram</h5>
+                                        <p>An ER diagram is not applicable to the switch statement since it pertains to control flow rather than entity relationships.</p>
+                                    </li>
+
+                                    <li class="mt-4">
+                                        <h5 class="notes-sub-subheading">Program</h5>
+          <pre><code class="language-java">public class AdvancedSwitchExample {
+  public static void main(String[] args) {
+      int day = 3;
+
+      // Using a switch expression with the new features
+      String dayName = switch (day) {
+          case 1 -> "Monday";
+          case 2 -> "Tuesday";
+          case 3 -> "Wednesday";
+          case 4 -> "Thursday";
+          case 5 -> "Friday";
+          case 6 -> "Saturday";
+          case 7 -> "Sunday";
+          default -> "Invalid day";
+      };
+      System.out.println(dayName);
+
+      // Using block bodies with multiple statements
+      switch (day) {
+          case 1: 
+          case 2: 
+              System.out.println("Weekday");
+              break;
+          case 3: 
+          case 4: 
+          case 5:
+              System.out.println("Midweek");
+              break;
+          case 6: 
+          case 7: 
+              System.out.println("Weekend");
+              break;
+          default:
+              System.out.println("Invalid day");
+              break;
+      }
+
+      // Using enhanced switch statement with labels and yield
+      String dayType = switch (day) {
+          case 1, 2 -> {
+              System.out.println("Weekday");
+              yield "Weekday";
+          }
+          case 3, 4, 5 -> {
+              System.out.println("Midweek");
+              yield "Midweek";
+          }
+          case 6, 7 -> {
+              System.out.println("Weekend");
+              yield "Weekend";
+          }
+          default -> {
+              System.out.println("Invalid day");
+              yield "Invalid";
+          }
+      };
+      System.out.println(dayType);
+  }
+</code></pre>
+
+<!-- code output -->
+<div class="java-output">
+    <h5 class="output-heading">Output</h5><hr>
+    <pre><code>Wednesday
+Midweek
+Midweek
+Midweek
+    </code></pre>
+</div>
+
+
+                                    </li>
+
+                                    <li class="mt-4">
+                                        <h5 class="notes-sub-subheading mt-3">Real-life Example</h5>
+                                        <ul>
+                                            <li><strong>Condition</strong> Based on the score grade (e.g., score = 85).</li>
+                                            <li><strong>Action</strong> Use the switch statement to determine the letter grade: if the score is 90 or above, return "A"; if between 80 and 89, return "B"; between 70 and 79, return "C"; between 60 and 69, return "D"; otherwise, return "F".</li>
+                                        </ul>
+                                    </li>
+
+                                    <!-- Program section -->
+                                    <li class="mt-4">
+                                        <h6 class="notes-sub-subheading">Some more example of (Advanced switch ) statement</h6>
+                                        <!-- Advance Program section section -->
+                                        <section>
+
+<!-- program 1 -->
+<section class="mt-5">
+    <div>
+<p><strong>Example 1</strong> Basic Enhanced Switch</p>
+<pre><code class="language-java">public class EnhancedSwitchExample1 {
+    public static void main(String[] args) {
+        int day = 5;
+        String dayType = switch (day) {
+            case 1, 2, 3, 4, 5 -> "Weekday";
+            case 6, 7 -> "Weekend";
+            default -> "Invalid day";
+        };
+        System.out.println("Day type: " + dayType);
+    }
+}
+</code></pre>
+
+   <!-- code output -->
+    <div class="java-output">
+        <h5 class="output-heading">Output</h5><hr>
+        <pre><code>Day type: Weekday
+        </code></pre>
+    </div>
+</div>
+</section>
+
+<!-- program 2 -->
+ <section class="mt-5">
+  <div>
+    <p><strong>Example 2</strong> Enhanced Switch with Multiple Cases</p>
+    <pre><code class="language-java">public class EnhancedSwitchExample2 {
+        public static void main(String[] args) {
+            String fruit = "Apple";
+            int calories = switch (fruit) {
+                case "Apple", "Orange" -> 52;
+                case "Banana" -> 89;
+                case "Strawberry" -> 32;
+                default -> throw new IllegalArgumentException("Unknown fruit: " + fruit);
+            };
+            System.out.println("Calories in " + fruit + ": " + calories);
+        }
+    }    
+    </code></pre></div>
+
+    <div class="java-output">
+            <h5 class="output-heading">Output</h5><hr>
+            <pre><code>Calories in Apple: 52
+            </code></pre>
+        </div>
+   
+ </section>
+
+<!-- program 3 -->
+ <section class="mt-5">
+    <div>
+    <p><strong>Example 3</strong> Enhanced Switch with Block</p>
+    <pre><code class="language-java">public class EnhancedSwitchExample3 {
+        public static void main(String[] args) {
+            String month = "February";
+            int days = switch (month) {
+                case "January", "March", "May", "July", "August", "October", "December" -> 31;
+                case "April", "June", "September", "November" -> 30;
+                case "February" -> {
+                    System.out.println("Checking if leap year...");
+                    boolean leapYear = false; // Simplified leap year check
+                    yield leapYear ? 29 : 28;
+                }
+                default -> throw new IllegalArgumentException("Unknown month: " + month);
+            };
+            System.out.println("Days in " + month + ": " + days);
+        }
+    }
+    
+    </code></pre></div>
+
+     <div class="java-output">
+            <h5 class="output-heading">Output</h5><hr>
+            <pre><code>Checking if leap year...
+            Days in February: 28
+            </code></pre>
+        </div>
+   
+ </section>
+
+<!-- program 4 -->
+ <section class="mt-5">
+    <div>
+    <p><strong>Example 4</strong> Switch Expression with Enum</p>
+    <pre><code class="language-java">public class EnhancedSwitchExample4 {
+        enum TrafficLight {
+            RED, YELLOW, GREEN
+        }
+     
+        public static void main(String[] args) {
+            TrafficLight signal = TrafficLight.RED;
+            String action = switch (signal) {
+                case RED -> "Stop";
+                case YELLOW -> "Caution";
+                case GREEN -> "Go";
+            };
+            System.out.println("Traffic light action: " + action);
+        }
+    }
+    
+    </code></pre></div>
+
+ <div class="java-output">
+        <h5 class="output-heading">Output</h5><hr>
+        <pre><code>Traffic light action: Stop
+        </code></pre>
+    </div>
+
+ </section>
+
+<!-- program 5 -->
+ <section class="mt-5">
+  <div>
+    <p><strong>Example 5</strong> Nested Enhanced Switch</p>
+    <pre><code class="language-java">public class EnhancedSwitchExample5 {
+        public static void main(String[] args) {
+            int year = 2023;
+            int month = 2;
+            int day = 28;
+     
+            String dayType = switch (month) {
+                case 1, 3, 5, 7, 8, 10, 12 -> "31-day month";
+                case 4, 6, 9, 11 -> "30-day month";
+                case 2 -> switch (day) {
+                    case 29 -> "Leap year February";
+                    default -> {
+                        boolean leapYear = (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
+                        yield leapYear ? "Leap year February" : "Non-leap year February";
+                    }
+                };
+                default -> "Invalid month";
+            };
+            System.out.println("The month and day type: " + dayType);
+        }
+    }
+    
+    </code></pre></div>
+
+  <div class="java-output">
+        <h5 class="output-heading">Output</h5><hr>
+        <pre><code>The month and day type: Non-leap year February
+        </code></pre>
+    </div>
+  
+ </section>
+                                        </section>
+                                    </li>
+                                </ol>
+                            </li>
+                            </ol> 
+                        </section>
+                        
+                    </section>
+                    
+                </div>
+            </div>
+
+            <!-- Button COde -->
+            <div class="row my-4">
+                <div class="col-6 d-flex justify-content-start">
+                    <button class="btn btn-warning"> <i class="bi bi-arrow-left-short"></i> Previous
+                        Topic</button>
+                </div>
+                <div class="col-6 d-flex justify-content-end">
+                    <button class="btn btn-success">Next Topic <i class="bi bi-arrow-right-short"></i></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-2 col-12 bg-secondary">this is for
+            advertisement</div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer mt-4">
+        <div class="container">
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <h5 class="text-white">Menus</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="footer-link">Home</a></li>
+                        <li>
+                            <a href="free-courses-by-smart-programming.html" class="footer-link">Free Courses</a>
+                        </li>
+                        <li>
+                            <a href="premium-courses-by-smart-programming.html" class="footer-link">Premium Courses</a>
+                        </li>
+                        <li>
+                            <a href="trainings-by-smart-programming.html" class="footer-link">Trainings</a>
+                        </li>
+                        <li>
+                            <a href="development-by-smart-programming.html" class="footer-link">Development</a>
+                        </li>
+                        <li>
+                            <a href="contact-smart-programming.html" class="footer-link">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-8">
+                    <h5 class="text-white">
+                        Useful links for Industrial Training in Chandigarh
+                    </h5>
+                    <div class="row">
+                        <div class="col-md-6 col-12">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="core-java-free-course-by-deepak-smart-programming.html"
+                                        class="footer-link">Core Java Free
+                                        Course</a>
+                                </li>
+                                <li>
+                                    <a href="advance-java-free-course-by-deepak-smart-programming.html"
+                                        class="footer-link">Advance Java
+                                        Free Course</a>
+                                </li>
+                                <li>
+                                    <a href="spring-framework-free-course-by-deepak-smart-programming.html"
+                                        class="footer-link">Spring Framework
+                                        Free Course</a>
+                                </li>
+                                <li>
+                                    <a href="springboot-framework-free-course-by-deepak-smart-programming.html"
+                                        class="footer-link">Springboot Free
+                                        Course</a>
+                                </li>
+                                <li>
+                                    <a href="android-free-course-by-deepak-smart-programming.html"
+                                        class="footer-link">Android Free
+                                        Course</a>
+                                </li>
+                                <li>
+                                    <a href="java-logical-questions-free-course-by-deepak-smart-programming.html"
+                                        class="footer-link">Java Logical
+                                        Questioning Free Course</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="https://courses.smartprogramming.in/learn/Core-Java-With-5-Projects"
+                                        target="_blank" class="footer-link">Core Java
+                                        Premium Course</a>
+                                </li>
+                                <li>
+                                    <a href="https://courses.smartprogramming.in/learn/Advance-Java" target="_blank"
+                                        class="footer-link">Advance Java
+                                        Premium Course</a>
+                                </li>
+                                <li>
+                                    <a href="https://courses.smartprogramming.in/learn/Spring-Framework" target="_blank"
+                                        class="footer-link">Spring Framework
+                                        Premium Course</a>
+                                </li>
+                                <li>
+                                    <a href="https://courses.smartprogramming.in/learn/Spring-Boot-Framework"
+                                        target="_blank" class="footer-link">Springboot
+                                        Premium Course</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center mt-5">
+                <div class="col-md-8">
+                    <footer>
+                        <p>
+                            &copy; 2024 Smart Programming, Chandigarh. All
+                            Rights Reserved.
+                            <br />
+                            <a href="privacy-policy.html" class="footer-link">Privacy Policy</a>
+                            &nbsp; | &nbsp;
+                            <a href="terms-of-service.html" class="footer-link">Terms Of Services</a>
+                            &nbsp; | &nbsp;
+                            <a href="cancellation-refund-policy.html" class="footer-link">Cancellation/Refund
+                                Policy</a>
+                        </p>
+                    </footer>
+                </div>
+                <div class="col-md-4">
+                    <div class="social-icons">
+                        <a href="https://www.youtube.com/c/SmartProgramming" target="_blank"
+                            class="me-2 text-decoration-none">
+                            <i class="bi bi-youtube"></i>
+                        </a>
+                        <a href="https://www.facebook.com/smartprogramming.india" target="_blank"
+                            class="me-2 text-decoration-none">
+                            <i class="bi bi-facebook"></i></a>
+                        <a href="https://www.instagram.com/smart_programming/" target="_blank"
+                            class="me-2 text-decoration-none">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="https://t.me/smart_programming_deepak" target="_blank"
+                            class="me-2 text-decoration-none">
+                            <i class="bi bi-telegram"></i>
+                        </a>
+                        <a href="https://discord.gg/Up9dQ3gP6k" target="_blank" class="me-2 text-decoration-none">
+                            <i class="bi bi-discord"></i>
+                        </a>
+                        <a href="https://whatsapp.com/channel/0029Va6n2Gs42Dckpa2T1U1i" target="_blank"
+                            class="me-2 text-decoration-none">
+                            <i class="bi bi-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document
+            .getElementById("notes-hamburger-btn")
+            .addEventListener("click", function () {
+                document.getElementById("notes-sidebar").classList.toggle("active");
+            });
+
+        document
+            .getElementById("notes-sidebar-close-btn")
+            .addEventListener("click", function () {
+                document.getElementById("notes-sidebar").classList.remove("active");
+            });
+    </script>
+
+    <!-- Prism.js for Syntax Highlighting -->
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/prism.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/components/prism-java.min.js"></script>
+</body>
+
+</html>

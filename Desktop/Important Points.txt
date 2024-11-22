@@ -1,0 +1,12 @@
+1. tags (can we use inner tag or not)
+<ul>
+	<li>
+		<p> ---- </p>
+	</li>
+</ul>
+
+2. follow the notes pattern that i have provided
+
+3. JVM diagrams
+
+4. diagrams company logo

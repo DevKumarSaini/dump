@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+html body{
+    height: 100%;
+    width: 100%;
+}
+
+/* Nav Bar Css */
+
+#cursor{
+    width: 8px;
+    height: 8px;
+    background-color: greenyellow;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    z-index: 99;
+}
+
+#cursor-blur{
+    width: 500px;
+    height: 500px;
+    background-color: rgba(172, 255, 47, 0.219);
+    position: fixed;
+    border-radius: 50%;
+    filter: blur(150px);
+    z-index: 9;
+}
+
+#nav{
+    height: 120px;
+    /* background-color: blue; */
+    display: flex;
+    gap: 50px;
+    width: 100%;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 99;
+}
+
+#nav img{
+    height: 100px;
+    mix-blend-mode: normal;
+}
+
+
+/* Page 1 Css */
+video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+    position: fixed;
+}
+
+#main{  
+    position: relative;
+    background-color: #00000046;
+}
+
+#page1{
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    align-items: center;
+    flex-direction: column;
+}
+
+#page1 h1{
+    font-size: 130px;
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+}
+
+#page1  h1::before{
+    content: "Eat. drink. play.";
+    text-transform: uppercase;
+    color: black;
+    position: absolute;
+    top: -4px;
+    left: -5px;
+    z-index: -1;
+    -webkit-text-stroke: 1px greenyellow;
+    
+}
+
+#page1 h2{
+    font-size: 30px ;
+    font-weight: 700;
+}
+
+#page1 h5{
+    font-weight: 300;
+    margin-top: 1rem;
+    font-size: 15px;
+    text-align: center;
+    width: 40%;
+    text-transform: lowercase;
+}
+
+
+/* Page 2 Css */
+
+#page2{
+    height: 100vh;
+    width: 100%;
+}
+
+#scroller::-webkit-scrollbar{
+    display: none;
+}
+
+#scroller{
+    position: relative;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    z-index: 10;
+}
+
+#scroller-in{
+    display: inline-block;
+    white-space: nowrap;
+    animation-name: scroll;
+    animation-duration: 40s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+#scroller h4{
+    display: inline-block;
+    font-size: 120px;
+    font-weight: 900;
+    margin-right: 20px;
+    transition: all linear 0.3s;
+    color: 000;
+    -webkit-text-stroke: 1px yellowgreen;
+}
+
+#scroller h4:hover{
+    color: yellow;
+    -webkit-text-stroke: 2px yellow;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}

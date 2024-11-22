@@ -1,0 +1,100 @@
+<html>
+    <head>
+        <title>Variables In Java</title>
+        <link rel="stylesheet" href="http://smartprogramming.in/appsp/notes/java/style/myStyleHTML.css"/>
+        <meta name="description" content="Smart Programming is Live Classes Training Program & 6 Weeks / 6 Months Industrial Training in Chandigarh and Mohali to provide you Best Knowledge in Latest Technologies. We are the best industrial training institute in chandigarh and mohali. We provide six weeks and six months industrial training in chandigarh and mohali and also provides online training in various technologies i.e. java, android, python, data science, machine learning, php etc. We provides Best free industrial training and Summer Training with Live project in Chandigarh and Mohali." />
+        <meta name="keywords" content="Industrial Training, 6 Months/Weeks Industrial Training, Best Industrial Training Institute, Industrial Training in chandigarh mohali, best six months industrial training in mohali, 6 months internship training in mohali, summer training in mohali, summer training in chandigarh" />
+    </head>
+    <body>
+        <b><u>Variables In Java:-</u></b><br><br>
+        <b> &rArr; Definition :- </b> A variable is the name of memory location that can contain data. A variable thus has a data type. <br><br>
+        For example:
+        <div class="codediv">
+            <pre>
+                    <code>
+                        <br> <keywords>int</keywords> a=10;    <comments>// here "a" is variable</comments>
+						<br> <keywords>int</keywords> roll_no=60;    <comments>// here "roll_no" is variable</comments>
+                        <br> <keywords>char</keywords> c='a';    <comments>// here "c" is variable</comments>
+                        <br> <keywords>boolean</keywords> b=true;    <comments>// here "b" is variable</comments>
+                    </code>
+            </pre>
+        </div>
+        <br>
+        <img src="images/variables-memory-allocation-in-java-by-deepak-panwar-smart-programming.jpg" alt="Variables memory allocation in Java by Deepak Panwar Smart Programming" > <br>
+
+        <hr><hr>
+
+        <br> <b> &rArr; Types Of Variables :- </b> <br> <br>
+        <b> In java variables are of three types :- </b> <br><br>
+        <b> 1. Local Variables : </b>  <br><br>
+        <b> 2. Instance Variable : </b> <br><br>
+        <b> 3. Static Variable : </b> <br><br>
+        Below is the program which shows all three variables:
+        
+        <div class="codediv">
+            <pre>
+                    <code>
+    <keywords>class </keywords>Test
+    {
+    <keywords>      int</keywords> a=10;    <comments>// here "a" is instance variable</comments>
+    <keywords>      static int</keywords> b=20;    <comments>// here "b" is static variable</comments>
+    <keywords>      void </keywords> add()
+          {
+    <keywords>          int</keywords> c=30, d;    <comments>// here "c" and "d" are local variables variable</comments>
+              d=a+b+c;
+              System.out.println(d);
+          }
+    <keywords>      void </keywords> mul()
+          {
+    <keywords>          int</keywords> e=40, f;    <comments>// here "e" and "f" are local variables variable</comments>
+              f=a*b*c*e;     <comments>// error as "c" is local variable and cannot be used outside add block, so we can write : f=a*b*e; </comments>
+              System.out.println(f);
+          }
+    }
+                    </code>
+            </pre>
+        </div>
+        <br>
+        <hr><hr>
+
+        <br><b> &rArr; Local Variables :- </b><br><br>
+        <b>1. Declaration:</b> A local variable is declared inside the body of the methods, constructors or blocks. <br> <br>
+        <b>2. Scope:</b> Local variable can be used inside methods, constructors or blocks but not outside. <br> <br>
+        <b>3. When Variable gets memory allocated:</b> Local variable gets allocated when methods, constructors or blocks gets executed. Also when gets exits(block execution completed), local variable get destroyed. <br> <br>
+        <b>4. Stored Memory:</b> Local variables are stored in Stack memory. <br> <br>
+        <b>5. Default values:</b> Local variables does not have any default values, value should be provided before use. <br> <br>
+        <b>6. Access specifier:</b> Access specifiers i.e. public, protected, private cannot be used with local variables. <br> <br>
+        <hr><hr>
+
+        <br><b> &rArr; Instance Variables :- </b><br><br>
+        <b>1. Declaration:</b> An instance variable is declared inside the class but outside the methods,constructors or blocks. <br> <br>
+        <b>2. Scope:</b> Instance variable can be used inside all methods,blocks and constructors within a class(not inside the static method directly) <br> <br>
+        <b>3. When Variable gets memory allocated:</b> Instance variable gets memory allocated when the object is created, when objects gets destroyed variable releases memory. <br> <br>
+        <b>4. Stored Memory:</b> Instance variables are stored in Heap memory. <br> <br>
+        <b>5. Default values:</b> Instance variables have default values like int : 0; boolean : false; object : null etc. <br> <br>
+        <b>6. Access specifier:</b> Access specifiers i.e. public, protected, private can be used with instance variables. <br> <br>
+        <b>7. How to access:</b> Instance variables can be called(accessed) directly or by using object name. <br> <br>
+        <hr><hr>
+        
+        <br><b> &rArr; Static Variables :- </b>
+        <i> A variable which is declared as static is called static variable. It cannot be local. You can create a single copy of static variable and share among all the instances of the class. Memory allocation for static variable happens only once when the class is loaded in the memory.</i><br><br>
+        <b>1. Declaration:</b> Static variables are declared with static keyword inside the class but outside the body of the methods, constructors or blocks. <br> <br>
+        <b>2. Scope:</b> Static variable can be used inside all methods, constructors or blocks including static methods, constructors or blocks. <br> <br>
+        <b>3. When Variable gets memory allocated:</b> When we run program and .class file is loaded in JVM, static variable gets allocated. When class file gets unloaded from JVM, static variables gets destroyed. <br> <br>
+        <b>4. Stored Memory:</b> Static variables are stored in non-heap memory or static memory. <br> <br>
+        <b>5. Default values:</b> Static variables have default values like int : 0; boolean : false; object : null etc. <br> <br>
+        <b>6. Access specifier:</b> Access specifiers i.e. public, protected, private can be used with static variables. <br> <br>
+        <b>7. How to access:</b> Static variables can be called(accessed) by three ways : <br>
+        &nbsp;&nbsp;&nbsp;&nbsp; 1. Can be called directly. <br>
+        &nbsp;&nbsp;&nbsp;&nbsp; 2. By using class name i.e. Test.b (here Test is class name and b is static variable). <br>
+        &nbsp;&nbsp;&nbsp;&nbsp; 3. By using object reference name. <br>
+        <br> <br>
+		
+		<hr><hr>
+		
+		<br> <b> &rArr; Below is my youtube video link explaining "Variables In Java" :- </b> <br>
+		<a href="https://youtu.be/aI5zJoiw8nw" target="_blank"> Click Here To See "Variables In Java (Part 1)" </a> <br>
+		<a href="https://youtu.be/YGzXj0sbwrQ" target="_blank"> Click Here To See "Variables In Java (Part 2)" </a> <br> <br> <br>
+		
+    </body>
+</html>

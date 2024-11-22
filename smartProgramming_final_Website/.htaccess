@@ -1,0 +1,23 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Internally rewrite URLs with .php extension to .php files
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME}\.php -f
+    RewriteRule ^(.*)$ $1.php [L]
+
+    # Redirect requests with .php extension to clean URLs
+    RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^\ ]+)\.php
+    RewriteRule ^/?(.*)\.php$ /$1 [L,R=301]
+
+    # Internally rewrite requests for HTML files to .php
+    RewriteCond %{REQUEST_FILENAME}\.php -f
+    RewriteRule ^/?(.*)$ /$1.php [L]
+
+    # Redirect to error page if no page is found
+    ErrorDocument 404 /error.php
+
+    # Redirect HTTP to HTTPS
+    RewriteCond %{HTTPS} off
+    RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+</IfModule>

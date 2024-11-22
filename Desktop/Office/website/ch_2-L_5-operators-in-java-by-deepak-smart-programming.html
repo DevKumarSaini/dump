@@ -1,0 +1,1028 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="description"
+        content="Verify Students enrollments from Smart Programming. Students purchased premium courses or online and industrial trainings can verify their details by HR or Deepak Sir." />
+    <meta name="keywords"
+        content="verify students, enrollments, seminars, workshops, development, campus, placements, colleges, online classes, industrial training, free courses, premium courses, industrial trainings, chandigarh, mohali, internships" />
+
+    <title>Java Introduction</title>
+
+    <link rel="icon" href="images/favicon.png" type="image/png" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/themes/prism.min.css" rel="stylesheet"> -->
+    <link href="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/themes/prism-tomorrow.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-4 d-flex justify-content-center justify-content-md-start">
+                    <div class="social-icons">
+                        <a href="https://www.youtube.com/c/SmartProgramming" target="_blank" class="me-2">
+                            <i class="bi bi-youtube"></i>
+                        </a>
+                        <a href="https://www.facebook.com/smartprogramming.india" target="_blank" class="me-2">
+                            <i class="bi bi-facebook"></i></a>
+                        <a href="https://www.instagram.com/smart_programming/" target="_blank" class="me-2">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="https://t.me/smart_programming_deepak" target="_blank" class="me-2">
+                            <i class="bi bi-telegram"></i>
+                        </a>
+                        <a href="https://discord.gg/Up9dQ3gP6k" target="_blank" class="me-2">
+                            <i class="bi bi-discord"></i>
+                        </a>
+                        <a href="https://whatsapp.com/channel/0029Va6n2Gs42Dckpa2T1U1i" target="_blank" class="me-2">
+                            <i class="bi bi-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 d-flex justify-content-center my-2 my-md-0">
+                    <div class="phone-numbers text-center text-md-start">
+                        <a href="tel:+919888755565">+91 98887-55565</a>
+                        <span class="mx-2">||</span>
+                        <a href="tel:+916283830308">+91 62838-30308</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 d-flex justify-content-center justify-content-md-end">
+                    <div class="auth-links text-center text-md-end">
+                        <a href="https://courses.smartprogramming.in/learn/account/signin" target="_blank"
+                            class="me-2">Login</a>
+                        <a href="https://courses.smartprogramming.in/learn/account/signup" target="_blank">Register</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+        <div class="container">
+            <button class="btn btn-primary" id="notes-hamburger-btn">
+                <i class="bi bi-list text-white"></i>
+            </button>
+            <a class="navbar-brand" href="index.html">
+                <h3 class="text-white">Smart Programming</h3>
+            </a>
+            <div class="col-12 col-md-6 d-flex justify-content-center my-2 my-md-0">
+                <div class="auth-links text-center text-md-end">
+                    <a href="#" class="me-5 notes-header-navlinks">Courses</a>
+                    <a href="#" class="notes-header-navlinks">Tutorials</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="row">
+
+        <div class="col-lg-3 col-12">
+            <!-- left side navbar -->
+            <nav class="notes-sidebar pb-5" id="notes-sidebar">
+                <button class="btn-close notes-sidebar-closeBtn" id="notes-sidebar-close-btn"
+                    aria-label="Close"></button>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="java-introduction-by-deepak-smart-programming.html">
+                            <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Java Introduction </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="data-types-in-java-by-deepak-smart-programming.html">
+                            <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Programming Language Terminologies
+                        </a>
+                        <ul class="nav flex-column ms-3 mb-3">
+                            <li class="nav-item">
+                                <a class="nav-link" href="data-types-in-java-by-deepak-smart-programming.html">&nbsp;
+                                    <i class="bi bi-arrow-right"></i>
+                                    &nbsp; Data Types</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">&nbsp; <i class="bi bi-arrow-right"></i>
+                                    &nbsp; Variables
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">&nbsp; <i class="bi bi-arrow-right"></i>
+                                    &nbsp; Literals
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">&nbsp; <i class="bi bi-arrow-right"></i>
+                                    &nbsp; Operators
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">&nbsp; <i class="bi bi-arrow-right"></i>
+                                    &nbsp; Keywords
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">&nbsp; <i class="bi bi-arrow-right"></i>
+                                    &nbsp; Identifiers
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">&nbsp; <i class="bi bi-arrow-right"></i>
+                                    &nbsp; Constants
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">&nbsp; <i class="bi bi-arrow-right"></i>
+                                    &nbsp; Interview
+                                    Questions</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Control
+                            Statements </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; OOP's
+                            Concepts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Java
+                            Reflection API</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Exception
+                            Handling</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Strings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; File Input /
+                            Output </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp;
+                            Multithreading</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Arrays</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp;
+                            Collections</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Core Java
+                            Advance Concepts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Java 8
+                            Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Java 9
+                            Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Java 10
+                            Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Java 11
+                            Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Java 12
+                            Features</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="col-lg-7 col-12">
+            <div class="notes-content">
+                <div class="notes-div">
+
+                    <h3 class="text-center"> Java Operator</h3>
+                    <hr />
+
+                    <section>
+                        <h4 class="notes-heading"><i class="bi bi-brightness-low-fill"></i>Understanding Java Operators</h4>
+                        <p>In Java, an operator is a symbol that performs operations on one or more operands (variables, values, or expressions). Operators are essential in programming as they allow you to manipulate data and variables, perform calculations, and control the flow of logic within a program.</p>
+
+                        <ul>
+                            <li><strong>Operator:</strong> It is a symbol which performs a specific task, e.g., +, -, *, /</li>
+                            <li><strong>Operands:</strong> It is a simple variable which holds a mathematical value, e.g., <code>Age = 23;</code></li>
+                        </ul>
+
+                        <section>
+                            <fieldset class="notes-red-border-box">
+                            <legend class="notes-red-border-box-text">Why are Operators Important?</legend>
+                            <ul>
+                                <li><strong>Data Manipulation:</strong> Operators allow you to perform mathematical operations, compare values, and manipulate variables, enabling the processing of data.</li>
+                                <li><strong>Control Flow:</strong> Logical and relational operators help in decision-making and control the flow of the program by evaluating conditions.</li>
+                                <li><strong>Efficient Coding:</strong> Operators simplify code by providing concise ways to perform operations that would otherwise require longer, more complex expressions.</li>
+                            </ul>
+                        </fieldset>
+                        </section>
+
+                        <h4 class="notes-heading mt-4"><i class="bi bi-brightness-low-fill"></i>Classification of Operators in Java</h4>
+                        <p>Java operators can be classified into three main categories:</p>
+                        <ol>
+                            <li><strong>Unary Operators</strong></li>
+                            <li><strong>Binary Operators</strong></li>
+                            <li><strong>Ternary Operators</strong></li>
+                        </ol>
+
+                        <section class="mt-5">
+                            <h5 class="notes-subheading">1. Unary Operators</h5>
+                        <p>Unary operators operate on a single operand. They typically perform operations like incrementing/decrementing a value, negating a boolean value, or inverting the sign of a number.</p>
+                        <p><strong>Example of Unary Operators:</strong></p>
+                        <pre><code class="language-java">int a = 10;
+int b = -a; // Unary minus, b becomes -10
+a++; // Increment, a becomes 11
+boolean flag = true;
+flag = !flag; // Logical NOT, flag becomes false</code></pre>
+                        </section>
+
+                        <section class="mt-5">
+                            <h5 class="notes-subheading mt-3">2. Binary Operators</h5>
+                        <p>Binary operators operate on two operands. These are the most commonly used operators in Java and are divided into several categories.</p>
+                        <p><strong>Example of Binary Operators:</strong></p> <pre><code class="language-java">int a = 10;
+int b = 5;
+int sum = a + b; // Addition
+boolean isEqual = (a == b); // Relational operator, isEqual becomes false
+int andResult = a & b; // Bitwise AND
+a += b; // Add and assign, a becomes 15</code></pre>
+                        </section>
+
+                        <section class="mt-5">
+                            <h5 class="notes-subheading mt-3">3. Ternary Operator</h5>
+                        <p>The ternary operator is the only operator in Java that takes three operands. It is a shorthand for if-else statements and is used to evaluate a boolean expression and return one of two values based on the result.</p>
+                        <p><strong>Ternary Operator:</strong></p>
+                        <ul>
+                            <li><strong>Syntax:</strong> <code class="language-java">condition ?
+                                        value_if_true :
+                                        value_if_false</code></li>
+                        </ul>
+                        <p><strong>Example of Ternary Operator:</strong></p>
+                        <pre><code class="language-java">int a = 10;
+int b = 20;
+int max = (a > b) ? a : b; // max becomes 20</code></pre>
+                        </section>
+
+                        <p class="para-note  mt-4">Here is the table which gives you a clear picture of Operators.</p>
+                    </section>
+
+                    
+                    <section class="mt-5">
+                        <h4 class="notes-heading"><i class="bi bi-brightness-low-fill"></i>Java Operators</h4>
+
+                        <table class="table table-striped table-hover table-bordered mt-4">
+                            <thead>
+                                <tr>
+                                    <th colspan="5" class="text-center">
+                                        <h4>Unary Operators</h4>
+                                    </th>
+                                </tr>
+                                <tr class="table-dark">
+                                    <th>Category</th>
+                                    <th>Operator</th>
+                                    <th>Definition</th>
+                                    <th>Example</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td rowspan="6">Unary</td>
+                                    <td>+</td>
+                                    <td>Unary plus operator. Indicates a positive value.</td>
+                                    <td><code>+5</code></td>
+                                </tr>
+                                <tr>
+                                    <td>-</td>
+                                    <td>Unary minus operator. Negates the value.</td>
+                                    <td><code>-5</code></td>
+                                </tr>
+                                <tr>
+                                    <td>++</td>
+                                    <td>Increment operator. Increases the value of the variable by 1.</td>
+                                    <td><code>i++</code> (post-increment)</td>
+                                </tr>
+                                <tr>
+                                    <td>--</td>
+                                    <td>Decrement operator. Decreases the value of the variable by 1.</td>
+                                    <td><code>i--</code> (post-decrement)</td>
+                                </tr>
+                                <tr>
+                                    <td>!</td>
+                                    <td>Logical NOT operator. Inverts the boolean value.</td>
+                                    <td><code>!true</code> (results in <code>false</code>)
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>~</td>
+                                    <td>Bitwise NOT operator. Inverts each bit of the operand.</td>
+                                    <td><code>~0</code> (results in <code>-1</code>)
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="5" class="text-center">
+                                        <h4>Binary Operator</h4>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td colspan="5">
+                                        <h5>Arithmetic operator</h5>
+                                    </td>
+                                </tr>
+
+                                <tr class="table-dark">
+                                    <th >Category</th>
+                                    <th>Operator</th>
+                                    <th>Definition</th>
+                                    <th>Example</th>
+                                </tr>
+
+                                <tr>
+                                    <td rowspan="5">Binary</td>
+                                    <td>+</td>
+                                    <td>Addition operator. Adds two values.</td>
+                                    <td><code>5 + 3</code> (results in <code>8</code>)
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>-</td>
+                                    <td>Subtraction operator. Subtracts the second value from the first.</td>
+                                    <td><code>5 - 3</code> (results in <code>2</code>)
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>*</td>
+                                    <td>Multiplication operator. Multiplies two values.</td>
+                                    <td><code>5 * 3</code> (results in <code>15</code>)
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>/</td>
+                                    <td>Division operator. Divides the first value by the second.</td>
+                                    <td><code>6 / 3</code> (results in <code>2</code>)
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>%</td>
+                                    <td>Modulus operator. Returns the remainder of the division.</td>
+                                    <td><code>5 % 3</code> (results in <code>2</code>)
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td colspan="4">
+                                        <h5>Relational Operator / Comparison Operator</h5>
+                                    </td>
+                                </tr>
+                                <tr class="table-dark">
+                                    <th>Category</th>
+                                    <th>Operator</th>
+                                    <th>Definition</th>
+                                    <th>Example</th>
+                                </tr>
+
+                                <tr>
+                                    <td rowspan="6">Binary</td>
+                                    <td>==</td>
+                                    <td>Equality operator. Checks if two values are equal.</td>
+                                    <td><code>5 == 5</code> (results in <code>true</code>)
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>!=</td>
+                                    <td>Inequality operator. Checks if two values are not equal.</td>
+                                    <td><code>5 != 3</code> (results in <code>true</code>)
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td> > </td>
+                                    <td>Greater than operator. Checks if the first value is greater than the second.</td>
+                                    <td><code>5 > 3</code> (results in <code>true</code>)
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td> < </td>
+                                    <td>Less than operator. Checks if the first value is less than the second.</td>
+                                    <td><code>5 < 3</code> (results in <code>false</code>)
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td> >= </td>
+                                    <td>Greater than or equal to operator. Checks if the first value is greater than or equal to the second.</td>
+                                    <td><code>5 >= 5</code> (results in <code>true</code>)
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td> <= </td>
+                                    <td>Less than or equal to operator. Checks if the first value is less than or equal to the second.</td>
+                                    <td><code>5 <= 3</code> (results in <code>false</code>)
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td colspan="4">
+                                        <h5>Logical operator</h5>
+                                    </td>
+                                </tr>
+
+                                <tr class="table-dark">
+                                    <th >Category</th>
+                                    <th>Operator</th>
+                                    <th>Definition</th>
+                                    <th>Example</th>
+                                </tr>
+
+                                <tr>
+                                    <td rowspan="3">Binary</td>
+                                    <td>&&</td>
+                                    <td>Logical AND operator. Returns true if both operands are true.</td>
+                                    <td><code>true && false</code> (results in <code>false</code>)</td>
+                                </tr>
+                                <tr>
+                                    <td> || </td>
+                                    <td>Logical OR operator. Returns true if exactly one operand is true.</td>
+                                    <td><code>true || false</code> (results in <code>true</code>)</td>
+                                </tr>
+
+                                <tr>
+                                    <td>!</td>
+                                    <td>Logical not operator use to reverse the logical state of its operand. if a condition is true then Logical NOT operator will make false.</td>
+                                    <td><code>! true </code>(result is false) <br> <code>! false</code> (result is true)</td>
+                                </tr>
+
+                                <tr>
+                                    <td colspan="4">
+                                        <h5>Bitwise operator</h5>
+                                    </td>
+                                </tr>
+                                <tr class="table-dark">
+                                    <th >Category</th>
+                                    <th>Operator</th>
+                                    <th>Definition</th>
+                                    <th>Example</th>
+                                </tr>
+
+                                <tr>
+                                    <td rowspan="7">Binary</td>
+                                    <td>&</td>
+                                    <td>Bitwise AND operator. Performs a bitwise AND operation.</td>
+                                    <td><code>5 & 3</code> (results in <code>1</code>)
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>|</td>
+                                    <td>Binary OR Operator copies a bit if its exits in either operand.</td>
+                                    <td><code>5 | 3</code> (result in 7)</td>
+                                </tr>
+
+                               
+
+                                <tr>
+                                    <td>~</td>
+                                    <td>Binary Ones Complement Operator is unary and has the effect of 'flipping' bits.</td>
+                                    <td><code>~5 </code>(result in -6)</td>
+                                </tr>
+                                <tr>
+                                    <td>^</td>
+                                    <td>Bitwise XOR operator. Performs a bitwise XOR operation.</td>
+                                    <td><code>5 ^ 3</code> (results in <code>6</code>)
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td> << </td>
+                                    <td>Left shift operator. Shifts bits to the left, filling with zeroes.</td>
+                                    <td><code>5 << 1</code> (results in <code>10</code>)
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>>></td>
+                                    <td>Right shift operator. Shifts bits to the right, preserving the sign.</td>
+                                    <td><code>5 >> 1</code> (results in <code>2</code>)
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>>>></td>
+                                    <td>Unsigned right shift operator. Shifts bits to the right, filling with zeroes regardless of the sign.</td>
+                                    <td><code>5 >>> 1</code> (results in <code>2</code>)
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td colspan="4">
+                                        <h5>Assignment operator</h5>
+                                    </td>
+                                </tr>
+                                <tr class="table-dark">
+                                    <th >Category</th>
+                                    <th>Operator</th>
+                                    <th>Definition</th>
+                                    <th>Example</th>
+                                </tr>
+
+                                <tr>
+                                    <td rowspan="11">Binary</td>
+                                    <td class="text-center">=</td>
+                                    <td>Assignment operator. Assigns a value to a variable.</td>
+                                    <td><code>x = 10</code></td>
+                                </tr>
+                                <tr>
+                                    <td>+=</td>
+                                    <td>Addition assignment operator. Adds and assigns the result to the variable.</td>
+                                    <td><code>x += 5</code> (equivalent to <code>x = x + 5</code>)
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>-=</td>
+                                    <td>Subtraction assignment operator. Subtracts and assigns the result to the variable.</td>
+                                    <td><code>x -= 5</code> (equivalent to <code>x = x - 5</code>)
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>*=</td>
+                                    <td>Multiplication assignment operator. Multiplies and assigns the result to the variable.</td>
+                                    <td><code>x *= 5</code> (equivalent to <code>x = x * 5</code>)
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>/=</td>
+                                    <td>Division assignment operator. Divides and assigns the result to the variable.</td>
+                                    <td><code>x /= 5</code> (equivalent to <code>x = x / 5</code>)
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>%=</td>
+                                    <td>Modulus assignment operator. Takes modulus and assigns the result to the variable.</td>
+                                    <td><code>x %= 5</code> (equivalent to <code>x = x % 5</code>)
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td><<=</td>
+                                    <td>Left shift assignment operator. it moves the specified amount of bits to the left and assigns the result to the variable.</td>
+                                    <td><code>int a = 5; // binary: 00000101 a <<= 2;   // a becomes 20; binary: 00010100 </code></td>
+                                </tr>
+
+                                <tr>
+                                    <td>>>=</td>
+                                    <td>Right shift assignment operator. it moves the specific amount of bits to the right and assigns the result to the variable.</td>
+                                    <td><code>int b = 20; // binary: 00010100 b >>= 2;   // b becomes 5; binary: 00000101 </code></td>
+                                </tr>
+
+                                <tr>
+                                    <td>&=</td>
+                                    <td>Bitwise AND assignment operator. uses the binary representation of both operands, does a bitwise AND operation on them and assigns the result to the variable.</td>
+                                    <td><code>int c = 6;  // binary: 00000110 c &= 3;     // c becomes 2; binary: 00000010 </code></td>
+                                </tr>
+
+                                <tr>
+                                    <td>^=</td>
+                                    <td>Bitwise XOR assignment operator. It uses the binary representation of both operands, does a bitwise XOR operation on them and assigns the result to the variable.</td>
+                                    <td><code>int d = 7;  // binary: 00000111 d ^= 2;     // d becomes 5; binary: 00000101 </code></td>
+                                </tr>
+
+                                <tr>
+                                    <td>|=</td>
+                                    <td>Bitwise OR assignment operator. It uses the binary representation of both operands, does a bitwise OR operator on them and assigns the result to the variable.</td>
+                                    <td><code>int e = 4;  // binary: 00000100 e |= 3;     // e becomes 7; binary: 00000111 </code></td>
+                                </tr>
+
+                                <tr>
+                                    <td colspan="4" class="text-center">
+                                        <h4>Ternary Operator</h4>
+                                    </td>
+                                </tr>
+                                <tr class="table-dark">
+                                    <th >Category</th>
+                                    <th>Operator</th>
+                                    <th>Definition</th>
+                                    <th>Example</th>
+                                </tr>
+
+                                <tr>
+                                    <td rowspan="1">Ternary</td>
+                                    <td>?:</td>
+                                    <td>Conditional (ternary) operator. Returns one of two values based on a boolean expression.</td>
+                                    <td><code>a > b ? a : b</code> (returns <code>a</code> if <code>a > b</code>, otherwise <code>b</code>) <br> <hr>
+                                        <code>
+                                            int a = 10;<br> String result = (a > 5) ? "Greater than 5" : "5 or less"; Greater than 5 <br>
+                                        </code>
+                                    </td>
+                                </tr>
+
+                                <tr >
+                                    <td colspan="4" class="text-center">
+                                        <h4>Java Special Operator</h4>
+                                    </td>
+                                </tr>
+
+                                <tr class="table-dark">
+                                    <th>Category</th>
+                                    <th>Operator</th>
+                                    <th>Definition</th>
+                                    <th>Example</th>
+                                </tr>
+
+                                <tr>
+                                    <td rowspan="6">Special Operator</td>
+                                    <td>instanceof</td>
+                                    <td>Tests whether an object is an instance of a specific class or subclass.</td>
+                                    <td><code>if (obj instanceof String)</code> (true if <code>obj</code> is an instance of <code>String</code>)
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>(Type)</td>
+                                    <td>Explicitly converts a variable from one type to another.</td>
+                                    <td><code>String s = (String) obj;</code> (casts <code>obj</code> to <code>String</code>)
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>::</td>
+                                    <td>Method reference operator. Provides a way to refer to methods without invoking them.</td>
+                                    <td><code>List<string> list = Arrays.asList("a", "b", "c"); list.forEach(System.out::println);</code></td>
+                                </tr>
+
+                                <tr>
+                                    <td>new</td>
+                                    <td>Creates new objects or arrays.</td>
+                                    <td><code>String s = new String("Hello");</code></td>
+                                </tr>
+
+                                <tr>
+                                    <td>.</td>
+                                    <td>Member access operator. Used to access fields and methods of objects.</td>
+                                    <td><code>obj.method();</code> (calls <code>method</code> on <code>obj</code>)
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>@</td>
+                                    <td>Annotation. Used to provide metadata about the program elements (e.g., classes, methods).</td>
+                                    <td><code>@Override public void method() {}</code></td>
+                                </tr>
+
+                                <tr>
+                                    <td colspan="4 " class="text-center">
+                                        <h4>Unary Operator Notations</h4>
+                                    </td>
+                                </tr>
+
+                                <tr class="table-dark">
+                                    <th>Notations</th>
+                                    <th>Type</th>
+                                    <th>Definition</th>
+                                    <th>Example</th>
+                                </tr>
+
+                                <tr>
+                                    <td>Prefix</td>
+                                    <td>++i, --i</td>
+                                    <td>The prefix increment (<code>++i</code>) and decrement (<code>--i</code>) operators increase or decrease the value of a variable by 1, respectively. The key characteristic of prefix operators is that they perform the operation before the current value is used in an expression.</td>
+                                    <td><code>int i = 5; int result = ++i;</code></td>
+                                </tr>
+
+                                <tr>
+                                    <td>Infix</td>
+                                    <td>+ - * / %</td>
+                                    <td>Infix operators are placed between two operands and are used to perform operations on those operands. They are evaluated based on their precedence and associativity rules.</td>
+                                    <td><code>int sum = 5 + 3; int difference = 5 - 3; int quotient = 6 / 3; int remainder = 5 % 3;</code></td>
+                                </tr>
+
+                                <tr>
+                                    <td>Postfix</td>
+                                    <td>i++, i--</td>
+                                    <td>The postfix increment (<code>i++</code>) and decrement (<code>i--</code>) operators increase or decrease the value of a variable by 1, respectively. The key characteristic of postfix operators is that they perform the operation after the current value has been used in an expression.</td>
+                                    <td><code>int i = 5; int result = i++;</code></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>
+
+                    
+                    <section class="mt-5">
+                        <h4 class="notes-heading"><i class="bi bi-brightness-low-fill"></i>Operator Presidency</h4>
+
+                        <table class="table table-striped table-hover table-bordered">
+                            <thead class="table-dark">
+                                <tr>
+                                    <th>Precedence Level</th>
+                                    <th>Operators</th>
+                                    <th>Associativity</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>expr++ , expr--</td>
+                                    <td>Left-to-right</td>
+                                    <td>Postfix increment and decrement. Evaluated after all other operators.</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>++expr , --expr , + , - , ~ , !</td>
+                                    <td>Right-to-left</td>
+                                    <td>Unary operators: prefix increment and decrement, unary plus and minus, bitwise NOT, logical NOT.</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>* , / , %</td>
+                                    <td>Left-to-right</td>
+                                    <td>Multiplicative operators: multiplication, division, and modulus.</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>+ , -</td>
+                                    <td>Left-to-right</td>
+                                    <td>Additive operators: addition and subtraction.</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td><< , >> , >>></td>
+                                    <td>Left-to-right</td>
+                                    <td>Shift operators: left shift, right shift, and unsigned right shift.</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>< , <= , > , >= , instanceof</td>
+                                    <td>Left-to-right</td>
+                                    <td>Relational operators: comparison and type checking.</td>
+                                </tr>
+                                <tr>
+                                    <td>7</td>
+                                    <td>== , !=</td>
+                                    <td>Left-to-right</td>
+                                    <td>Equality operators: equality and inequality.</td>
+                                </tr>
+                                <tr>
+                                    <td>8</td>
+                                    <td>&</td>
+                                    <td>Left-to-right</td>
+                                    <td>Bitwise AND operator.</td>
+                                </tr>
+                                <tr>
+                                    <td>9</td>
+                                    <td>^</td>
+                                    <td>Left-to-right</td>
+                                    <td>Bitwise XOR operator.</td>
+                                </tr>
+                                <tr>
+                                    <td>10</td>
+                                    <td>|</td>
+                                    <td>Left-to-right</td>
+                                    <td>Bitwise OR operator.</td>
+                                </tr>
+                                <tr>
+                                    <td>11</td>
+                                    <td>&&</td>
+                                    <td>Left-to-right</td>
+                                    <td>Logical AND operator.</td>
+                                </tr>
+                                <tr>
+                                    <td>12</td>
+                                    <td>||</td>
+                                    <td>Left-to-right</td>
+                                    <td>Logical OR operator.</td>
+                                </tr>
+                                <tr>
+                                    <td>13</td>
+                                    <td>? :</td>
+                                    <td>Right-to-left</td>
+                                    <td>Ternary conditional operator.</td>
+                                </tr>
+                                <tr>
+                                    <td>14</td>
+                                    <td>= , += , -= , *= , /= , %= , <<= , >>= , >>>= , &= , ^= , |=</td>
+                                    <td>Right-to-left</td>
+                                    <td>Assignment and compound assignment operators.</td>
+                                </tr>
+                                <tr>
+                                    <td>15</td>
+                                    <td>,</td>
+                                    <td>Left-to-right</td>
+                                    <td>Comma operator: separates expressions in sequences.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>
+
+                </div>
+            </div>
+
+            <!-- Button COde -->
+            <div class="row my-4">
+                <div class="col-6 d-flex justify-content-start">
+                    <button class="btn btn-warning"> <i class="bi bi-arrow-left-short"></i> Previous
+                        Topic</button>
+                </div>
+                <div class="col-6 d-flex justify-content-end">
+                    <button class="btn btn-success">Next Topic <i class="bi bi-arrow-right-short"></i></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-2 col-12 bg-secondary">this is for
+            advertisement</div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer mt-4">
+        <div class="container">
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <h5 class="text-white">Menus</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="footer-link">Home</a></li>
+                        <li>
+                            <a href="free-courses-by-smart-programming.html" class="footer-link">Free Courses</a>
+                        </li>
+                        <li>
+                            <a href="premium-courses-by-smart-programming.html" class="footer-link">Premium Courses</a>
+                        </li>
+                        <li>
+                            <a href="trainings-by-smart-programming.html" class="footer-link">Trainings</a>
+                        </li>
+                        <li>
+                            <a href="development-by-smart-programming.html" class="footer-link">Development</a>
+                        </li>
+                        <li>
+                            <a href="contact-smart-programming.html" class="footer-link">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-8">
+                    <h5 class="text-white">
+                        Useful links for Industrial Training in
+                        Chandigarh
+                    </h5>
+                    <div class="row">
+                        <div class="col-md-6 col-12">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="core-java-free-course-by-deepak-smart-programming.html"
+                                        class="footer-link">Core Java
+                                        Free Course</a>
+                                </li>
+                                <li>
+                                    <a href="advance-java-free-course-by-deepak-smart-programming.html"
+                                        class="footer-link">Advance Java
+                                        Free Course</a>
+                                </li>
+                                <li>
+                                    <a href="spring-framework-free-course-by-deepak-smart-programming.html"
+                                        class="footer-link">Spring
+                                        Framework Free Course</a>
+                                </li>
+                                <li>
+                                    <a href="springboot-framework-free-course-by-deepak-smart-programming.html"
+                                        class="footer-link">Springboot
+                                        Free Course</a>
+                                </li>
+                                <li>
+                                    <a href="android-free-course-by-deepak-smart-programming.html"
+                                        class="footer-link">Android Free
+                                        Course</a>
+                                </li>
+                                <li>
+                                    <a href="java-logical-questions-free-course-by-deepak-smart-programming.html"
+                                        class="footer-link">Java Logical
+                                        Questioning Free Course</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="https://courses.smartprogramming.in/learn/Core-Java-With-5-Projects"
+                                        target="_blank" class="footer-link">Core Java
+                                        Premium Course</a>
+                                </li>
+                                <li>
+                                    <a href="https://courses.smartprogramming.in/learn/Advance-Java" target="_blank"
+                                        class="footer-link">Advance Java
+                                        Premium Course</a>
+                                </li>
+                                <li>
+                                    <a href="https://courses.smartprogramming.in/learn/Spring-Framework" target="_blank"
+                                        class="footer-link">Spring
+                                        Framework Premium Course</a>
+                                </li>
+                                <li>
+                                    <a href="https://courses.smartprogramming.in/learn/Spring-Boot-Framework"
+                                        target="_blank" class="footer-link">Springboot
+                                        Premium Course</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center mt-5">
+                <div class="col-md-8">
+                    <footer>
+                        <p>
+                            &copy; 2024 Smart Programming, Chandigarh.
+                            All Rights Reserved.
+                            <br />
+                            <a href="privacy-policy.html" class="footer-link">Privacy Policy</a>
+                            &nbsp; | &nbsp;
+                            <a href="terms-of-service.html" class="footer-link">Terms Of
+                                Services</a>
+                            &nbsp; | &nbsp;
+                            <a href="cancellation-refund-policy.html" class="footer-link">Cancellation/Refund
+                                Policy</a>
+                        </p>
+                    </footer>
+                </div>
+                <div class="col-md-4">
+                    <div class="social-icons">
+                        <a href="https://www.youtube.com/c/SmartProgramming" target="_blank"
+                            class="me-2 text-decoration-none">
+                            <i class="bi bi-youtube"></i>
+                        </a>
+                        <a href="https://www.facebook.com/smartprogramming.india" target="_blank"
+                            class="me-2 text-decoration-none">
+                            <i class="bi bi-facebook"></i></a>
+                        <a href="https://www.instagram.com/smart_programming/" target="_blank"
+                            class="me-2 text-decoration-none">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="https://t.me/smart_programming_deepak" target="_blank"
+                            class="me-2 text-decoration-none">
+                            <i class="bi bi-telegram"></i>
+                        </a>
+                        <a href="https://discord.gg/Up9dQ3gP6k" target="_blank" class="me-2 text-decoration-none">
+                            <i class="bi bi-discord"></i>
+                        </a>
+                        <a href="https://whatsapp.com/channel/0029Va6n2Gs42Dckpa2T1U1i" target="_blank"
+                            class="me-2 text-decoration-none">
+                            <i class="bi bi-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document
+            .getElementById("notes-hamburger-btn")
+            .addEventListener("click", function () {
+                document.getElementById("notes-sidebar").classList.toggle("active");
+            });
+
+        document
+            .getElementById("notes-sidebar-close-btn")
+            .addEventListener("click", function () {
+                document.getElementById("notes-sidebar").classList.remove("active");
+            });
+    </script>
+
+    <!-- Prism.js for Syntax Highlighting -->
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/prism.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/components/prism-java.min.js"></script>
+</body>
+
+</html>

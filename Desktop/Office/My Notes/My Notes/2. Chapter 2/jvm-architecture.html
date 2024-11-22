@@ -1,0 +1,129 @@
+<html>
+    <head>
+        <title>Architecture Of JVM</title>
+        <link rel="stylesheet" href="http://smartprogramming.in/appsp/notes/java/style/myStyleHTML.css"/>
+		<meta name="description" content="Smart Programming is Live Classes Training Program & 6 Weeks / 6 Months Industrial Training in Chandigarh and Mohali to provide you Best Knowledge in Latest Technologies. We are the best industrial training institute in chandigarh and mohali. We provide six weeks and six months industrial training in chandigarh and mohali and also provides online training in various technologies i.e. java, android, python, data science, machine learning, php etc. We provides Best free industrial training and Summer Training with Live project in Chandigarh and Mohali." />
+        <meta name="keywords" content="Industrial Training, 6 Months/Weeks Industrial Training, Best Industrial Training Institute, Industrial Training in chandigarh mohali, best six months industrial training in mohali, 6 months internship training in mohali, summer training in mohali, summer training in chandigarh" />
+	</head>
+    <body>
+        <b><u>Architecture Of JVM:-</u></b><br><br>
+        <b> &rArr; What is Virtual Machine ? </b> <br>
+        Before going for JVM, we should have knowledge of "Virtual Machine". A virtual machine is a software simulation of a machine which can perform operations similar to physical machine. Virtual machine is not physically present. <br>
+        For example "Calculator", we can buy physical calculator from market having some weight, size etc, this machine is physically exists. But the calculator present in our operating system, that does not physically present but it can perform all the tasks similar to that calculator we buy from market. SO calculator present in operating system is virtual machine which is not physically present but can perform all the tasks. <br> <br>
+        A virtual machine usually known as a guest is created within another computing environment refereed as "host". Multiple virtual machine can exists within single host at one time. <br> <br>
+        <b> Types of virtual machine :- </b><br>
+        1. Hardware Based or System Based Virtual Machine <br>
+        2. Application Based or Process Based Virtual Machine <br> <br>
+        <b> JVM(Java Virtual Machine) is Application based virtual machine.</b>
+        <br><br>
+        
+        <hr><hr> <br>
+        
+        <b> &rArr; Java Virtual Machine Architecture :- </b> <br>
+        <b> 1. It is a Runtime Engine responsible to run java based applications. </b> <br> <br>
+        <b> 2. It has two main tasks :- </b> <br>
+        <b> &nbsp;&nbsp;&nbsp;&nbsp; 1. load .class file </b> <br>
+        <b> &nbsp;&nbsp;&nbsp;&nbsp; 2. execute .class file </b> <br> <br>
+        
+        <b> Basic Architecture of JVM is shown in following diagram :- </b> <br>
+        <img src="images/jvm-architecture-basic-in-java-by-deepak-panwar-smart-programming.jpg" alt="JVM Architecture in Java by Deepak Panwar Smart Programming" /> <br>
+        <b> Thus architecture of JVM is broadly divided in three main categories :- </b> <br>
+        <b>  &nbsp;&nbsp;&nbsp;&nbsp; 1. Class Loader </b> <br>
+        <b>  &nbsp;&nbsp;&nbsp;&nbsp; 2. Memory Areas </b> <br>
+        <b>  &nbsp;&nbsp;&nbsp;&nbsp; 3. Execution Engine </b> <br>
+        These are deeply explained below.... <br> <br>
+        
+        <hr><hr> <br>
+        
+        <b> &rArr; 1. Class Loader Architecture :- </b> <br>
+        Below is the class loader architecture in JVM. <br>
+        <img src="images/class-loader-architecture-in-java-by-deepak-panwar-smart-programming.jpg" alt="Class Loader Architecture in JVM java by Deepak Panwar Smart Programming" /><br> <br>
+        
+        <b> 1. Loading :- </b> <br> &nbsp;&nbsp;&nbsp; &#9673; It will read .class file and store corresponding information in the method area. <br> <br>
+        &nbsp;&nbsp;&nbsp; &#9673; For each class file, JVM will store following information in the method area : <br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Fully qualified class name. <br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. Fully qualified parent class name. <br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3. Methods information. <br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4. Variables information. <br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5. Constructors information. <br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6. Modifiers information. <br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7. Constant pool information etc...  <br> <br>
+
+        &nbsp;&nbsp;&nbsp; &#9673; Three types of class loaders : <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b> 1. Bootstrap Class Loader :</b> Responsible to load the classes present in rt.jar (rt.jar file is present in bootstrap classpath i.e. jdk\jre\lib) <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b> 2. Extention Class Loader :</b> Responsible to load the classes from extention class path(i.e. jdk\jre\lib\ext\*.jar) <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b> 3. Application Class Loader :</b> Responsible to load the classes from application	classpath. It internally uses environment variable class path. <br> <br> <br>
+        
+        <b> 2. Linking :- </b> <br> &nbsp;&nbsp;&nbsp; &#9673; In linking three activities are performed : <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b> 1. Verification :- </b> In this process Byte Code Verifier checks whether the .class file is	generated by valid compiler or not and whether .class file is properly formated or not. <br>
+	If verification fails, then JVM will provide “java.lang.VerifyError” exception. Because of this process, java is secured. <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b> 2. Preparation :- </b> In this process JVM will allocate memory for class level static variables & assign default values (not original values) <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b> 3. Resolution :- </b> In this process symbolic names present in our program are replaced with original memory references from method area. <br> <br> <br>
+        
+        <b> 3. Initializing :- </b>  <br> &nbsp;&nbsp;&nbsp; &#9673; In this process, two activities will be performed : <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. All static variables are assigned with original values. <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. static blocks will be executed from top to bottom. <br> <br>
+        
+        <hr> <hr> <br>
+        
+        <b> &rArr; 2. Memory Areas :- </b> <br>
+        Below are the memory areas in JVM. <br>
+        <img src="images/memory-areas-in-java-by-deepak-panwar-smart-programming.jpg" alt="Memory Areas in JVM java by Deepak Panwar Smart Programming" /><br> <br>
+        
+        <b> 1. Method Area :- </b> <br> &nbsp;&nbsp;&nbsp; &#9673; Method area is created when JVM is started. <br>
+        &nbsp;&nbsp;&nbsp; &#9673; It stores .class file information and static variables. <br>
+        &nbsp;&nbsp;&nbsp; &#9673; Per JVM one memory area, therefore multiple threads can access this area, so it is not thread safe. <br> <br> <br>
+        
+        <b> 2. Heap Area :- </b> <br> &nbsp;&nbsp;&nbsp; &#9673; Heap area is created when JVM is started. <br>
+        &nbsp;&nbsp;&nbsp; &#9673; It stores objects, instance variables and arrays (as every arrays is an object in java). <br>
+        &nbsp;&nbsp;&nbsp; &#9673; It can be accessed by multiple threads, so the data stored in heap area is not thread safe. <br> <br> <br>
+        
+        <b> 3. Stack Area :- </b> <br> &nbsp;&nbsp;&nbsp; &#9673; Whenever a new thread is created, a separate stack area will also be created. <br>
+        &nbsp;&nbsp;&nbsp; &#9673; It stores the current running method and local variables. <br>
+        &nbsp;&nbsp;&nbsp; &#9673; When the method is completed, the corresponding entry from the stack will be removed. <br>
+        &nbsp;&nbsp;&nbsp; &#9673; After completing all method calls, the stack will become empty and that empty stack will be destroyed by thee JVM just before terminating the thread. <br>
+        &nbsp;&nbsp;&nbsp; &#9673; The data stored in the stack is available only for the corresponding thread and not available to the remaining thread, so this area is thread safe. <br> <br> <br>
+        
+        <b> 4. PC Register Area :- </b> <br> &nbsp;&nbsp;&nbsp; &#9673; It holds the address of next executing instruction. <br>
+        &nbsp;&nbsp;&nbsp; &#9673; For every thread, a separate pc register is created, so it is also thread safe. <br> <br> <br>
+        
+        <b> 5. Native Method Stack Area :- </b> <br> &nbsp;&nbsp;&nbsp; &#9673; All native method calls invoked by the thread will be stored in the corresponding native method stack. <br>
+        &nbsp;&nbsp;&nbsp; &#9673; For every thread separate native method stack will be created. <br>
+        &nbsp;&nbsp;&nbsp; &#9673; It is also thread safe. <br> <br>
+        
+        <hr><hr> <br>
+        
+        <b> &rArr; 3. Execution Engine :- </b> <br>
+        Below is an architecture of execution engine in JVM. <br>
+        <img src="images/execution-engine-in-jvm-in-java-by-deepak-panwar-smart-programming.jpg" alt="Execution Engine in JVM java by Deepak Panwar Smart Programming" /><br> <br>
+        
+        &nbsp;&nbsp;&nbsp; &#9673; Execution Engine is responsible to execute java class file. <br> <br>
+        &nbsp;&nbsp;&nbsp; &#9673; It contains mainly two components : <br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Interpreter <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. JIT Compiler <br> <br>
+        
+        &nbsp;&nbsp;&nbsp; &#9673; <b> Interpreter :- </b> A module that alternately decodes and executes every statement or line in some body of code. The Java interpreter decodes and executes bytecode for the Java virtual machine. <br>
+        <img src="images/interpreter-in-java-by-deepak-panwar-smart-programming.png" alt="Interpreter in Java by Deepak Panwar Smart Programming" /> <br>
+        &nbsp;&nbsp;&nbsp; &#9673; <b> JIT Compiler :- </b> &#9679; JIT stands for Just-in-Time which means that code gets compiled when it is needed, not before runtime. <br>
+        &#9679; The main purpose of JIT compiler is to improve performance. <br>
+        JVM maintains a count as of how many time a function is executed. If this count exceeds a predefined limit or say threshold value, the JIT compiles the code into machine language which can directly be executed by the processor (unlike the normal case in which javac compile the code into bytecode and then java - the interpreter interprets this bytecode line by line converts it into machine code and executes).
+        Also next time this function is calculated same compiled code is executed again unlike normal interpretation in which the code is interpreted again line by line. This makes execution faster. <br>
+        &#9679; JIT compilation is applicable only for repeatedly required methods, not for every method.<br><br>
+        
+        <hr><hr> <br>
+        
+        <b> &rArr; 4. Java Native Interface (JNI) :- </b> <br>
+        &nbsp;&nbsp;&nbsp; &#9673; An interface that allows Java to interact with code written in another language. <br>
+        &nbsp;&nbsp;&nbsp; &#9673; It acts as mediator for java method calls & the corresponding native libraries i.e. JNI is responsible to provide information about native libraries to the JVM. <br>
+        &nbsp;&nbsp;&nbsp; &#9673; Native Method Library provides or holds native library information. <br>
+        &nbsp;&nbsp;&nbsp; &#9673; The java command-line utility is an example of one such application, that launches Java code in a Java Virtual Machine. <br> <br>
+        
+		
+		<hr><hr>
+		
+		<br> <b> &rArr; Below is my youtube video link explaining "JVM Architecture In Java" :- </b> <br>
+		<a href="https://youtu.be/LxU4KeMqZL0" target="_blank"> Click Here To See "JVM Architecture In Java (Part 1)" </a> <br>
+		<a href="https://youtu.be/nC-rjZQs3ms" target="_blank"> Click Here To See "JVM Architecture In Java (Part 2)" </a> <br> <br> <br>
+        
+    </body>
+</html>

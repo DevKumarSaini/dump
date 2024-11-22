@@ -1,0 +1,1203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="description"
+        content="Verify Students enrollments from Smart Programming. Students purchased premium courses or online and industrial trainings can verify their details by HR or Deepak Sir." />
+    <meta name="keywords"
+        content="verify students, enrollments, seminars, workshops, development, campus, placements, colleges, online classes, industrial training, free courses, premium courses, industrial trainings, chandigarh, mohali, internships" />
+
+    <title>Java Introduction</title>
+
+    <link rel="icon" href="images/favicon.png" type="image/png" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/themes/prism.min.css" rel="stylesheet"> -->
+    <link href="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/themes/prism-tomorrow.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-4 d-flex justify-content-center justify-content-md-start">
+                    <div class="social-icons">
+                        <a href="https://www.youtube.com/c/SmartProgramming" target="_blank" class="me-2">
+                            <i class="bi bi-youtube"></i>
+                        </a>
+                        <a href="https://www.facebook.com/smartprogramming.india" target="_blank" class="me-2">
+                            <i class="bi bi-facebook"></i></a>
+                        <a href="https://www.instagram.com/smart_programming/" target="_blank" class="me-2">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="https://t.me/smart_programming_deepak" target="_blank" class="me-2">
+                            <i class="bi bi-telegram"></i>
+                        </a>
+                        <a href="https://discord.gg/Up9dQ3gP6k" target="_blank" class="me-2">
+                            <i class="bi bi-discord"></i>
+                        </a>
+                        <a href="https://whatsapp.com/channel/0029Va6n2Gs42Dckpa2T1U1i" target="_blank" class="me-2">
+                            <i class="bi bi-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 d-flex justify-content-center my-2 my-md-0">
+                    <div class="phone-numbers text-center text-md-start">
+                        <a href="tel:+919888755565">+91 98887-55565</a>
+                        <span class="mx-2">||</span>
+                        <a href="tel:+916283830308">+91 62838-30308</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 d-flex justify-content-center justify-content-md-end">
+                    <div class="auth-links text-center text-md-end">
+                        <a href="https://courses.smartprogramming.in/learn/account/signin" target="_blank"
+                            class="me-2">Login</a>
+                        <a href="https://courses.smartprogramming.in/learn/account/signup" target="_blank">Register</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+        <div class="container">
+            <button class="btn btn-primary" id="notes-hamburger-btn">
+                <i class="bi bi-list text-white"></i>
+            </button>
+            <a class="navbar-brand" href="index.html">
+                <h3 class="text-white">Smart Programming</h3>
+            </a>
+            <div class="col-12 col-md-6 d-flex justify-content-center my-2 my-md-0">
+                <div class="auth-links text-center text-md-end">
+                    <a href="#" class="me-5 notes-header-navlinks">Courses</a>
+                    <a href="#" class="notes-header-navlinks">Tutorials</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="row">
+
+        <div class="col-lg-3 col-12">
+            <!-- left side navbar -->
+            <nav class="notes-sidebar pb-5" id="notes-sidebar">
+                <button class="btn-close notes-sidebar-closeBtn" id="notes-sidebar-close-btn"
+                    aria-label="Close"></button>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="java-introduction-by-deepak-smart-programming.html">
+                            <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Java Introduction </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="data-types-in-java-by-deepak-smart-programming.html">
+                            <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Programming Language Terminologies
+                        </a>
+                        <ul class="nav flex-column ms-3 mb-3">
+                            <li class="nav-item">
+                                <a class="nav-link" href="data-types-in-java-by-deepak-smart-programming.html">&nbsp;
+                                    <i class="bi bi-arrow-right"></i>
+                                    &nbsp; Data Types</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">&nbsp; <i class="bi bi-arrow-right"></i>
+                                    &nbsp; Variables
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">&nbsp; <i class="bi bi-arrow-right"></i>
+                                    &nbsp; Literals
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">&nbsp; <i class="bi bi-arrow-right"></i>
+                                    &nbsp; Operators
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">&nbsp; <i class="bi bi-arrow-right"></i>
+                                    &nbsp; Keywords
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">&nbsp; <i class="bi bi-arrow-right"></i>
+                                    &nbsp; Identifiers
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">&nbsp; <i class="bi bi-arrow-right"></i>
+                                    &nbsp; Constants
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">&nbsp; <i class="bi bi-arrow-right"></i>
+                                    &nbsp; Interview
+                                    Questions</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Control
+                            Statements </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; OOP's
+                            Concepts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Java
+                            Reflection API</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Exception
+                            Handling</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Strings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; File Input /
+                            Output </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp;
+                            Multithreading</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Arrays</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp;
+                            Collections</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Core Java
+                            Advance Concepts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Java 8
+                            Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Java 9
+                            Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Java 10
+                            Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Java 11
+                            Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Java 12
+                            Features</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="col-lg-7 col-12">
+            <div class="notes-content">
+                <div class="notes-div">
+
+                    <h3 class="text-center">Additional Control Statement Program</h3>
+                    <hr/>
+                   
+                    <section>
+                        <section>
+                            <h4 class="notes-heading"><i class="bi bi-brightness-low-fill"></i>Additional program</h4>
+                            
+                            <!-- Program 1 -->
+                            <section class="ms-4 mt-3">
+                                <h5 class="notes-subheading" style="display: inline;">Program 1</h5>
+                                <p style="display: inline;">WAP to Check for Armstrong Number in Java
+                                </p>
+                                
+<!-- program section -->
+<pre><code class="language-java">import java.util.Scanner;
+class class ArmstrongNumber
+{
+    public static void main(String args[])
+    {
+        Scanner s=new Scanner(System.in);
+        System.out.println("Enter The Number : ");
+        int no=s.nextInt();
+        int t1=no;
+        int leng=0;
+        while(t1 != 0)
+        {
+            leng=leng+1;
+            t1=t1/10;
+        }
+        	
+        int t2=no;
+        int arm=0;
+        int rem;
+        while(t2 != 0)
+        {
+            int mul=1;
+            rem=t2%10;
+            for(int i=1;i<=leng;i++)
+            {
+                mul=mul*rem;
+            }
+            arm=arm+mul;
+            t2=t2/10;
+        }
+        if(arm==no)
+        {
+            System.out.println(no+" is armstrong number");
+        }
+        else
+        {
+            System.out.println(no+" is not armstrong number");
+        }
+    }
+} </code></pre>
+
+<!-- output section -->
+<div class="java-output">
+<h5 class="output-heading">Output</h5><hr>
+<pre><code>Enter The Number :
+153
+153 is armstrong number</code></pre>
+</div>
+                            </section>
+
+                            <hr class="mt-5">
+                            <!-- Program 2 -->
+                            <section class="ms-4 mt-5">
+                                <h5 class="notes-subheading" style="display: inline;">Program 2 </h5>
+                                <p style="display: inline;"> <strong>(Method 1) </strong> WAP To Check for Leap Year in Java </p>
+                                
+<!-- program section -->
+<pre><code class="language-java">class LeapYear1
+{
+    public static void main(String[] args)
+    {
+        int year=2100;
+        if(year%4==0)
+        {
+            if(year%100 == 0)
+            {
+                if(year%400 == 0)
+                {
+                    System.out.println("leap year");
+                }
+                else
+                {
+                    System.out.println("not a leap year");
+                }
+            }
+            else
+            {
+                System.out.println("leap year");
+            }
+        }
+        else
+        {
+            System.out.println("not a leap year");
+        }
+    }
+} </code></pre>
+
+<!-- output section -->
+<div class="java-output">
+<h5 class="output-heading">Output</h5><hr>
+<pre><code>not a leap year</code></pre>
+</div>
+                            </section>
+
+                            <hr class="mt-5">
+                             <!-- Program 3 -->
+                             <section class="ms-4 mt-5">
+                                <p style="display: inline;"> <strong>(Method 2)</strong> WAP To Check for Leap Year in Java </p>
+                                
+<!-- program section -->
+<pre><code class="language-java">class LeapYear2
+{
+    public static void main(String[] args)
+    {
+        int year=2100;
+	
+        if( (year%400==0) || (year%4==0 && year%100 != 0) )
+        {
+            System.out.println("leap year");
+        }
+        else
+        {
+            System.out.println("not a leap year");
+        }
+    }
+}</code></pre>
+
+<!-- output section -->
+<div class="java-output">
+<h5 class="output-heading">Output</h5><hr>
+<pre><code>not a leap year</code></pre>
+</div>
+                            </section>
+
+                            <hr class="mt-5">
+                            <!-- Program 4 -->
+                            <section class="ms-4 mt-5">
+                                <h5 class="notes-subheading" style="display: inline;">Program 3</h5>
+                                <p style="display: inline;"> WAP To Check for Palindrome Number in Java</p>
+                                
+<!-- program section -->
+<pre><code class="language-java">import java.util.Scanner;
+class PalindromeNumber
+{
+    public static void main(String args[])
+    {
+        Scanner s=new Scanner(System.in);
+        System.out.println("Enter the number : ");
+        int no=s.nextInt();
+        int temp=no;
+        int rev=0,rem;
+        while(temp != 0)
+        {
+            rem=temp%10;
+            rev=rev*10+rem;
+            temp=temp/10;
+        }
+        if(no==rev)
+        {
+            System.out.println(no+" is palindrome number");
+        }
+        else
+        {
+            System.out.println(no+" is not a palindrome number");
+        }
+    }
+} </code></pre>
+
+<!-- output section -->
+<div class="java-output">
+<h5 class="output-heading">Output</h5><hr>
+<pre><code>Enter the number :
+242
+242 is palindrome number  </code></pre>
+</div>
+                            </section>
+
+                            <hr class="mt-5">
+                            <!-- Program 5 -->
+                            <section class="ms-4 mt-5">
+                                <h5 class="notes-subheading" style="display: inline;">Program 4</h5>
+                                <p style="display: inline;">Wap to check whether the given number is prime or not.</p>
+                                
+<!-- program section -->
+<pre><code class="language-java">import java.util.Scanner;
+class PrimeNo
+{
+    public static void main(String args[])
+    {
+        Scanner s=new Scanner(System.in);
+        System.out.println("Enter the number : ");
+        int no=s.nextInt();
+        
+        int temp=0;
+        for(int i=2;i<=no-1;i++)
+        {
+            if(no%i==0)
+            {
+                temp=temp+1;
+            }
+        }
+        if(temp==0)
+        {
+            System.out.println(no+" is prime no");
+        }
+        else
+        {
+            System.out.println(no+" is not prime");
+        }
+    }
+} </code></pre>
+
+<!-- output section -->
+<div class="java-output">
+<h5 class="output-heading">Output</h5><hr>
+<pre><code>Enter the number :
+9
+9 is not prime</code></pre>
+</div>
+                            </section>
+
+                            <hr class="mt-5">
+                            <!-- Program 6 -->
+                            <section class="ms-4 mt-5">
+                                <h5 class="notes-subheading" style="display: inline;">Program 5</h5>
+                                <p style="display: inline;"> WAP To Create Calculator Using switch case In Java.</p>
+                                
+<!-- program section -->
+<pre><code class="language-java">import java.util.Scanner;
+class Test
+{
+    public static void main(String[] args)
+    {
+        String yn;
+        do
+        {
+            Scanner s=new Scanner(System.in);
+            System.out.println("Enter First No. ");
+            int no1=s.nextInt();
+            System.out.println("Enter Second No. ");
+            int no2=s.nextInt();
+            System.out.println("Select Symbol (+,-,*,/)");
+            String sym=s.next();
+            int res;
+            switch(sym)
+            {
+                case "+": res=no1+no2;
+                    System.out.println("Addition is : "+res);
+                    break;
+                case "-": res=no1-no2;
+                    System.out.println("Subtraction is : "+res);
+                    break;
+                case "*": res=no1*no2;
+                    System.out.println("Multiplication is : "+res);
+                    break;
+                case "/": res=no1/no2;
+                    System.out.println("Division is : "+res);
+                    break;
+                default : System.out.println("Invalid Symbol");
+                    break;
+            }
+            System.out.println("Do u want to continue (Press y for Yes and n for No)");
+            yn=s.next();
+        }while(yn.equals("y") || yn.equals("Y"));
+    }
+}</code></pre>
+
+<!-- output section -->
+<div class="java-output">
+<h5 class="output-heading">Output</h5><hr>
+<pre><code>Enter First No.
+5
+Enter Second No.
+5
+Select Symbol (+,-,*,/)
++
+Addition is : 10
+Do u want to continue (Press y for Yes and n for No)
+n</code></pre>
+</div>
+                            </section>
+
+                            <hr class="mt-5">
+                            <!-- Program 7 -->
+                            <section class="ms-4 mt-5">
+                                <h5 class="notes-subheading" style="display: inline;">Program 6</h5>
+                                <p style="display: inline;"> WAP to find Greater number between two number. </p>
+                                
+<!-- program section -->
+<pre><code class="language-java">class GreaterTwoNumbers
+{
+    public static void main(String[] args)
+    {
+        int a=100,b=20;
+        if(a>b)
+        {
+            System.out.println("a is greater");
+        }
+        else  
+        {
+            System.out.println("b is greater");
+        }
+    }
+} </code></pre>
+
+<!-- output section -->
+<div class="java-output">
+<h5 class="output-heading">Output</h5><hr>
+<pre><code> a is greater</code></pre>
+</div>
+                            </section>
+
+                            <hr class="mt-5">
+                            <!-- Program 8 -->
+                            <section class="ms-4 mt-5">
+                                <h5 class="notes-subheading" style="display: inline;">Program 7</h5>
+                                <p style="display: inline;">WAP to find the greater between three number.</p>
+                                
+<!-- program section -->
+<pre><code class="language-java">class GreaterThreeNumbers
+{
+    public static void main(String[] args)
+    {
+        int a=10000,b=200,c=30;
+        if(a>b)
+        {
+            if(a>c)
+            {
+                System.out.println("a is greater");
+            }
+            else
+            {
+                System.out.println("c is greater");	
+            }
+        }
+        else if(b>c)
+        {
+            System.out.println("b is greater");
+        }
+        else
+        {
+            System.out.println("c is greater");
+        }
+    }
+} </code></pre>
+
+<!-- output section -->
+<div class="java-output">
+<h5 class="output-heading">Output</h5><hr>
+<pre><code>a is greater</code></pre>
+</div>
+                            </section>
+
+                            <hr class="mt-5">
+                            <!-- Program 9 -->
+                            <section class="ms-4 mt-5">
+                                <h5 class="notes-subheading" style="display: inline;">Program 8</h5>
+                                <p style="display: inline;">WAP to find factorial of given number.</p>
+                                
+<!-- program section -->
+<pre><code class="language-java">import java.util.Scanner;
+
+class FactorialNo
+{
+    public static void main(String[] args)	
+    {  
+        Scanner s=new Scanner(System.in);
+		
+        System.out.println("enter the no");
+        int no=s.nextInt();
+        int fact=1;
+        for(int i=1;i<=no;i++)
+        {
+            fact=fact*i;
+        }
+        System.out.println("factorial of "+no+" is "+fact);
+    }
+} </code></pre>
+
+<!-- output section -->
+<div class="java-output">
+<h5 class="output-heading">Output</h5><hr>
+<pre><code>enter the no
+6
+factorial of 6 is 720</code></pre>
+</div>
+                            </section>
+
+                            <hr class="mt-5">
+                            <!-- Program 10 -->
+                            <section class="ms-4 mt-5">
+                                <h5 class="notes-subheading" style="display: inline;">Program 9</h5>
+                                <p style="display: inline;">WAP to find factorial using Recursive approach.</p>
+                                
+<!-- program section -->
+<pre><code class="language-java">import java.util.Scanner;
+
+class FactorialByRecursion
+{
+    static int fact=1;
+    public static void main(String args[])
+    {
+        Scanner s=new Scanner(System.in);
+        System.out.println("Enter the no : ");
+        int no=s.nextInt();
+        FactorialByRecursion ob=new FactorialByRecursion();
+        ob.calcFact(no);
+        System.out.println("factorial of "+no+" is "+fact);
+    }
+    void calcFact(int no)
+    {
+        if(no>=1)
+        {
+            fact=fact*no;
+            calcFact(no-1);
+        }
+    }
+} </code></pre>
+
+<!-- output section -->
+<div class="java-output">
+<h5 class="output-heading">Output</h5><hr>
+<pre><code>Enter the no
+6
+factorial of 6 is 720</code></pre>
+</div>
+                            </section>
+
+                            <hr class="mt-5">
+                            <!-- Program 11 -->
+                            <section class="ms-4 mt-5">
+                                <h5 class="notes-subheading" style="display: inline;">Program 10</h5>
+                                <p style="display: inline;">WAP to take user input using user.</p>
+                                
+<!-- program section -->
+<pre><code class="language-java">import java.util.Scanner;
+
+class UserInput
+{
+    public static void main(String[] args)
+    {
+        Scanner s=new Scanner(System.in);
+         
+        System.out.println("Enter your name : ");
+        String name=s.next();
+        
+        System.out.println("Enter Your Age : ");
+        int age=s.nextInt();
+        
+        System.out.println("Enter Your Gender : ");
+        char gender=s.next().charAt(0);
+        
+        System.out.println("Enter Your Phone No : ");
+        long phno=s.nextLong();	
+        System.out.println("-----------------------");	
+        System.out.println("Name : "+name);
+        System.out.println("Age : "+age);
+        System.out.println("Gender : "+gender);
+        System.out.println("Phone No. : "+phno);
+    }
+} </code></pre>
+
+<!-- output section -->
+<div class="java-output">
+<h5 class="output-heading">Output</h5><hr>
+<pre><code>Enter your name :
+vinay
+Enter Your Age :
+18
+Enter Your Gender :
+male
+Enter Your Phone No :
+987654321
+-----------------------
+
+Name : vinay
+Age : 18
+Gender : m
+Phone No. : 987654321</code></pre>
+</div>
+                            </section>
+
+                            <hr class="mt-5">
+                            <!-- Program 12 -->
+                            <section class="ms-4 mt-5">
+                                <h5 class="notes-subheading" style="display: inline;">Program 11</h5>
+                                <p style="display: inline;"> WAP To Print All Prime Numbers between 1 to 100 in Java</p>
+                                
+<!-- program section -->
+<pre><code class="language-java">class PrimeNumbersList
+{
+    public static void main(String args[])
+    {
+        int temp=0;
+        for(int no=2;no<=100;no++)
+        {
+            for(int i=2;i<=no-1;i++)
+            {
+                if(no%i==0)
+                {
+                    temp=temp+1;
+                }
+            }
+            if(temp==0)
+            {
+                System.out.println(no);
+            }
+            else
+            {
+                temp=0;
+            }
+        }
+    }
+} </code></pre>
+
+<!-- output section -->
+<div class="java-output">
+<h5 class="output-heading">Output</h5><hr>
+<pre><code>1
+2
+3
+5
+7
+11
+13
+17
+19
+23
+29
+31
+37
+41
+43
+47
+53
+59
+61
+67
+71
+73
+79
+83
+89
+97</code></pre>
+</div>
+                            </section>
+
+                            <hr class="mt-5">
+                            <!-- Program 13 -->
+                            <section class="ms-4 mt-5">
+                                <h5 class="notes-subheading" style="display: inline;">Program 12</h5>
+                                <p style="display: inline;"> WAP To Print Fibonacci Series in Java</p>
+                                
+<!-- program section -->
+<pre><code class="language-java">class FibonacciSeries
+{
+    public static void main(String args[])
+    {
+        int a=0,b=1;
+        System.out.print(a+" "+b);
+        int c;
+        for(int i=1;i<=15;i++)
+        {
+            c=a+b;
+            System.out.print(" "+c);
+            a=b;
+            b=c;
+        }
+    }
+} </code></pre>
+
+<!-- output section -->
+<div class="java-output">
+<h5 class="output-heading">Output</h5><hr>
+<pre><code> 0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987</code></pre>
+</div>
+                            </section>
+
+                            <hr class="mt-5">
+                            <!-- Program 14 -->
+                            <section class="ms-4 mt-5">
+                                <h5 class="notes-subheading" style="display: inline;">Program 13</h5>
+                                <p style="display: inline;"> WAP To Print Fibonacci Series Using Recursion in Java</p>
+                                
+<!-- program section -->
+<pre><code class="language-java">class FibonacciSeriesUsingRec
+{
+    static int a=0,b=1,c;
+    public static void main(String args[])
+    {
+        System.out.print(a+" "+b);
+        FibonacciSeriesUsingRec ob=new FibonacciSeriesUsingRec();
+        ob.printFib(15);
+    }
+    void printFib(int i)
+    {
+        if(i>=1)
+        {
+            c=a+b;
+            System.out.print(" "+c);
+            a=b;
+            b=c;
+            printFib(i-1);
+        }
+    }
+} </code></pre>
+
+<!-- output section -->
+<div class="java-output">
+<h5 class="output-heading">Output</h5><hr>
+<pre><code> 0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987</code></pre>
+</div>
+                            </section>
+
+                            <hr class="mt-5">
+                            <!-- Program 15 -->
+                            <section class="ms-4 mt-5">
+                                <h5 class="notes-subheading" style="display: inline;">Program 14</h5>
+                                <p style="display: inline;"> WAP To Print Multiplication Table in Java</p>
+                                
+<!-- program section -->
+<pre><code class="language-java">import java.util.Scanner;
+class Test
+{
+    public static void main(String[] args)
+    {
+        Scanner s=new Scanner(System.in);
+	
+        System.out.println("Enter the number you want to print table");
+	
+        int no=s.nextInt();
+	  
+        for(int i=1;i<=10;i++)
+        {
+            System.out.println(no+" * "+i+" = "+no*i);
+        }	
+    }
+} </code></pre>
+
+<!-- output section -->
+<div class="java-output">
+<h5 class="output-heading">Output</h5><hr>
+<pre><code>Enter the number you want to print table
+2
+2 * 1 = 2
+2 * 2 = 4
+2 * 3 = 6
+2 * 4 = 8
+2 * 5 = 10
+2 * 6 = 12
+2 * 7 = 14
+2 * 8 = 16
+2 * 9 = 18
+2 * 10 = 20  </code></pre>
+</div>
+                            </section>
+
+
+                            <hr class="mt-5">
+                            <!-- Program 16 -->
+                            <section class="ms-4 mt-5">
+                                <h5 class="notes-subheading" style="display: inline;">Program 15</h5>
+                                <p style="display: inline;"> WAP To Reverse a Number in Java</p>
+                                
+<!-- program section -->
+<pre><code class="language-java">class ReverseANumber
+{
+    public static void main(String args[])
+    {
+        int no=543289, rem, rev=0;
+        while(no != 0)
+        {
+            rem=no%10;
+            rev=rev*10+rem;
+            no=no/10;
+        }
+        System.out.println(rev);
+    }
+}    </code></pre>
+
+<!-- output section -->
+<div class="java-output">
+<h5 class="output-heading">Output</h5><hr>
+<pre><code> 982345</code></pre>
+</div>
+                            </section>
+
+
+                            <hr class="mt-5">
+                            <!-- Program 17 -->
+                            <section class="ms-4 mt-5">
+                                <h5 class="notes-subheading" style="display: inline;">Program 16</h5>
+                                <p style="display: inline;"> WAP To Reverse A String in Java</p>
+                                
+<!-- program section -->
+<pre><code class="language-java">class ReverseAString
+{
+    public static void main(String args[])
+    {
+        String name="vinay";
+        int leng=name.length();
+        String rev="";
+        for(int i=leng-1; i>=0; i--)
+        {
+            rev=rev+name.charAt(i);
+        }
+        System.out.println("Reverse of  "+name+" is "+rev);
+    } 
+}</code></pre>
+
+<!-- output section -->
+<div class="java-output">
+<h5 class="output-heading">Output</h5><hr>
+<pre><code> Reverse of vinay is yaniv</code></pre>
+</div>
+                            </section>
+
+
+                            <hr class="mt-5">
+                            <!-- Program 18 -->
+                            <section class="ms-4 mt-5">
+                                <h5 class="notes-subheading" style="display: inline;">Program 17</h5>
+                                <p style="display: inline;"> WAP To Swap Two Numbers Using Third Variable in Java</p>
+                                
+<!-- program section -->
+<pre><code class="language-java">class Test
+{
+    public static void main(String[] args)
+    {
+        int a=10,b=20;
+	
+        int t;
+        t=a;
+        a=b;
+        b=t;
+
+        System.out.println("a : "+a);
+        System.out.println("b : "+b);
+    }
+} </code></pre>
+
+<!-- output section -->
+<div class="java-output">
+<h5 class="output-heading">Output</h5><hr>
+<pre><code>a : 20
+b : 10  </code></pre>
+</div>
+                            </section>
+
+
+                            <hr class="mt-5">
+                            <!-- Program 19 -->
+                            <section class="ms-4 mt-5">
+                                <h5 class="notes-subheading" style="display: inline;">Program 18</h5>
+                                <p style="display: inline;"> WAP To Swap Two Numbers Without using third Variable in Java </p>
+                                
+<!-- program section -->
+<pre><code class="language-java">class Test
+{
+    public static void main(String[] args)
+    {
+        int a=10,b=20;
+
+        a=a+b;
+        b=a-b;
+        a=a-b;
+
+        System.out.println("a : "+a);
+        System.out.println("b : "+b);
+    }
+} </code></pre>
+
+<!-- output section -->
+<div class="java-output">
+<h5 class="output-heading">Output</h5><hr>
+<pre><code>a : 20
+b : 10  </code></pre>
+</div>
+                            </section>
+
+
+
+                        </section>
+                    </section>
+                    
+                </div>
+            </div>
+
+            <!-- Button COde -->
+            <div class="row my-4">
+                <div class="col-6 d-flex justify-content-start">
+                    <button class="btn btn-warning"> <i class="bi bi-arrow-left-short"></i> Previous
+                        Topic</button>
+                </div>
+                <div class="col-6 d-flex justify-content-end">
+                    <button class="btn btn-success">Next Topic <i class="bi bi-arrow-right-short"></i></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-2 col-12 bg-secondary">this is for
+            advertisement</div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer mt-4">
+        <div class="container">
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <h5 class="text-white">Menus</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="footer-link">Home</a></li>
+                        <li>
+                            <a href="free-courses-by-smart-programming.html" class="footer-link">Free Courses</a>
+                        </li>
+                        <li>
+                            <a href="premium-courses-by-smart-programming.html" class="footer-link">Premium Courses</a>
+                        </li>
+                        <li>
+                            <a href="trainings-by-smart-programming.html" class="footer-link">Trainings</a>
+                        </li>
+                        <li>
+                            <a href="development-by-smart-programming.html" class="footer-link">Development</a>
+                        </li>
+                        <li>
+                            <a href="contact-smart-programming.html" class="footer-link">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-8">
+                    <h5 class="text-white">
+                        Useful links for Industrial Training in Chandigarh
+                    </h5>
+                    <div class="row">
+                        <div class="col-md-6 col-12">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="core-java-free-course-by-deepak-smart-programming.html"
+                                        class="footer-link">Core Java Free
+                                        Course</a>
+                                </li>
+                                <li>
+                                    <a href="advance-java-free-course-by-deepak-smart-programming.html"
+                                        class="footer-link">Advance Java
+                                        Free Course</a>
+                                </li>
+                                <li>
+                                    <a href="spring-framework-free-course-by-deepak-smart-programming.html"
+                                        class="footer-link">Spring Framework
+                                        Free Course</a>
+                                </li>
+                                <li>
+                                    <a href="springboot-framework-free-course-by-deepak-smart-programming.html"
+                                        class="footer-link">Springboot Free
+                                        Course</a>
+                                </li>
+                                <li>
+                                    <a href="android-free-course-by-deepak-smart-programming.html"
+                                        class="footer-link">Android Free
+                                        Course</a>
+                                </li>
+                                <li>
+                                    <a href="java-logical-questions-free-course-by-deepak-smart-programming.html"
+                                        class="footer-link">Java Logical
+                                        Questioning Free Course</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="https://courses.smartprogramming.in/learn/Core-Java-With-5-Projects"
+                                        target="_blank" class="footer-link">Core Java
+                                        Premium Course</a>
+                                </li>
+                                <li>
+                                    <a href="https://courses.smartprogramming.in/learn/Advance-Java" target="_blank"
+                                        class="footer-link">Advance Java
+                                        Premium Course</a>
+                                </li>
+                                <li>
+                                    <a href="https://courses.smartprogramming.in/learn/Spring-Framework" target="_blank"
+                                        class="footer-link">Spring Framework
+                                        Premium Course</a>
+                                </li>
+                                <li>
+                                    <a href="https://courses.smartprogramming.in/learn/Spring-Boot-Framework"
+                                        target="_blank" class="footer-link">Springboot
+                                        Premium Course</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center mt-5">
+                <div class="col-md-8">
+                    <footer>
+                        <p>
+                            &copy; 2024 Smart Programming, Chandigarh. All
+                            Rights Reserved.
+                            <br />
+                            <a href="privacy-policy.html" class="footer-link">Privacy Policy</a>
+                            &nbsp; | &nbsp;
+                            <a href="terms-of-service.html" class="footer-link">Terms Of Services</a>
+                            &nbsp; | &nbsp;
+                            <a href="cancellation-refund-policy.html" class="footer-link">Cancellation/Refund
+                                Policy</a>
+                        </p>
+                    </footer>
+                </div>
+                <div class="col-md-4">
+                    <div class="social-icons">
+                        <a href="https://www.youtube.com/c/SmartProgramming" target="_blank"
+                            class="me-2 text-decoration-none">
+                            <i class="bi bi-youtube"></i>
+                        </a>
+                        <a href="https://www.facebook.com/smartprogramming.india" target="_blank"
+                            class="me-2 text-decoration-none">
+                            <i class="bi bi-facebook"></i></a>
+                        <a href="https://www.instagram.com/smart_programming/" target="_blank"
+                            class="me-2 text-decoration-none">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="https://t.me/smart_programming_deepak" target="_blank"
+                            class="me-2 text-decoration-none">
+                            <i class="bi bi-telegram"></i>
+                        </a>
+                        <a href="https://discord.gg/Up9dQ3gP6k" target="_blank" class="me-2 text-decoration-none">
+                            <i class="bi bi-discord"></i>
+                        </a>
+                        <a href="https://whatsapp.com/channel/0029Va6n2Gs42Dckpa2T1U1i" target="_blank"
+                            class="me-2 text-decoration-none">
+                            <i class="bi bi-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document
+            .getElementById("notes-hamburger-btn")
+            .addEventListener("click", function () {
+                document.getElementById("notes-sidebar").classList.toggle("active");
+            });
+
+        document
+            .getElementById("notes-sidebar-close-btn")
+            .addEventListener("click", function () {
+                document.getElementById("notes-sidebar").classList.remove("active");
+            });
+    </script>
+
+    <!-- Prism.js for Syntax Highlighting -->
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/prism.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/components/prism-java.min.js"></script>
+</body>
+
+</html>

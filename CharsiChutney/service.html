@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Website Character Encoding -->
+    <meta charset="UTF-8">
+
+    <!-- Device Compartability meta tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Tab Title -->
+    <title>Service</title>
+
+    <!-- My Custom CSS Stylesheet link -->
+    <link rel="stylesheet" href="css/mystyle.css">
+
+    <!-- Bootstrap API CDN Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Bootstrap Icon CDN Link  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Google Material Icon CDN Link -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <!-- Three.js cdn link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://threejs.org/examples/js/loaders/OBJLoader.js"></script>
+
+
+    <!-- font section -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Google Font API CDN link -->
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <!-- Google Font Link -->
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300&family=Satisfy&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Kalam:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inconsolata:wdth,wght@125,200..900&family=Nova+Mono&display=swap"
+        rel="stylesheet">
+    <!-- Css Predefined animation library {Animate.style} -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+
+
+
+
+
+    <!---------------------------------------------------------------------------------- This is Script Section  -->
+    <script src="https://cdn.jsdelivr.net/npm/uiverse-js@latest/dist/uiverse.js">
+    </script> <!-- Example link, verify with Universe.io documentation -->
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/8.0.0/mdb.umd.min.js">
+    </script>
+
+    <script src="https://cdn.universe.io/path/to/script.js">
+    </script>
+
+
+    <!-- Java Script Link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+
+
+</head>
+
+<body>
+    <!-- nave bar and its content -->
+    <section class="mb-5">
+        <div class="container-fluid backgroundImage6">
+
+            <!-- Nav bar -->
+            <nav class="navbar navbar-expand-lg text-uppercase elementHover fixed-top bg-black shadow p-0 m-0"
+                style="height: 3rem;">
+                <div class="container-fluid">
+
+                    <!-- Logo Section -->
+                    <div class="col-4 text-start">
+                        <a class="navbar-brand " href="/index.html">
+                            <img src="img/logo/lgo.png" alt="image cannot be load" width="50px" class="mt-1">
+                        </a>
+                    </div>
+
+                    <!-- Content Section -->
+                    <div class="col-8">
+                        <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu" aria-label="Toggle navigation"
+                            style="margin-top: -.4rem;
+                                       float: right;">
+
+                            <div class="nav-button">
+                                <span class="nav-span">
+                                    <i class=" fw-bold">Menu</i>
+
+                                </span>
+                            </div>
+                        </button>
+
+
+                        <div class="collapse navbar-collapse">
+                            <div class="navbar-nav">
+                                <ul class="navbar-nav ">
+                                    <li class="nav-item nav-element-hover">
+                                        <a class="nav-link active text-white" aria-current="page"
+                                            href="/index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item nav-element-hover">
+                                        <a class="nav-link text-white" href="/aboutus.html">About</a>
+                                    </li>
+                                    <li class="nav-item nav-element-hover">
+                                        <a class="nav-link text-white" href="/service.html">Service </a>
+                                    </li>
+
+                                    <li class="nav-item nav-element-hover">
+                                        <a class="nav-link text-white" href="/menu.html">Food Menu</a>
+                                    </li>
+                                    <li class="nav-item dropdown nav-element-hover">
+                                        <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            More option
+                                        </a>
+                                        <ul class="dropdown-menu text-white">
+                                            <li><a class="dropdown-item" href="/our team.html">Our Team</a></li>
+                                            <li><a class="dropdown-item" href="/testimonials.html">Testimonials</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item nav-element-hover">
+                                        <a class="nav-link text-white" href="/contactus.html">Contact</a>
+                                    </li>
+
+                                    <li class="nav-item ms-5">
+                                        <button class="nav-button">
+                                            <a href="/booking.html"><span class="nav-span">Book A Table</span> </a>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Offcanvas Nav bar menu -->
+            <div class="offcanvas offcanvas-start bg-light " tabindex="-2" id="offcanvasMenu"
+                aria-labelledby="offcanvasMenuLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasMenuLabel">Menu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="navbar-nav">
+                        <ul class="navbar-nav ">
+                            <li class="nav-item nav-element-hover">
+                                <a class="nav-link active p-2 m-2" aria-current="page" href="/index.html">Home</a>
+                            </li>
+                            <li class="nav-item nav-element-hover">
+                                <a class="nav-link p-2 m-2" href="/aboutus.html">About</a>
+                            </li>
+                            <li class="nav-item nav-element-hover">
+                                <a class="nav-link p-2 m-2" href="/service.html">Service </a>
+                            </li>
+
+                            <li class="nav-item nav-element-hover">
+                                <a class="nav-link p-2 m-2" href="/menu.html">Food Menu</a>
+                            </li>
+                            <li class="nav-item dropdown nav-element-hover">
+                                <a class="nav-link dropdown-toggle p-2 m-2" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    More option
+                                </a>
+                                <ul class="dropdown-menu p-2 m-2">
+                                    <li><a class="dropdown-item" href="/our team.html">Our Team</a></li>
+                                    <li><a class="dropdown-item" href="/testimonials.html">Testimonials</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item nav-element-hover">
+                                <a class="nav-link p-2 m-2" href="/contactus.html">Contact</a>
+                            </li>
+
+                            <li class="nav-item ms-1">
+                                <button class="nav-button">
+                                    <a href="/booking.html"><span class="nav-span">Book A Table</span> </a>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main Banner Content -->
+            <div class="container">
+                <div class="d-flex justify-content-center">
+                    <h1 class="animate__animated animate__zoomInDown dancing-script-2" style="margin-top: 15rem;">Check
+                        our <i class="text-white">Food Service</i> Section !</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Card Section -->
+    <section class="container-fluid backgroundImage5 ">
+        <div class="container">
+            <div class="container">
+                <div class="row justify-content-center">
+
+                    <div class="detail_box col-xs col-sm-12 col-md-12 col-lg-5 col-xl-3 mb-5 mt-3">
+                        <div class="d-2 m-2lex flex-column bd-highlight mb-3">
+                            <div class="p-2 bd-highlight">
+                                <img src="/img/icons/welcome.png" alt="Loading Error" width="50px">
+                            </div>
+                            <div class="p-2 bd-highlight">
+                                <h4 class="heading_color">Welcome to Charsi Chutney</h4>
+                                <p class="sub_font_color">At Charsi Chutney, we pride ourselves on serving delicious,
+                                    affordable pizzas crafted with the freshest ingredients. Every bite is a celebration
+                                    of flavors that brings friends and family together.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="detail_box col-xs col-sm-12 col-md-12 col-lg-5 col-xl-3 mb-5 mt-3">
+                        <div class="d-2 m-2lex flex-column bd-highlight mb-3">
+                            <div class="p-2 bd-highlight">
+                                <img src="/img/icons/chef-hat.png" alt="Loading Error" width="70px">
+                            </div>
+                            <div class="p-2 bd-highlight">
+                                <h4 class="heading_color">Master Chefs</h4>
+                                <p class="sub_font_color">At CHARSI CHUTNEY, our Master Chefs are dedicated to crafting
+                                    exquisite 100% vegetarian dishes that delight the senses. Experience culinary
+                                    artistry that turns every meal into a memorable occasion.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="detail_box col-xs col-sm-12 col-md-12 col-lg-5 col-xl-3 mb-5 mt-3">
+                        <div class="p-2 m-2 bd-highlight">
+                            <img src="/img/icons/lunch.gif" alt="Loading Error" width="50px">
+
+                        </div>
+                        <div class="p-2 bd-highlight">
+                            <h4 class="heading_color">Quality Food at Your Fingertips</h4>
+                            <p class="sub_font_color">We believe that great food starts with the best ingredients. Our
+                                menu features carefully curated dishes made from fresh, high-quality produce, ensuring
+                                that every bite is bursting with flavor and nutrition.</p>
+                        </div>
+                    </div>
+
+                    <div class="detail_box col-xs col-sm-12 col-md-12 col-lg-5 col-xl-3 mb-5 ">
+                        <div class="p-2 m-2 bd-highlight">
+                            <img src="/img/icons/affordable.png" alt="Loading Error" width="70px">
+
+                        </div>
+                        <div class="p-2 bd-highlight">
+                            <h4 class="heading_color">Affordable Indulgence</h4>
+                            <p class="sub_font_color">Great taste doesn’t have to break the bank! Our menu offers a
+                                variety of mouthwatering pizzas at prices that everyone can enjoy. Satisfy your cravings
+                                without compromise.</p>
+                        </div>
+                    </div>
+
+                    <div class="detail_box col-xs col-sm-12 col-md-12 col-lg-5 col-xl-3 mb-5 ">
+                        <div class="p-2 m-2 bd-highlight">
+                            <img src="/img/icons/availability.png" alt="Loading Error" width="50px">
+
+                        </div>
+                        <div class="p-2 bd-highlight">
+                            <h4 class="heading_color">Order Anytime, Enjoy Everywhere</h4>
+                            <p class="sub_font_color"><i>Craving a slice of happiness? </i> &nbsp;With our 24/7 online
+                                ordering system, you can satisfy your cravings whenever they strike. Whether it's
+                                breakfast, lunch, or a midnight snack, deliciousness is just a click away, anytime and
+                                anywhere!</p>
+                        </div>
+                    </div>
+
+                    <div class="detail_box col-xs col-sm-12 col-md-12 col-lg-5 col-xl-3 mb-5 ">
+                        <div class="p-2 m-2 bd-highlight">
+                            <img src="/img/icons/speed service.png" alt="Loading Error" width="80px">
+
+                        </div>
+                        <div class="p-2 bd-highlight">
+                            <h4 class="heading_color">Speedy Service, Always</h4>
+                            <p class="sub_font_color">Time is precious, and so is your appetite. Our commitment to
+                                speedy service means you’ll enjoy fast delivery without compromising on the quality or
+                                taste of your favorite dishes. Your satisfaction is our priority!</p>
+                        </div>
+                    </div>
+
+                    <div class="detail_box col-xs col-sm-12 col-md-12 col-lg-5 col-xl-3 mb-5 ">
+                        <div class="p-2 m-2 bd-highlight">
+                            <img src="/img/icons/veg.png" alt="Loading Error" width="50px">
+
+                        </div>
+                        <div class="p-2 bd-highlight">
+                            <h4 class="heading_color">Join the Veggie Revolution!</h4>
+                            <p class="sub_font_color">Embark on a flavorful journey with our vibrant menu of plant-based
+                                delights. Each dish is a celebration of fresh ingredients, innovative recipes, and a
+                                commitment to health, proving that vegetarian food can be exciting and delicious.</p>
+                        </div>
+                    </div>
+
+                    <div class="detail_box col-xs col-sm-12 col-md-12 col-lg-5 col-xl-3 mb-5 ">
+                        <div class="p-2 m-2 bd-highlight">
+                            <img src="/img/icons/table.png" alt="Loading Error" width="60px">
+
+                        </div>
+                        <div class="p-2 bd-highlight">
+                            <h4 class="heading_color">Private Space for Special Moments</h4>
+                            <p class="sub_font_color">Whether it’s a family gathering or a celebration with friends, our
+                                cozy private space is perfect for making memories. Enjoy your time together in a warm,
+                                inviting atmosphere designed for comfort.</p>
+                        </div>
+                    </div>
+
+                    <div class="detail_box col-xs col-sm-12 col-md-12 col-lg-5 col-xl-3 mb-5 ">
+                        <div class="p-2 m-2 bd-highlight">
+                            <img src="/img/icons/join.png" alt="Loading Error" width="70px">
+
+                        </div>
+                        <div class="p-2 bd-highlight">
+                            <h4 class="heading_color">Join the Charsi Chutney Family</h4>
+                            <p class="sub_font_color">Experience the joy of exceptional pizza and community spirit at
+                                Charsi Chutney. We invite you to explore our menu and discover why we’re your go-to
+                                destination for affordable, flavorful meals!</p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Website Footer Section -->
+    <section class="container-fluid  backgroundImage4 footer-color">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-lg-3 mt-3">
+                    <!-- Column 1 -->
+                    <div class="d-flex flex-column align-items-start">
+                        <!-- Element -->
+                        <div class="p-2">
+                            <h4 class="pacifico-regular3">Company</h3>
+                        </div>
+                        
+                        <div class="p-2 merienda-regular">
+                            <i class="bi bi-caret-right-fill footer-icon-color"></i>
+                            <a class="no-style" href="/aboutus.html">About Us</a> 
+                        </div>
+                        
+                        <div class="p-2 merienda-regular">
+                            <i class="bi bi-caret-right-fill footer-icon-color"></i>
+                            <a class="no-style" href="/contactus.html">Contact US</a> 
+                        </div>
+                        
+                        <div class="p-2 merienda-regular">
+                            <i class="bi bi-caret-right-fill footer-icon-color"></i>
+                            <a class="no-style"  href="/booking.html">Reservation</a> 
+                        </div>
+                        
+                        <div class="p-2 merienda-regular">
+                            <i class="bi bi-caret-right-fill footer-icon-color"></i>
+                            <a class="no-style" href="#">Privacy Policy</a>
+                            
+                        </div>
+                        
+                        <div class="p-2 merienda-regular">
+                            <i class="bi bi-caret-right-fill footer-icon-color"></i> 
+                            <a class="no-style" href="#">Terms & Condition</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 col-lg-3  mt-3">
+                    <!-- Column 1 -->
+                    <div class="d-flex flex-column align-items-start">
+                        <!-- Element -->
+                        <div class="p-2">
+                            <h4 class="pacifico-regular3">Contact</h3>
+                        </div>
+                        <div class="p-2 merienda-regular"><i class="bi bi-geo-alt-fill footer-icon-color"></i> 123
+                            Street, New York, USA</div>
+                        <div class="p-2 merienda-regular"><i class="bi bi-telephone-fill footer-icon-color"></i> +012
+                            345 67890</div>
+                        <div class="p-2 merienda-regular"><i class="bi bi-envelope-at-fill footer-icon-color"></i>
+                            info@example.com</div>
+                        <div class="p-2 merienda-regular "> <i class="bi bi-twitter footer-icon-color"></i> <i
+                                class="bi bi-facebook p-2 footer-icon-color"></i> <i
+                                class="bi bi-youtube p-2 footer-icon-color"></i> <i
+                                class="bi bi-linkedin p-2 footer-icon-color"></i></div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 col-lg-3 mt-3">
+                    <!-- Column 1 -->
+                    <div class="d-flex flex-column align-items-start">
+                        <!-- Element -->
+                        <div class="p-2">
+                            <h4 class="pacifico-regular3">Opening</h3>
+                        </div>
+                        <div class="p-2 merienda-regular"> Monday - Saturday</div>
+                        <div class="p-2 merienda-regular footer-icon-color"> 09AM - 09PM</div>
+                        <div class="p-2 merienda-regular"> Sunday</div>
+                        <div class="p-2 merienda-regular footer-icon-color"> 10AM - 08PM</div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 col-lg-3 mt-3">
+                    <!-- Column 1 -->
+                    <div class="d-flex flex-column align-items-start">
+                        <!-- Element -->
+                        <div class="p-2">
+                            <h4 class="pacifico-regular3">Newsletter</h3>
+                        </div>
+                        <div class="p-2 merienda-regular"> Dolor amet sit justo amet elitr clita ipsum elitr est.</div>
+                        <div class="p-2 merienda-regular">
+                            <div class="input-wrapper">
+                                <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <g data-name="Layer 2">
+                                        <g data-name="inbox">
+                                            <rect width="24" height="24" transform="rotate(180 12 12)" opacity="0">
+                                            </rect>
+                                            <path
+                                                d="M20.79 11.34l-3.34-6.68A3 3 0 0 0 14.76 3H9.24a3 3 0 0 0-2.69 1.66l-3.34 6.68a2 2 0 0 0-.21.9V18a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3v-5.76a2 2 0 0 0-.21-.9zM8.34 5.55a1 1 0 0 1 .9-.55h5.52a1 1 0 0 1 .9.55L18.38 11H16a1 1 0 0 0-1 1v2a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1v-2a1 1 0 0 0-1-1H5.62z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                </svg>
+                                <input type="text" name="text" class="input" placeholder="info@gmail.com" />
+
+                                <button class="Subscribe-btn p-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="10" viewBox="0 0 38 15"
+                                        class="arrow">
+                                        <path
+                                            d="M10 7.519l-.939-.344h0l.939.344zm14.386-1.205l-.981-.192.981.192zm1.276 5.509l.537.843.148-.094.107-.139-.792-.611zm4.819-4.304l-.385-.923h0l.385.923zm7.227.707a1 1 0 0 0 0-1.414L31.343.448a1 1 0 0 0-1.414 0 1 1 0 0 0 0 1.414l5.657 5.657-5.657 5.657a1 1 0 0 0 1.414 1.414l6.364-6.364zM1 7.519l.554.833.029-.019.094-.061.361-.23 1.277-.77c1.054-.609 2.397-1.32 3.629-1.787.617-.234 1.17-.392 1.623-.455.477-.066.707-.008.788.034.025.013.031.021.039.034a.56.56 0 0 1 .058.235c.029.327-.047.906-.39 1.842l1.878.689c.383-1.044.571-1.949.505-2.705-.072-.815-.45-1.493-1.16-1.865-.627-.329-1.358-.332-1.993-.244-.659.092-1.367.305-2.056.566-1.381.523-2.833 1.297-3.921 1.925l-1.341.808-.385.245-.104.068-.028.018c-.011.007-.011.007.543.84zm8.061-.344c-.198.54-.328 1.038-.36 1.484-.032.441.024.94.325 1.364.319.45.786.64 1.21.697.403.054.824-.001 1.21-.09.775-.179 1.694-.566 2.633-1.014l3.023-1.554c2.115-1.122 4.107-2.168 5.476-2.524.329-.086.573-.117.742-.115s.195.038.161.014c-.15-.105.085-.139-.076.685l1.963.384c.192-.98.152-2.083-.74-2.707-.405-.283-.868-.37-1.28-.376s-.849.069-1.274.179c-1.65.43-3.888 1.621-5.909 2.693l-2.948 1.517c-.92.439-1.673.743-2.221.87-.276.064-.429.065-.492.057-.043-.006.066.003.155.127.07.099.024.131.038-.063.014-.187.078-.49.243-.94l-1.878-.689zm14.343-1.053c-.361 1.844-.474 3.185-.413 4.161.059.95.294 1.72.811 2.215.567.544 1.242.546 1.664.459a2.34 2.34 0 0 0 .502-.167l.15-.076.049-.028.018-.011c.013-.008.013-.008-.524-.852l-.536-.844.019-.012c-.038.018-.064.027-.084.032-.037.008.053-.013.125.056.021.02-.151-.135-.198-.895-.046-.734.034-1.887.38-3.652l-1.963-.384zm2.257 5.701l.791.611.024-.031.08-.101.311-.377 1.093-1.213c.922-.954 2.005-1.894 2.904-2.27l-.771-1.846c-1.31.547-2.637 1.758-3.572 2.725l-1.184 1.314-.341.414-.093.117-.025.032c-.01.013-.01.013.781.624zm5.204-3.381c.989-.413 1.791-.42 2.697-.307.871.108 2.083.385 3.437.385v-2c-1.197 0-2.041-.226-3.19-.369-1.114-.139-2.297-.146-3.715.447l.771 1.846z">
+                                        </path>
+                                    </svg>
+                                    Submit
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>

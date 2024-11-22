@@ -1,0 +1,1257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="description"
+        content="Verify Students enrollments from Smart Programming. Students purchased premium courses or online and industrial trainings can verify their details by HR or Deepak Sir." />
+    <meta name="keywords"
+        content="verify students, enrollments, seminars, workshops, development, campus, placements, colleges, online classes, industrial training, free courses, premium courses, industrial trainings, chandigarh, mohali, internships" />
+
+    <title>Java Introduction</title>
+
+    <link rel="icon" href="images/favicon.png" type="image/png" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/themes/prism.min.css" rel="stylesheet"> -->
+    <link href="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/themes/prism-tomorrow.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-4 d-flex justify-content-center justify-content-md-start">
+                    <div class="social-icons">
+                        <a href="https://www.youtube.com/c/SmartProgramming" target="_blank" class="me-2">
+                            <i class="bi bi-youtube"></i>
+                        </a>
+                        <a href="https://www.facebook.com/smartprogramming.india" target="_blank" class="me-2">
+                            <i class="bi bi-facebook"></i></a>
+                        <a href="https://www.instagram.com/smart_programming/" target="_blank" class="me-2">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="https://t.me/smart_programming_deepak" target="_blank" class="me-2">
+                            <i class="bi bi-telegram"></i>
+                        </a>
+                        <a href="https://discord.gg/Up9dQ3gP6k" target="_blank" class="me-2">
+                            <i class="bi bi-discord"></i>
+                        </a>
+                        <a href="https://whatsapp.com/channel/0029Va6n2Gs42Dckpa2T1U1i" target="_blank" class="me-2">
+                            <i class="bi bi-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 d-flex justify-content-center my-2 my-md-0">
+                    <div class="phone-numbers text-center text-md-start">
+                        <a href="tel:+919888755565">+91 98887-55565</a>
+                        <span class="mx-2">||</span>
+                        <a href="tel:+916283830308">+91 62838-30308</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 d-flex justify-content-center justify-content-md-end">
+                    <div class="auth-links text-center text-md-end">
+                        <a href="https://courses.smartprogramming.in/learn/account/signin" target="_blank"
+                            class="me-2">Login</a>
+                        <a href="https://courses.smartprogramming.in/learn/account/signup" target="_blank">Register</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+        <div class="container">
+            <button class="btn btn-primary" id="notes-hamburger-btn">
+                <i class="bi bi-list text-white"></i>
+            </button>
+            <a class="navbar-brand" href="index.html">
+                <h3 class="text-white">Smart Programming</h3>
+            </a>
+            <div class="col-12 col-md-6 d-flex justify-content-center my-2 my-md-0">
+                <div class="auth-links text-center text-md-end">
+                    <a href="#" class="me-5 notes-header-navlinks">Courses</a>
+                    <a href="#" class="notes-header-navlinks">Tutorials</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="row">
+
+        <div class="col-lg-3 col-12">
+            <!-- left side navbar -->
+            <nav class="notes-sidebar pb-5" id="notes-sidebar">
+                <button class="btn-close notes-sidebar-closeBtn" id="notes-sidebar-close-btn"
+                    aria-label="Close"></button>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="java-introduction-by-deepak-smart-programming.html">
+                            <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Java Introduction </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="data-types-in-java-by-deepak-smart-programming.html">
+                            <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Programming Language Terminologies
+                        </a>
+                        <ul class="nav flex-column ms-3 mb-3">
+                            <li class="nav-item">
+                                <a class="nav-link" href="data-types-in-java-by-deepak-smart-programming.html">&nbsp;
+                                    <i class="bi bi-arrow-right"></i>
+                                    &nbsp; Data Types</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">&nbsp; <i class="bi bi-arrow-right"></i>
+                                    &nbsp; Variables
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">&nbsp; <i class="bi bi-arrow-right"></i>
+                                    &nbsp; Literals
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">&nbsp; <i class="bi bi-arrow-right"></i>
+                                    &nbsp; Operators
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">&nbsp; <i class="bi bi-arrow-right"></i>
+                                    &nbsp; Keywords
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">&nbsp; <i class="bi bi-arrow-right"></i>
+                                    &nbsp; Identifiers
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">&nbsp; <i class="bi bi-arrow-right"></i>
+                                    &nbsp; Constants
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">&nbsp; <i class="bi bi-arrow-right"></i>
+                                    &nbsp; Interview
+                                    Questions</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Control
+                            Statements </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; OOP's
+                            Concepts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Java
+                            Reflection API</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Exception
+                            Handling</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Strings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; File Input /
+                            Output </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp;
+                            Multithreading</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Arrays</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp;
+                            Collections</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Core Java
+                            Advance Concepts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Java 8
+                            Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Java 9
+                            Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Java 10
+                            Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Java 11
+                            Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Java 12
+                            Features</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="col-lg-7 col-12">
+            <div class="notes-content">
+                <div class="notes-div">
+
+                    <h3 class="text-center"> Conditional Statements</h3>
+                    <hr />
+
+                    <section>
+                        <h4 class="notes-heading"><i class="bi bi-brightness-low-fill"></i>Conditional Statements / Decision Making Statements / Selection Statements</h4>
+                        <p>Conditional statements are fundamental constructs in programming that allow a program to make decisions and execute different code blocks based on certain conditions. In Java, conditional statements control the flow of execution depending on whether a condition evaluates to true or false. This enables the program to perform different actions based on varying inputs or states.</p>
+
+                        <ol style="list-style-type: none;">
+                            <li>
+                                <h5>Types of Conditional statements</h5>
+                                <ul style="list-style-type: disc;">
+                                    <li><strong>if</strong></li>
+                                    <li><strong>if-else</strong></li>
+                                    <li><strong>else-if</strong></li>
+                                    <li><strong>else-if-ladder</strong></li>
+                                </ul>
+                            </li>
+                        </ol>
+
+                        <ol>
+                            <!-- If Statement block -->
+                            <li class="mt-3">
+                                <h4 class="notes-subheading">Java if statement</h4>
+                                <ol style="list-style-type: disc;">
+                                    <li class="mt-4">
+                                        <h5 class="notes-sub-subheading">Definition</h5>
+                                        <p>The if statement in Java is a control flow statement that allows the execution of a block of code if a specified condition evaluates to true. It is used to perform conditional operations and make decisions in the code.</p>
+                                    </li>
+
+                                    <li class="mt-4">
+                                        <h5 class="notes-sub-subheading">Detailed Working</h5>
+                                        <ol>
+
+                                            <li class="mt-3"><strong>Syntax</strong>
+                                                <pre><code class="language-java">if (condition) {
+// code to be executed if condition is true
+}</code></pre>
+                                            </li>
+
+                                            <li class="mt-3"><strong>Component</strong>
+                                                <ul>
+                                                    <li><strong>Condition</strong> An expression that evaluates to a boolean value (true or false).</li>
+                                                    <li><strong>Code Block</strong> The block of code that executes if the condition is true.</li>
+                                                </ul>
+                                            </li>
+
+                                            <li class="mt-3"><strong>flow</strong>
+                                                <ul>
+                                                    <li>Evaluate the condition.</li>
+                                                    <li>If condition is true, execute the code block inside the if statement.</li>
+                                                    <li>If condition is false, skip the code block and continue with the rest of the program.</li>
+                                                </ul>
+                                            </li>
+
+                                            <li class="mt-3"><strong>Example of Different Condition</strong>
+                                                <ul>
+                                                    <li>if (x > 10)</li>
+                                                    <li>if (isLoggedIn == true)</li>
+                                                    <li>if (temperature < 0)</li>
+                                                </ul>
+                                            </li>
+
+                                        </ol>
+                                    </li>
+
+                                    <li class="mt-4">
+                                        <h5 class="notes-sub-subheading">E-R Diagram</h5>
+                                        <p>An ER diagram is not applicable to the if statement since it pertains to control flow rather than entity relationships.</p>
+                                    </li>
+
+                                    <li class="mt-4">
+                                        <h5 class="notes-sub-subheading">Program</h5>
+                                        <pre><code class="language-java">public IfStatementExample {
+    public static void main(String[] args) {
+        int age = 18;
+
+        // Using an if statement to check if the person eligible to vote
+        if (age >= 18) {
+            System.out.println("You are eligible to vote.");
+        }
+
+        System.out.println("This line always executes.");
+    }
+}</code></pre>
+
+                                        <div class="java-output">
+                                            <h5 class="output-heading">Output</h5>
+                                            <hr>
+
+                                            <pre><code>You are eligible to vote.
+This line always executes.</code></pre>
+                                        </div>
+                                    </li>
+
+                                    <li class="mt-4">
+                                        <h5 class="notes-sub-subheading">Real-life Example</h5>
+                                        <ul>
+                                            <li><strong>Condition </strong>If it is sunny (e.g., weather == "sunny").</li>
+                                            <li><strong>Action </strong>If the condition is true, you go for a walk. If the condition is false, you stay indoors.</li>
+                                        </ul>
+
+                                    </li> 
+
+                                    <!-- All Program -->
+                                    <li class="mt-4">
+                                        <h6 class="notes-sub-subheading mt-3">Some more example of <em>( if )</em> statement </h6>
+
+                                        <!-- Program 1 -->
+                                        <div class="mt-2 ms-3">
+                                            <p><strong>Example 1</strong> Check if a number is positive</p>
+                                            <pre><code class="language-java">public class IfExample1 {
+    public static void main(String[] args) {
+        int number = 10;
+
+        if (number > 0) {
+            System.out.println(number + " is a positive number.");
+        }
+    }
+}</code></pre>
+
+                                            <!-- code output -->
+                                            <div class="java-output">
+                                                <h5 class="output-heading">Output</h5>
+                                                <hr>
+
+                                                <pre><code>10 is a positive number.</code></pre>
+                                            </div>
+
+                                        </div>
+
+                                        <!-- program 2 -->
+                                        <div class="mt-5 ms-3">
+                                            <p><strong>Example 2</strong> Check if a number is Even</p>
+                                            <pre><code class="language-java">public class IfExample2 {
+    public static void main(String[] args) {
+        int number = 4;
+
+        if (number % 2 == 0) {
+            System.out.println(number + " is an even number.");
+        }
+    }
+}</code></pre>
+
+                                            <div class="java-output">
+                                                <h5 class="output-heading">Output</h5>
+                                                <hr>
+
+                                                <pre><code>4 is an even number.</code></pre>
+                                            </div>
+
+                                        </div>
+
+                                        <!-- program 3 -->
+                                        <div class="mt-5 ms-3">
+                                            <p><strong>Example 3</strong> Check if a number is single digit</p>
+                                            <pre><code class="language-java">public class IfExample3 {
+    public static void main(String[] args) {
+        int number = 7;
+
+        if (number >= 0 && number <= 9) {
+            System.out.println(number + " is a single-digit number.");
+        }
+    }
+}</code></pre>
+
+                                            <div class="java-output">
+                                                <h5 class="output-heading">Output</h5>
+                                                <hr>
+
+                                                <pre><code> 7 is a single-digit number.</code></pre>
+                                            </div>
+                                        </div>
+
+                                        <!-- program 4 -->
+                                        <div class="mt-5 ms-3">
+                                            <p><strong>Example 4</strong> Check if a Character is a Vowel</p>
+                                            <pre><code class="language-java">public class IfExample4 {
+    public static void main(String[] args) {
+        char ch = 'e';
+
+        if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
+            System.out.println(ch + " is a vowel.");
+        }
+    }
+}</code></pre>
+
+                                            <div class="java-output">
+                                                <h5 class="output-heading">Output</h5>
+                                                <hr>
+                                                <pre><code> e is a vowel.</code></pre>
+                                            </div>
+
+                                        </div>
+
+                                    </li>
+
+                                </ol>
+                            </li>
+
+                            <hr class="mt-5">
+
+                            <!-- If-else statement block -->
+                            <li class="mt-5">
+                                <h4 class="notes-subheading">Java if-else Statement</h4>
+                                <ol style="list-style-type: disc;">
+                                    <li class="mt-3">
+                                        <h5 class="notes-sub-subheading">Definition</h5>
+                                        <p>The if-else statement in Java is a control flow statement that allows the execution of one block of code if a specified condition evaluates to true, and another block if the condition evaluates to false. It is used to perform conditional operations and make decisions in the code.</p>
+                                    </li>
+
+                                    <li class="mt-3">
+                                        <h5 class="notes-sub-subheading">Detailed Working</h5>
+                                        <ol>
+                                            <li class="mt-3"><strong>Syntax</strong>
+                                                <pre><code class="language-java">if (condition) {
+// code to be executed if condition is true
+} else {
+// code to be executed if condition is false
+}</code></pre>
+                                            </li>
+
+                                            <li class="mt-3"><strong>Component</strong>
+                                                <ul>
+                                                    <li><strong>Condition</strong> An expression that evaluates to a boolean value (true or false).</li>
+                                                    <li><strong>True Block</strong> The block of code that executes if the condition is true.</li>
+                                                    <li><strong>False Block</strong> The block of code that executes if the condition is false.</li>
+                                                </ul>
+                                            </li>
+
+                                            <li class="mt-3"><strong>Flow</strong>
+                                                <ul>
+                                                    <li>Evaluate the condition.</li>
+                                                    <li>If the condition is true, execute the code block inside the `if` statement.</li>
+                                                    <li>If the condition is false, execute the code block inside the `else` statement.</li>
+                                                </ul>
+                                            </li>
+
+                                            <li class="mt-3"><strong>Example of Different Conditions</strong>
+                                                <ul>
+                                                    <li>if (temperature > 30)</li>
+                                                    <li>if (isWeekend == true)</li>
+                                                    <li>if (score >= 50)</li>
+                                                </ul>
+                                            </li>
+
+                                        </ol>
+                                    </li>
+
+                                    <li class="mt-3">
+                                        <h5 class="notes-sub-subheading">E-R Diagram</h5>
+                                        <p>An ER diagram is not applicable to the if-else statement since it pertains to control flow rather than entity relationships.</p>
+                                    </li>
+
+                                    <li class="mt-3">
+                                        <h5 class="notes-sub-subheading">Program</h5>
+                                        <pre><code class="language-java">public class IfElseExample {
+    public static void main(String[] args) {
+        int score = 75;
+        // Using an if-else statement to check if the person passed or failed
+        if (score >= 60) {
+            System.out.println("You passed.");
+        } else {
+            System.out.println("You failed.");
+        }
+        System.out.println("This line always executes.");
+    }
+}</code></pre>
+
+                                        <div class="java-output">
+                                            <h5 class="output-heading">Output</h5>
+                                            <hr>
+
+                                            <pre><code>You passed. This line always executes.</code></pre>
+                                        </div>
+                                    </li>
+
+                                    <li class="mt-3">
+                                        <h5 class="notes-sub-subheading mt-2">Real-life Example</h5>
+                                        <ul>
+                                            <li><strong>Condition</strong> If the temperature is above 30°C (e.g., temperature > 30).</li>
+                                            <li><strong>Action</strong> If the condition is true, you go to the beach. If the condition is false, you stay indoors.</li>
+                                        </ul>
+                                    </li>
+
+                                    <!-- Program list -->
+                                    <li class="mt-3">
+                                        <h6 class="notes-sub-subheading mt-3">Some more examples of <em>( if-else )</em> statement</h6>
+
+                                        <!-- program 1 -->
+                                        <div class="mt-2">
+                                            <p><strong>Example 1</strong> Check if a Number is Positive or Negative</p>
+                                            <pre><code class="language-java">public class IfElseExample1 {
+    public static void main(String[] args) {
+        int number = -5;
+
+        if (number >= 0) {
+            System.out.println(number + " is a non-negative number.");
+        } else {
+            System.out.println(number + " is a negative number.");
+        }
+    }
+}
+</code></pre>
+
+                                            <!-- code output -->
+                                            <div class="java-output">
+                                                <h5 class="output-heading">Output</h5>
+                                                <hr>
+                                                <pre><code>-5 is a negative number.</code></pre>
+                                            </div>
+                                        </div>
+
+                                        <!-- Program 2  -->
+                                        <div class="mt-5">
+                                            <p><strong>Example 2</strong> Check if a Person is Eligible to Vote</p>
+                                            <pre><code class="language-java">public class IfElseExample2 {
+    public static void main(String[] args) {
+        int age = 17;
+
+        if (age >= 18) {
+            System.out.println("You are eligible to vote.");
+        } else {
+            System.out.println("You are not eligible to vote.");
+        }
+    }
+}
+</code></pre>
+                                            <!-- code output -->
+                                            <div class="java-output">
+                                                <h5 class="output-heading">Output</h5>
+                                                <hr>
+                                                <pre><code>You are not eligible to vote.</code></pre>
+                                            </div>
+                                        </div>
+
+                                        <!-- Program 3 -->
+                                        <div class="mt-5">
+                                            <p><strong>Example 3</strong> Check if a Number is Even or Odd</p>
+                                            <pre><code class="language-java">public class IfElseExample3 {
+    public static void main(String[] args) {
+        int number = 15;
+
+        if (number % 2 == 0) {
+            System.out.println(number + " is an even number.");
+        } else {
+            System.out.println(number + " is an odd number.");
+        }
+    }
+}
+</code></pre>
+                                            <!-- code output -->
+                                            <div class="java-output">
+                                                <h5 class="output-heading">Output</h5>
+                                                <hr>
+                                                <pre><code>15 is an odd number.</code></pre>
+                                            </div>
+                                        </div>
+
+                                        <!-- Program 4 -->
+                                        <div class="mt-5">
+                                            <p><strong>Example 4</strong> Check if a Person is an Adult or a Minor</p>
+                                            <pre><code class="language-java">public class IfElseExample4 {
+    public static void main(String[] args) {
+        int age = 21;
+
+        if (age >= 18) {
+            System.out.println("You are an adult.");
+        } else {
+            System.out.println("You are a minor.");
+        }
+    }
+}
+</code></pre>
+                                            <!-- code output -->
+                                            <div class="java-output">
+                                                <h5 class="output-heading">Output</h5>
+                                                <hr>
+                                                <pre><code>You are an adult.</code></pre>
+                                            </div>
+                                        </div>
+
+                                    </li>
+                                </ol>
+                            </li>
+
+                            <hr class="mt-5">
+
+
+                            <!-- Java if else statement block -->
+                            <li class="mt-5">
+                                <h4 class="notes-subheading">Java else-if Statement</h4>
+
+                                <ol style="list-style-type: disc;">
+                                    <li class="mt-4">
+                                        <h5 class="notes-sub-subheading">Definition</h5>
+                                        <p>The else-if statement in Java allows you to test multiple conditions sequentially. It is an extension of the if-else statement, providing a way to specify additional conditions and corresponding actions. This structure is useful when you have more than two conditions to evaluate.</p>
+                                    </li>
+
+                                    <li class="mt-4">
+                                        <h5 class="notes-sub-subheading">Detailed Working</h5>
+                                        <ol>
+                                            <li class="mt-3"><strong>Syntax</strong>
+                                                <pre><code class="language-java">if (condition1) {
+    // code to be executed if condition1 is true
+    } else if (condition2) {
+    // code to be executed if condition2 is true
+    } else if (condition3) {
+    // code to be executed if condition3 is true
+    } else {
+    // code to be executed if none of the above conditions are true
+    }</code></pre>
+                                            </li>
+
+                                            <li class="mt-3"><strong>Component</strong>
+                                                <ul>
+                                                    <li><strong>Condition</strong> An expression that evaluates to a boolean value (true or false). Multiple conditions can be evaluated in sequence.</li>
+                                                    <li><strong>True Block</strong> The block of code that executes if a specific condition is true.</li>
+                                                    <li><strong>Else Block</strong> The block of code that executes if none of the specified conditions are true.</li>
+                                                </ul>
+                                            </li>
+
+                                            <li class="mt-3"><strong>Flow</strong>
+                                                <ul>
+                                                    <li>Evaluate the first condition.</li>
+                                                    <li>If the first condition is true, execute the corresponding code block and skip the remaining conditions.</li>
+                                                    <li>If the first condition is false, evaluate the next condition in the `else-if` statement.</li>
+                                                    <li>Continue evaluating until a true condition is found or all conditions are checked.</li>
+                                                    <li>If none of the conditions are true, execute the code block inside the `else` statement.</li>
+                                                </ul>
+                                            </li>
+
+                                            <li class="mt-3"><strong>Example of Different Conditions</strong>
+                                                <ul>
+                                                    <li>if (temperature > 30)</li>
+                                                    <li>else if (temperature > 20)</li>
+                                                    <li>else if (temperature > 10)</li>
+                                                    <li>else</li>
+                                                </ul>
+                                            </li>
+                                        </ol>
+                                    </li>
+
+                                    <li class="mt-4">
+                                        <h5 class="notes-sub-subheading">E-R Diagram</h5>
+                                        <p>An ER diagram is not applicable to the else-if statement since it pertains to control flow rather than entity relationships.</p>
+                                    </li>
+
+                                    <li class="mt-4">
+                                        <h5 class="notes-sub-subheading">Program</h5>
+                                        <pre><code class="language-java">public class ElseIfExample { public static void main(String[] args) { int score = 85;
+
+    // Using an else-if statement to determine the grade
+    if (score >= 90) {
+    System.out.println("Grade: A");
+    } else if (score >= 80) {
+    System.out.println("Grade: B");
+    } else if (score >= 70) {
+    System.out.println("Grade: C");
+    } else {
+    System.out.println("Grade: D");
+    }
+    System.out.println("This line always executes.");
+    }
+}</code></pre>
+
+                                        <div class="java-output">
+                                            <h5 class="output-heading">Output</h5>
+                                            <hr>
+
+                                            <pre><code>Grade: B
+This line always executes.
+</code></pre>
+                                        </div>
+                                    </li>
+
+                                    <li class="mt-4">
+                                        <h5 class="notes-sub-subheading mt-3">Real-life Example</h5>
+                                        <ul>
+                                            <li><strong>Condition</strong> Based on the time of day (e.g., if time < 12).</li>
+                                            <li><strong>Action</strong> If the condition is true, you say "Good Morning". If false and the time is < 18, you say "Good Afternoon" . If false and the time is < 24, you say "Good Evening" . Otherwise, you say "Good Night" .</li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="mt-4">
+                                        <h6 class="notes-sub-subheading mt-3">Some more examples of <em>( if-else-if )</em> statement</h6>
+                                        <!-- program 1 -->
+                                        <div class="mt-2">
+                                            <p><strong>Example 1</strong> Determine the Grade Based on Score</p>
+                                            <pre><code class="language-java">public class IfElseIfExample1 {
+    public static void main(String[] args) {
+        int score = 85;
+
+        if (score >= 90) {
+            System.out.println("Grade: A");
+        } else if (score >= 80) {
+            System.out.println("Grade: B");
+        } else if (score >= 70) {
+            System.out.println("Grade: C");
+        } else {
+            System.out.println("Grade: F");
+        }
+    }
+}
+</code></pre>
+
+                                            <!-- code output -->
+                                            <div class="java-output">
+                                                <h5 class="output-heading">Output</h5>
+                                                <hr>
+                                                <pre><code>Grade: B</code></pre>
+                                            </div>
+                                        </div>
+                                        <!-- program 2 -->
+                                        <div class="mt-5">
+                                            <p><strong>Example 2</strong> Determine the Day of the Week</p>
+                                            <pre><code class="language-java">public class IfElseIfExample2 {
+    public static void main(String[] args) {
+        int day = 3; // 1 = Monday, 2 = Tuesday, ..., 7 = Sunday
+
+        if (day == 1) {
+            System.out.println("Monday");
+        } else if (day == 2) {
+            System.out.println("Tuesday");
+        } else if (day == 3) {
+            System.out.println("Wednesday");
+        } else if (day == 4) {
+            System.out.println("Thursday");
+        } else if (day == 5) {
+            System.out.println("Friday");
+        } else if (day == 6) {
+            System.out.println("Saturday");
+        } else if (day == 7) {
+            System.out.println("Sunday");
+        } else {
+            System.out.println("Invalid day number.");
+        }
+    }
+}
+</code></pre>
+
+                                            <!-- output code -->
+                                            <div class="java-output">
+                                                <h5 class="output-heading">Output</h5>
+                                                <hr>
+                                                <pre><code>Wednesday</code></pre>
+                                            </div>
+                                        </div>
+                                        <!--program  3 -->
+                                        <div class="mt-5">
+                                            <p><strong>Example 3</strong> Determine the Type of Triangle Based on Angles </p>
+                                            <pre><code class="language-java">public class IfElseIfExample3 {
+    public static void main(String[] args) {
+        int angle1 = 60;
+        int angle2 = 60;
+        int angle3 = 60;
+
+        if (angle1 == 90 || angle2 == 90 || angle3 == 90) {
+            System.out.println("The triangle is a right triangle.");
+        } else if (angle1 > 90 || angle2 > 90 || angle3 > 90) {
+            System.out.println("The triangle is an obtuse triangle.");
+        } else {
+            System.out.println("The triangle is an acute triangle.");
+        }
+    }
+}
+</code></pre>
+                                            <!-- code output -->
+                                            <div class="java-output">
+                                                <h5 class="output-heading">Output</h5>
+                                                <hr>
+                                                <pre><code>The triangle is an acute triangle.</code></pre>
+                                            </div>
+                                        </div>
+
+                                        <!--program  4 -->
+                                        <div class="mt-5">
+                                            <p><strong>Example 4</strong> Determine the Season Based on the Month</p>
+                                            <pre><code class="language-java">public class IfElseIfExample4 {
+    public static void main(String[] args) {
+        int month = 8; // 1 = January, 2 = February, ..., 12 = December
+
+        if (month == 12 || month == 1 || month == 2) {
+            System.out.println("Winter");
+        } else if (month >= 3 && month <= 5) {
+            System.out.println("Spring");
+        } else if (month >= 6 && month <= 8) {
+            System.out.println("Summer");
+        } else if (month >= 9 && month <= 11) {
+            System.out.println("Fall");
+        } else {
+            System.out.println("Invalid month number.");
+        }
+    }
+}
+                                                </code></pre>
+                                                <!-- code output -->
+                                            <div class="java-output">
+                                                <h5 class="output-heading">Output</h5>
+                                                <hr>
+                                                <pre><code>Summer </code></pre>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                </ol>
+                            </li>
+
+                            <hr class="mt-5">
+
+                            <!-- java else-if ladder -->
+                            <li class="mt-5">
+                                <h4 class="notes-subheading">Java else-if Ladder</h4>
+
+                                <ol style="list-style-type: disc;">
+                                    <li class="mt-3">
+                                        <h5 class="notes-sub-subheading">Definition</h5>
+                                        <p>The else-if ladder is an extension of the basic `if-else` statement in Java that allows you to test multiple conditions in a sequence. It provides a way to handle several conditions by evaluating each one in order until one of them evaluates to true. If none of the conditions are true, the `else` block is executed, if present.</p>
+                                    </li>
+
+                                    <li class="mt-3">
+                                        <h5 class="notes-sub-subheading">Detailed Working</h5>
+                                        <ol>
+                                            <li class="mt-3"><strong>Syntax</strong>
+                                                <pre><code class="language-java">if (condition1) {
+// code to be executed if condition1 is true
+} else if (condition2) {
+// code to be executed if condition2 is true
+} else if (condition3) {
+// code to be executed if condition3 is true
+} else {
+// code to be executed if none of the above conditions are true
+}</code></pre>
+                                            </li>
+
+                                            <li class="mt-3"><strong>Component</strong>
+                                                <ul>
+                                                    <li><strong>Condition</strong> An expression that evaluates to a boolean value (true or false). Multiple conditions are evaluated in sequence.</li>
+                                                    <li><strong>True Block</strong> The block of code that executes if a specific condition is true.</li>
+                                                    <li><strong>Else Block</strong> The block of code that executes if none of the specified conditions are true.</li>
+                                                </ul>
+                                            </li>
+
+                                            <li class="mt-3"><strong>Flow</strong>
+                                                <ul>
+                                                    <li>Evaluate the first condition.</li>
+                                                    <li>If the first condition is true, execute the corresponding code block and skip the remaining conditions.</li>
+                                                    <li>If the first condition is false, evaluate the next condition in the `else-if` ladder.</li>
+                                                    <li>Continue evaluating each `else-if` condition in sequence.</li>
+                                                    <li>If none of the conditions are true, execute the code block inside the `else` statement, if present.</li>
+                                                </ul>
+                                            </li>
+
+                                            <li class="mt-3"><strong>Example of Different Conditions</strong>
+                                                <ul>
+                                                    <li>if (temperature > 35)</li>
+                                                    <li>else if (temperature > 25)</li>
+                                                    <li>else if (temperature > 15)</li>
+                                                    <li>else if (temperature > 5)</li>
+                                                    <li>else</li>
+                                                </ul>
+                                            </li>
+
+                                        </ol>
+                                    </li>
+
+                                    <li class="mt-3">
+                                        <h5 class="notes-sub-subheading">E-R Diagram</h5>
+                                        <p>An ER diagram is not applicable to the else-if ladder since it pertains to control flow rather than entity relationships.</p>
+                                    </li>
+
+                                    <li class="mt-3">
+                                        <h5 class="notes-sub-subheading">Program</h5>
+                                        <pre><code class="language-java">public class ElseIfLadderExample {
+        public static void main(String[] args) {
+            int temperature = 20;
+
+            // Using an else-if ladder to determine the weather condition
+            if (temperature > 35) {
+                System.out.println("It's very hot outside.");
+            } else if (temperature > 25) {
+                System.out.println("It's warm outside.");
+            } else if (temperature > 15) {
+                System.out.println("It's cool outside.");
+            } else if (temperature > 5) {
+                System.out.println("It's cold outside.");
+            } else {
+                System.out.println("It's freezing outside.");
+            }
+
+            System.out.println("This line always executes.");
+    }
+}</code></pre>
+
+                                        <div class="java-output">
+                                            <h5 class="output-heading">Output</h5>
+                                            <hr>
+
+                                            <pre><code>It's cool outside.
+This line always executes.
+</code></pre>
+                                        </div>
+                                    </li>
+
+                                    <li class="mt-3">
+                                        <h5 class="notes-sub-subheading">Real-life Example</h5>
+                                        <ul>
+                                            <li><strong>Condition</strong> Based on the score achieved in an exam (e.g., if score &gt;= 90).</li>
+                                            <li><strong>Action</strong> If the score is greater than or equal to 90, you get an "A". If the score is between 80 and 89, you get a "B". If the score is between 70 and 79, you get a "C". If the score is between 60 and 69, you get a "D". Otherwise, you get an "F".</li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="mt-3">
+                                        <h6 class="notes-sub-subheading mt-3">Some more examples of <em>( if-else-if ladder )</em> statement</h6>
+                                        <!-- Program 1 -->
+                                        <div class="mt-2">
+                                            <p><strong>Example 1</strong> Determine the Size of a T-Shirt</p>
+                                            <pre><code class="language-java">public class IfElseIfLadderExample1 {
+    public static void main(String[] args) {
+        char size = 'M'; // S, M, L, XL
+
+        if (size == 'S') {
+            System.out.println("Small size");
+        } else if (size == 'M') {
+            System.out.println("Medium size");
+        } else if (size == 'L') {
+            System.out.println("Large size");
+        } else if (size == 'XL') {
+            System.out.println("Extra Large size");
+        } else {
+            System.out.println("Unknown size");
+        }
+    }
+}
+</code></pre>
+                                            <!-- code output -->
+                                            <div class="java-output">
+                                                <h5 class="output-heading">Output</h5>
+                                                <hr>
+                                                <pre><code>Medium size
+</code></pre>
+                                            </div>
+                                        </div>
+
+                                        <!-- Program 2 -->
+                                        <div class="mt-5">
+                                            <p><strong>Example 2</strong> Determine the Category of a Number</p>
+                                            <pre><code class="language-java">public class seIfLadderExample2 {
+    public static void main(String[] args) {
+        int number = 42;
+
+        if (number < 0) {
+            System.out.println("Negative number");
+        } else if (number >= 0 && number <= 10) {
+            System.out.println("Between 0 and 10");
+        } else if (number >= 11 && number <= 20) {
+            System.out.println("Between 11 and 20");
+        } else if (number >= 21 && number <= 30) {
+            System.out.println("Between 21 and 30");
+        } else {
+            System.out.println("Greater than 30");
+        }
+    }
+}
+</code></pre>
+
+                                            <div class="java-output">
+                                                <h5 class="output-heading">Output</h5>
+                                                <hr>
+                                                <pre><code>Greater than 30
+</code></pre>
+                                            </div>
+                                        </div>
+
+                                        <!-- Program 3 -->
+                                        <div class="mt-5">
+                                            <p><strong>Example 3</strong> Determine the Discount Based on Purchase Amount</p>
+                                            <pre><code class="language-java">public class seIfLadderExample3 {
+    public static void main(String[] args) {
+        double purchaseAmount = 250.0;
+
+        if (purchaseAmount >= 1000) {
+            System.out.println("Discount: 30%");
+        } else if (purchaseAmount >= 500) {
+            System.out.println("Discount: 20%");
+        } else if (purchaseAmount >= 100) {
+            System.out.println("Discount: 10%");
+        } else {
+            System.out.println("No discount.");
+        }
+    }
+}
+</code></pre>
+
+                                            <div class="java-output">
+                                                <h5 class="output-heading">Output</h5>
+                                                <hr>
+                                                <pre><code>Discount: 10%
+</code></pre>
+                                            </div>
+                                        </div>
+
+                                        <!-- Program 4 -->
+                                        <div class="mt-5">
+                                            <p><strong>Example 4</strong> Determine the Type of Quadrilateral Based on Sides</p>
+                                            <pre><code class="language-java">public class IfElseIfLadderExample4 {
+    public static void main(String[] args) {
+        int side1 = 5;
+        int side2 = 5;
+        int side3 = 5;
+        int side4 = 5;
+
+        if (side1 == side2 && side2 == side3 && side3 == side4) {
+            System.out.println("The quadrilateral is a square.");
+        } else if (side1 == side3 && side2 == side4) {
+            System.out.println("The quadrilateral is a rectangle.");
+        } else {
+            System.out.println("The quadrilateral is neither a square nor a rectangle.");
+        }
+    }
+}</code></pre>
+
+                                            <div class="java-output">
+                                                <h5 class="output-heading">Output</h5>
+                                                <hr>
+                                                <pre><code>The quadrilateral is a square.
+</code></pre>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                </ol>
+                            </li>
+                        </ol>    
+
+                    </section>
+
+                </div>
+            </div>
+
+            <!-- Button COde -->
+            <div class="row my-4">
+                <div class="col-6 d-flex justify-content-start">
+                    <button class="btn btn-warning"> <i class="bi bi-arrow-left-short"></i> Previous
+                        Topic</button>
+                </div>
+                <div class="col-6 d-flex justify-content-end">
+                    <button class="btn btn-success">Next Topic <i class="bi bi-arrow-right-short"></i></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-2 col-12 bg-secondary">this is for
+            advertisement</div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer mt-4">
+        <div class="container">
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <h5 class="text-white">Menus</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="footer-link">Home</a></li>
+                        <li>
+                            <a href="free-courses-by-smart-programming.html" class="footer-link">Free Courses</a>
+                        </li>
+                        <li>
+                            <a href="premium-courses-by-smart-programming.html" class="footer-link">Premium Courses</a>
+                        </li>
+                        <li>
+                            <a href="trainings-by-smart-programming.html" class="footer-link">Trainings</a>
+                        </li>
+                        <li>
+                            <a href="development-by-smart-programming.html" class="footer-link">Development</a>
+                        </li>
+                        <li>
+                            <a href="contact-smart-programming.html" class="footer-link">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-8">
+                    <h5 class="text-white">
+                        Useful links for Industrial Training in
+                        Chandigarh
+                    </h5>
+                    <div class="row">
+                        <div class="col-md-6 col-12">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="core-java-free-course-by-deepak-smart-programming.html"
+                                        class="footer-link">Core Java
+                                        Free
+                                        Course</a>
+                                </li>
+                                <li>
+                                    <a href="advance-java-free-course-by-deepak-smart-programming.html"
+                                        class="footer-link">Advance Java
+                                        Free Course</a>
+                                </li>
+                                <li>
+                                    <a href="spring-framework-free-course-by-deepak-smart-programming.html"
+                                        class="footer-link">Spring
+                                        Framework
+                                        Free Course</a>
+                                </li>
+                                <li>
+                                    <a href="springboot-framework-free-course-by-deepak-smart-programming.html"
+                                        class="footer-link">Springboot
+                                        Free
+                                        Course</a>
+                                </li>
+                                <li>
+                                    <a href="android-free-course-by-deepak-smart-programming.html"
+                                        class="footer-link">Android Free
+                                        Course</a>
+                                </li>
+                                <li>
+                                    <a href="java-logical-questions-free-course-by-deepak-smart-programming.html"
+                                        class="footer-link">Java Logical
+                                        Questioning Free Course</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="https://courses.smartprogramming.in/learn/Core-Java-With-5-Projects"
+                                        target="_blank" class="footer-link">Core Java
+                                        Premium Course</a>
+                                </li>
+                                <li>
+                                    <a href="https://courses.smartprogramming.in/learn/Advance-Java" target="_blank"
+                                        class="footer-link">Advance Java
+                                        Premium Course</a>
+                                </li>
+                                <li>
+                                    <a href="https://courses.smartprogramming.in/learn/Spring-Framework" target="_blank"
+                                        class="footer-link">Spring
+                                        Framework
+                                        Premium Course</a>
+                                </li>
+                                <li>
+                                    <a href="https://courses.smartprogramming.in/learn/Spring-Boot-Framework"
+                                        target="_blank" class="footer-link">Springboot
+                                        Premium Course</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center mt-5">
+                <div class="col-md-8">
+                    <footer>
+                        <p>
+                            &copy; 2024 Smart Programming, Chandigarh.
+                            All
+                            Rights Reserved.
+                            <br />
+                            <a href="privacy-policy.html" class="footer-link">Privacy Policy</a>
+                            &nbsp; | &nbsp;
+                            <a href="terms-of-service.html" class="footer-link">Terms Of
+                                Services</a>
+                            &nbsp; | &nbsp;
+                            <a href="cancellation-refund-policy.html" class="footer-link">Cancellation/Refund
+                                Policy</a>
+                        </p>
+                    </footer>
+                </div>
+                <div class="col-md-4">
+                    <div class="social-icons">
+                        <a href="https://www.youtube.com/c/SmartProgramming" target="_blank"
+                            class="me-2 text-decoration-none">
+                            <i class="bi bi-youtube"></i>
+                        </a>
+                        <a href="https://www.facebook.com/smartprogramming.india" target="_blank"
+                            class="me-2 text-decoration-none">
+                            <i class="bi bi-facebook"></i></a>
+                        <a href="https://www.instagram.com/smart_programming/" target="_blank"
+                            class="me-2 text-decoration-none">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="https://t.me/smart_programming_deepak" target="_blank"
+                            class="me-2 text-decoration-none">
+                            <i class="bi bi-telegram"></i>
+                        </a>
+                        <a href="https://discord.gg/Up9dQ3gP6k" target="_blank" class="me-2 text-decoration-none">
+                            <i class="bi bi-discord"></i>
+                        </a>
+                        <a href="https://whatsapp.com/channel/0029Va6n2Gs42Dckpa2T1U1i" target="_blank"
+                            class="me-2 text-decoration-none">
+                            <i class="bi bi-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document
+            .getElementById("notes-hamburger-btn")
+            .addEventListener("click", function () {
+                document.getElementById("notes-sidebar").classList.toggle("active");
+            });
+
+        document
+            .getElementById("notes-sidebar-close-btn")
+            .addEventListener("click", function () {
+                document.getElementById("notes-sidebar").classList.remove("active");
+            });
+    </script>
+
+    <!-- Prism.js for Syntax Highlighting -->
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/prism.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/components/prism-java.min.js"></script>
+</body>
+
+</html>

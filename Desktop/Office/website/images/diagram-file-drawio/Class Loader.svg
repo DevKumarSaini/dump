@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="750" height="500" viewBox="0 0 750 500">
+  <g id="Class_Loader" data-name="Class Loader" transform="translate(-339 -289)">
+    <rect id="Rectangle_12" data-name="Rectangle 12" width="750" height="500" transform="translate(339 289)" fill="#ececec"/>
+    <g id="Group_11" data-name="Group 11" transform="translate(376 661)">
+      <g id="Group_1" data-name="Group 1">
+        <rect id="Rectangle_8" data-name="Rectangle 8" width="181" height="110" rx="9" fill="#64a7f3"/>
+        <text id="Execution_Engine" data-name="Execution 
+Engine" transform="translate(91 50)" fill="#fff" font-size="21" font-family="Cascadia Code" font-weight="700"><tspan x="-61.523" y="0">Execution </tspan><tspan x="-36.914" y="24">Engine</tspan></text>
+      </g>
+      <g id="Group_2" data-name="Group 2" transform="translate(246.5)">
+        <rect id="Rectangle_9" data-name="Rectangle 9" width="181" height="110" rx="9" fill="#64a7f3"/>
+        <text id="Java_Native_Interface_JNI_" data-name="Java Native
+Interface 
+(JNI)" transform="translate(91 50)" fill="#fff" font-size="21" font-family="Cascadia Code" font-weight="700"><tspan x="-67.676" y="0">Java Native</tspan><tspan x="-61.523" y="24">Interface </tspan><tspan x="-30.762" y="48">(JNI)</tspan></text>
+      </g>
+      <g id="Group_3" data-name="Group 3" transform="translate(493)">
+        <rect id="Rectangle_10" data-name="Rectangle 10" width="181" height="110" rx="9" fill="#64a7f3"/>
+        <text id="Native_Method_Libraries" data-name="Native Method
+Libraries" transform="translate(91 50)" fill="#fff" font-size="21" font-family="Cascadia Code" font-weight="700"><tspan x="-79.98" y="0">Native Method</tspan><tspan x="-55.371" y="24">Libraries</tspan></text>
+      </g>
+    </g>
+    <g id="Group_10" data-name="Group 10" transform="translate(358 443.403)">
+      <rect id="Rectangle_2" data-name="Rectangle 2" width="709" height="156" rx="17" fill="#b0def9"/>
+      <g id="Group_9" data-name="Group 9" transform="translate(19 28)">
+        <g id="Group_4" data-name="Group 4">
+          <rect id="Rectangle_3" data-name="Rectangle 3" width="113" height="98" rx="9" fill="#64a7f3"/>
+          <text id="Method_Area" data-name="Method
+Area" transform="translate(20 44)" fill="#fff" font-size="21" font-family="Cascadia Code" font-weight="700"><tspan x="0" y="0">Method</tspan><tspan x="0" y="24">Area</tspan></text>
+        </g>
+        <g id="Group_5" data-name="Group 5" transform="translate(139.75 1)">
+          <rect id="Rectangle_4" data-name="Rectangle 4" width="113" height="98" rx="9" fill="#64a7f3"/>
+          <text id="Heap_Area" data-name="Heap
+Area" transform="translate(32 44)" fill="#fff" font-size="21" font-family="Cascadia Code" font-weight="700"><tspan x="0" y="0">Heap</tspan><tspan x="0" y="24">Area</tspan></text>
+        </g>
+        <g id="Group_6" data-name="Group 6" transform="translate(279.5 1)">
+          <rect id="Rectangle_6" data-name="Rectangle 6" width="113" height="98" rx="9" fill="#64a7f3"/>
+          <text id="Stack_Area" data-name="Stack
+Area" transform="translate(26 44)" fill="#fff" font-size="21" font-family="Cascadia Code" font-weight="700"><tspan x="0" y="0">Stack</tspan><tspan x="0" y="24">Area</tspan></text>
+        </g>
+        <g id="Group_7" data-name="Group 7" transform="translate(419.25 2)">
+          <rect id="Rectangle_5" data-name="Rectangle 5" width="113" height="98" rx="9" fill="#64a7f3"/>
+          <text id="PC_Register" data-name="PC
+Register" transform="translate(57 44)" fill="#fff" font-size="21" font-family="Cascadia Code" font-weight="700"><tspan x="-12.305" y="0">PC</tspan><tspan x="-49.219" y="24">Register</tspan></text>
+        </g>
+        <g id="Group_8" data-name="Group 8" transform="translate(559)">
+          <rect id="Rectangle_7" data-name="Rectangle 7" width="113" height="98" rx="9" fill="#64a7f3"/>
+          <text id="Native_Method_Area" data-name="Native
+Method
+Area" transform="translate(57 32)" fill="#fff" font-size="21" font-family="Cascadia Code" font-weight="700"><tspan x="-36.914" y="0">Native</tspan><tspan x="-36.914" y="24">Method</tspan><tspan x="-24.609" y="48">Area</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="Group_12" data-name="Group 12" transform="translate(555.444 317)">
+      <rect id="Rectangle_11" data-name="Rectangle 11" width="315" height="63" rx="31.5" fill="#a68dc6"/>
+      <text id="Class_Loader-2" data-name="Class Loader" transform="translate(21 42)" fill="#fff" font-size="39" font-family="Cascadia Code" font-weight="700"><tspan x="0" y="0">Class Loader</tspan></text>
+    </g>
+    <g id="Group_18" data-name="Group 18" transform="translate(447 607.679)">
+      <g id="Group_14" data-name="Group 14" transform="translate(0 7)">
+        <line id="Line_1" data-name="Line 1" y2="30.908" transform="translate(9.315)" fill="none" stroke="#707070" stroke-width="4"/>
+        <path id="Polygon_1" data-name="Polygon 1" d="M9.8,0l9.8,17H0Z" transform="translate(19.61 37.408) rotate(180)" fill="#707070"/>
+      </g>
+      <g id="Group_17" data-name="Group 17" transform="translate(19.61 37.408) rotate(180)">
+        <line id="Line_1-2" data-name="Line 1" y2="30.908" transform="translate(9.315)" fill="none" stroke="#707070" stroke-width="4"/>
+        <path id="Polygon_1-2" data-name="Polygon 1" d="M9.8,0l9.8,17H0Z" transform="translate(19.61 37.408) rotate(180)" fill="#707070"/>
+      </g>
+    </g>
+    <g id="Group_20" data-name="Group 20" transform="translate(702.13 389.649)">
+      <g id="Group_14-2" data-name="Group 14" transform="translate(0 7)">
+        <line id="Line_1-3" data-name="Line 1" y2="30.908" transform="translate(9.315)" fill="none" stroke="#707070" stroke-width="4"/>
+        <path id="Polygon_1-3" data-name="Polygon 1" d="M9.8,0l9.8,17H0Z" transform="translate(19.61 37.408) rotate(180)" fill="#707070"/>
+      </g>
+      <g id="Group_17-2" data-name="Group 17" transform="translate(19.61 37.408) rotate(180)">
+        <line id="Line_1-4" data-name="Line 1" y2="30.908" transform="translate(9.315)" fill="none" stroke="#707070" stroke-width="4"/>
+        <path id="Polygon_1-4" data-name="Polygon 1" d="M9.8,0l9.8,17H0Z" transform="translate(19.61 37.408) rotate(180)" fill="#707070"/>
+      </g>
+    </g>
+    <g id="Group_15" data-name="Group 15" transform="translate(572.538 697.719) rotate(-90)">
+      <line id="Line_1-5" data-name="Line 1" y2="30.908" transform="translate(9.315)" fill="none" stroke="#707070" stroke-width="4"/>
+      <path id="Polygon_1-5" data-name="Polygon 1" d="M9.8,0l9.8,17H0Z" transform="translate(19.61 37.408) rotate(180)" fill="#707070"/>
+    </g>
+    <g id="Group_16" data-name="Group 16" transform="translate(852.784 716) rotate(90)">
+      <line id="Line_1-6" data-name="Line 1" y2="30.908" transform="translate(9.315)" fill="none" stroke="#707070" stroke-width="4"/>
+      <path id="Polygon_1-6" data-name="Polygon 1" d="M9.8,0l9.8,17H0Z" transform="translate(19.61 37.408) rotate(180)" fill="#707070"/>
+    </g>
+    <g id="Group_19" data-name="Group 19" transform="translate(609.946 725.805) rotate(90)">
+      <line id="Line_1-7" data-name="Line 1" y2="30.908" transform="translate(9.315 0)" fill="none" stroke="#707070" stroke-width="4"/>
+      <path id="Polygon_1-7" data-name="Polygon 1" d="M9.8,0l9.8,17H0Z" transform="translate(19.61 37.408) rotate(180)" fill="#707070"/>
+    </g>
+    <text id="Memory_Area" data-name="Memory Area" transform="translate(874 429.131)" fill="#787878" font-size="26" font-family="Cascadia Code" font-weight="700"><tspan x="0" y="0">Memory Area</tspan></text>
+  </g>
+</svg>

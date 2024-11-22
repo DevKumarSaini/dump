@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="description"
+        content="Verify Students enrollments from Smart Programming. Students purchased premium courses or online and industrial trainings can verify their details by HR or Deepak Sir." />
+    <meta name="keywords"
+        content="verify students, enrollments, seminars, workshops, development, campus, placements, colleges, online classes, industrial training, free courses, premium courses, industrial trainings, chandigarh, mohali, internships" />
+
+    <title>Java Introduction</title>
+
+    <link rel="icon" href="images/favicon.png" type="image/png" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/themes/prism.min.css" rel="stylesheet"> -->
+    <link href="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/themes/prism-tomorrow.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-4 d-flex justify-content-center justify-content-md-start">
+                    <div class="social-icons">
+                        <a href="https://www.youtube.com/c/SmartProgramming" target="_blank" class="me-2">
+                            <i class="bi bi-youtube"></i>
+                        </a>
+                        <a href="https://www.facebook.com/smartprogramming.india" target="_blank" class="me-2">
+                            <i class="bi bi-facebook"></i></a>
+                        <a href="https://www.instagram.com/smart_programming/" target="_blank" class="me-2">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="https://t.me/smart_programming_deepak" target="_blank" class="me-2">
+                            <i class="bi bi-telegram"></i>
+                        </a>
+                        <a href="https://discord.gg/Up9dQ3gP6k" target="_blank" class="me-2">
+                            <i class="bi bi-discord"></i>
+                        </a>
+                        <a href="https://whatsapp.com/channel/0029Va6n2Gs42Dckpa2T1U1i" target="_blank" class="me-2">
+                            <i class="bi bi-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 d-flex justify-content-center my-2 my-md-0">
+                    <div class="phone-numbers text-center text-md-start">
+                        <a href="tel:+919888755565">+91 98887-55565</a>
+                        <span class="mx-2">||</span>
+                        <a href="tel:+916283830308">+91 62838-30308</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 d-flex justify-content-center justify-content-md-end">
+                    <div class="auth-links text-center text-md-end">
+                        <a href="https://courses.smartprogramming.in/learn/account/signin" target="_blank"
+                            class="me-2">Login</a>
+                        <a href="https://courses.smartprogramming.in/learn/account/signup" target="_blank">Register</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+        <div class="container">
+            <button class="btn btn-primary" id="notes-hamburger-btn">
+                <i class="bi bi-list text-white"></i>
+            </button>
+            <a class="navbar-brand" href="index.html">
+                <h3 class="text-white">Smart Programming</h3>
+            </a>
+            <div class="col-12 col-md-6 d-flex justify-content-center my-2 my-md-0">
+                <div class="auth-links text-center text-md-end">
+                    <a href="#" class="me-5 notes-header-navlinks">Courses</a>
+                    <a href="#" class="notes-header-navlinks">Tutorials</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="row">
+
+        <div class="col-lg-3 col-12">
+            <!-- left side navbar -->
+            <nav class="notes-sidebar pb-5" id="notes-sidebar">
+                <button class="btn-close notes-sidebar-closeBtn" id="notes-sidebar-close-btn"
+                    aria-label="Close"></button>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="java-introduction-by-deepak-smart-programming.html">
+                            <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Java Introduction </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="data-types-in-java-by-deepak-smart-programming.html">
+                            <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Programming Language Terminologies
+                        </a>
+                        <ul class="nav flex-column ms-3 mb-3">
+                            <li class="nav-item">
+                                <a class="nav-link" href="data-types-in-java-by-deepak-smart-programming.html">&nbsp;
+                                    <i class="bi bi-arrow-right"></i>
+                                    &nbsp; Data Types</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">&nbsp; <i class="bi bi-arrow-right"></i>
+                                    &nbsp; Variables
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">&nbsp; <i class="bi bi-arrow-right"></i>
+                                    &nbsp; Literals
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">&nbsp; <i class="bi bi-arrow-right"></i>
+                                    &nbsp; Operators
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">&nbsp; <i class="bi bi-arrow-right"></i>
+                                    &nbsp; Keywords
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">&nbsp; <i class="bi bi-arrow-right"></i>
+                                    &nbsp; Identifiers
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">&nbsp; <i class="bi bi-arrow-right"></i>
+                                    &nbsp; Constants
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">&nbsp; <i class="bi bi-arrow-right"></i>
+                                    &nbsp; Interview
+                                    Questions</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Control
+                            Statements </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; OOP's
+                            Concepts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Java
+                            Reflection API</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Exception
+                            Handling</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Strings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; File Input /
+                            Output </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp;
+                            Multithreading</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Arrays</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp;
+                            Collections</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Core Java
+                            Advance Concepts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Java 8
+                            Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Java 9
+                            Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Java 10
+                            Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Java 11
+                            Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="bi bi-arrow-right-circle-fill"></i>
+                            &nbsp; Java 12
+                            Features</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="col-lg-7 col-12">
+            <div class="notes-content">
+                <div class="notes-div">
+
+                    <h3 class="text-center">Jumping Statements</h3>
+                    <hr/>
+                   
+                    <section>
+                        <!-- This section is for break statement -->
+                        <section class="ms-3">
+                            <h4 class="notes-subheading"><i class="bi bi-brightness-low-fill"></i> Break Statement</h4>
+                            <section>
+                                <ul>
+                                    <li class="mt-3">
+                                        <h6 class="notes-sub-subheading">Definition</h6>
+                                        <p>The break statement in Java is used to exit from a loop or switch statement prematurely. When a break statement is encountered, the loop or switch is immediately terminated, and the program control continues with the statement following the loop or switch.</p>
+
+                                    </li>
+
+
+
+                                    <li class="mt-3">
+                                        <h6 class="notes-sub-subheading">Detailed Working</h6>
+                                        <ol>
+                                            <li><strong>Syntax</strong>
+                                                <pre><code class="language-java">break;</code></pre>
+                                            </li>
+
+                                            <li><strong>Component</strong>
+                                                <ul>
+                                                    <li><strong>Loop or Switch Block</strong>The context in which the break statement is used. It can be used inside for, while, or do-while loops, and switch statements.</li>
+                                                </ul>
+                                            </li>
+
+                                            <li><strong>Flow</strong>
+                                                <ul>
+                                                    <li> When a break statement is executed inside a loop or switch, control is immediately transferred to the statement following the loop or switch block.</li>
+                                                    <li> In loops, this means exiting the loop regardless of the loop condition.</li>
+                                                    <li> In switch statements, this means exiting the switch block and continuing with the code that follows the switch statement.</li>
+                                                </ul>
+
+                                            </li>
+
+                                            <li><strong>Example of Different Condition</strong>
+                                                <ul>
+                                                    <li>When you want to terminate a loop based on a condition that is checked during each iteration, you can use break to exit the loop early. </li>
+                                                    <li>When dealing with nested loops, you can use break to exit from the innermost loop and continue execution after the outer loop. </li>
+                                                    <li>In scenarios where you need to terminate a loop if an invalid condition arises, break can be used to stop further processing. </li>
+                                                    <li>When an infinite loop is used (e.g., while (true)), break allows you to terminate the loop based on a specific condition. </li>
+                                                    <li>When dealing with processes that can encounter errors, break can be used to exit the loop to prevent further actions.</li>
+                                                </ul>
+                                            </li>
+                                        </ol>
+
+                                    </li>
+
+
+
+                                    <li class="mt-3">
+                                        <h6 class="notes-sub-subheading">E-R Diagram</h6>
+                                        <p>Diagram required</p>
+
+                                    </li>
+
+
+
+                                    <li class="mt-3">
+                                        <h6 class="notes-sub-subheading">Program</h6>
+                                        <p><strong>Program 1</strong> This is the basic program to demonstrate the working of break statement.</p>
+<pre><code class="language-java">public class BreakInLoopExample {
+public static void main(String[] args) {
+    // Using a break statement to exit a loop
+        for (int i = 1; i <= 10; i++) {
+            if (i == 5) {
+                break; // Exit the loop when i equals 5
+            }
+            System.out.println("i: " + i);
+        }
+        
+        System.out.println("Loop terminated.");
+    }
+}</code></pre>
+<div class="java-output">
+<h5 class="output-heading">Output</h5><hr>
+<pre><code>i: 1
+i: 2
+i: 3
+i: 4
+Loop terminated.
+</code></pre>
+</div>
+<hr class="mt-5">
+
+<p class="mt-4"><strong>Program 2</strong> This program demonstrate the break statement using switch.</p>
+<pre><code class="language-java">public class BreakInSwitchExample {
+    public static void main(String[] args) {
+        int day = 3;
+        
+        switch (day) {
+            case 1:
+                System.out.println("Monday");
+                break; // Exit the switch statement
+            case 2:
+                System.out.println("Tuesday");
+                break; // Exit the switch statement
+            case 3:
+                System.out.println("Wednesday");
+                break; // Exit the switch statement
+            default:
+                System.out.println("Invalid day");
+        }
+        
+        System.out.println("Switch case completed.");
+    }
+}</code></pre>
+
+<div class="java-output">
+<h5 class="output-heading">Output</h5><hr>
+<pre><code>Wednesday
+Switch case completed.</code></pre>
+</div>
+
+                                    </li>
+
+
+
+                                    <li class="mt-3">
+                                        <h6 class="notes-sub-subheading">Real-life Example</h6>
+                                        <ul style="list-style-type: disc;">
+                                            <li><strong>In Loops</strong> Consider a search operation where you want to stop searching as soon as you find the target item. Once found, you use break to exit the loop and avoid unnecessary further searching.</li>
+                                            <li><strong>In Switch Statements</strong> When evaluating multiple cases, break ensures that only the code for the matched case is executed, and control exits the switch block, preventing fall-through to subsequent cases.</li>
+                                        </ul>
+
+                                    </li>
+
+                                    <li class="mt-3">
+                                        <h6 class="notes-sub-subheading">Use case</h6>
+                                        <ul style="list-style-type: disc;">
+                                           <li><strong>Terminate a Loop Early: </strong>    Exit a loop as soon as a specific condition is met, such as finding a target value or meeting a stopping criterion.
+                                        </li>
+
+                                           <li><strong>Exit Nested Loops: </strong>    Break out of multiple nested loops when a condition is satisfied, often used with labeled breaks to exit all levels of nested loops.
+                                        </li>
+
+                                           <li><strong>Stop an Infinite Loop: </strong>    End an infinite loop (e.g., while (true)) based on a specific condition or user input.
+                                        </li>
+
+                                           <li><strong>Abort a Search Operation: </strong>    Stop searching through a collection or dataset once the desired item is found.
+                                        </li>
+
+                                           <li><strong>Handle Error Conditions: </strong>    Exit a loop when an error or exceptional condition occurs to prevent further processing or iterations.
+                                        </li>
+
+                                        </ul>
+                                    </li>
+
+
+                                    <li class="mt-3">
+                                        <h6 class="notes-sub-subheading">Some more example of <em>(while loop)</em> statement</h6>
+                                    </li>
+
+                                </ul>
+                            </section>
+                        </section>
+                        <hr class="mt-5">
+
+
+
+
+
+                        <!-- This section is for continue statement -->
+                        <section class="ms-3 mt-5">
+                            <h4 class="notes-subheading"><i class="bi bi-brightness-low-fill"></i> Continue Statement</h4>
+                            <section>
+                                <ul>
+                                    <li class="mt-3">
+                                        <h6 class="notes-sub-subheading">Definition</h6>
+                                        <p>The continue statement in Java is used to skip the current iteration of a loop and proceed with the next iteration. When a continue statement is encountered, the remaining statements inside the loop for the current iteration are skipped, and the loop proceeds to the next iteration based on the loop’s condition.</p>
+
+                                    </li>
+
+
+
+                                    <li class="mt-3">
+                                        <h6 class="notes-sub-subheading">Detailed Working</h6>
+                                        <ol>
+                                            <li><strong>Syntax</strong>
+<pre><code class="language-java">continue;</code></pre>
+                                            </li>
+
+                                            <li><strong>Component</strong>
+                                                <ul>
+                                                    <li><strong>Loop Block</strong>The context in which the continue statement is used. It can be used inside for, while, or do-while loops.</li>
+                                                </ul>
+                                            </li>
+
+                                            <li><strong>Flow</strong>
+                                                <ul>
+                                                    <li>When a continue statement is executed inside a loop, the remaining statements of the loop body are skipped for the current iteration. </li>
+                                                    <li>The loop then evaluates its condition (in while and do-while loops) or proceeds to the next iteration (in for loops). </li>
+                                                    <li>If the condition is still true, the loop continues with the next iteration; otherwise, it terminates.
+                                                     </li>
+                                                </ul>
+
+                                            </li>
+
+                                            <li><strong>Example of Different Condition</strong>
+                                                <ul>
+                                                    <li>When you want to skip certain iterations of a loop based on a condition (e.g., skipping even numbers in a list). </li>
+                                                    <li>When processing a list of items where some items do not need to be processed, you can use continue to skip those items. </li>
+                                                    <li>In scenarios where you need to skip processing when a certain condition is met (e.g., skipping over null values in an array). </li>
+                                                    <li>When filtering out unwanted values in a loop and only processing those that meet specific criteria. </li>
+                                                </ul>
+                                            </li>
+                                        </ol>
+
+                                    </li>
+
+
+
+                                    <li class="mt-3">
+                                        <h6 class="notes-sub-subheading">E-R Diagram</h6>Diagram required.
+
+                                    </li>
+
+
+
+                                    <li class="mt-3">
+                                        <h6 class="notes-sub-subheading">Program</h6>
+                                        <p><strong>Program 1</strong> This program demonstrate the continue statement in for loop.</p>
+<pre><code class="language-java">public ContinueInForLoopExample {
+    public static void main(String[] args) {
+        // Using a continue statement to skip even numbers
+        for (int i = 1; i <= 10; i++) {
+            if (i % 2 == 0) {
+                continue; // Skip the rest of the loop body if i is even
+            }
+            System.out.println("Odd number: " + i);
+        }
+    }
+}
+</code></pre>
+
+<div class="java-output">
+<h5 class="output-heading">Output</h5><hr>
+<pre><code>Odd number: 1
+Odd number: 3
+Odd number: 5
+Odd number: 7
+Odd number: 9
+</code></pre>
+    </div>
+
+    <ht class="mt-5">
+
+        <p class="mt-3"><strong>Program 2</strong> This program demonstrate the continue statement in while loop.</p>
+<pre><code class="language-java">public class ContinueInWhileLoopExample {
+    public static void main(String[] args) {
+        int number = 1;
+
+        // Loop through numbers from 1 to 10
+        while (number <= 10) {
+            if (number % 3 == 0) {
+                number++;
+                continue; // Skip the rest of the loop body if number is divisible by 3
+            }
+            System.out.println("Number: " + number);
+            number++;
+        }
+    }
+}
+</code></pre>
+
+<div class="java-output">
+<h5 class="output-heading">Output</h5><hr>
+<pre><code>Number: 1
+Number: 2
+Number: 4
+Number: 5
+Number: 7
+Number: 8
+Number: 10
+</code></pre></div>
+
+                                    </li>
+
+
+
+                                    <li class="mt-3">
+                                        <h6 class="notes-sub-subheading">Real-life Example</h6>
+                                        <ul style="list-style-type: disc;">
+                                            <li><strong>In Loops</strong>Consider a scenario where you need to process a list of records, but some records should be skipped based on specific criteria (e.g., skipping records with missing data). You use continue to skip the processing of those records and continue with the next one.
+                                            </li>
+                                            
+                                            <li><strong>In Filtering Operations</strong>When filtering data, you might want to skip certain items that do not meet the criteria. continue helps in bypassing the non-relevant items and focusing on those that meet the requirements.
+                                            </li>
+                                        </ul>
+
+                                    </li>
+
+                                    <li class="mt-3">
+                                        <h6 class="notes-sub-subheading">Use case</h6>
+                                        <ul style="list-style-type: disc;">
+                                            <li><strong>Skip Iterations Based on Condition</strong>Use continue to skip certain iterations of a loop where specific conditions are met, such as skipping every second item in a list.
+                                            </li>
+                                            <li><strong>Filter Data</strong>In scenarios where only certain data needs processing, continue helps in filtering out unwanted data by skipping those iterations.
+                                            </li>
+                                            <li><strong>Handle Special Cases</strong>When dealing with special cases or exceptions in loop processing, continue allows you to bypass problematic cases and continue with the rest of the data.
+                                            </li>
+                                            <li><strong>Avoid Redundant Processing</strong>Use continue to avoid redundant or unnecessary processing by skipping over iterations that do not need to be executed.
+                                            </li>
+                                        </ul>
+                                    </li>
+
+
+                                    <li class="mt-3">
+                                        <h6 class="notes-sub-subheading">Some more example of <em>(while loop)</em> statement</h6>
+                                    </li>
+
+                                </ul>
+                            </section>
+                        </section>
+                        <hr class="mt-5">
+
+
+
+
+
+
+                        <!-- This section if of return statement  -->
+                        <section class="ms-3 mt-5">
+                            <h4 class="notes-subheading"><i class="bi bi-brightness-low-fill"></i> Return Statement</h4>
+                            <section>
+                                <ul>
+                                    <li class="mt-3">
+                                        <h6 class="notes-sub-subheading">Definition</h6>
+                                        <p>The return statement in Java is used to exit a method and optionally return a value to the caller. It terminates the execution of the method in which it is used and passes control back to the point where the method was called. If the method has a return type other than void, the return statement must return a value of that type.</p>
+
+                                    </li>
+
+
+
+                                    <li class="mt-3">
+                                        <h6 class="notes-sub-subheading">Detailed Working</h6>
+                                        <ol>
+                                            <li><strong>Syntax</strong>
+<pre><code class="language-java">return; // For void methods
+return value; // For methods with a return type other than void
+</code></pre>
+                                            </li>
+
+                                            <li><strong>Component</strong>
+                                                <ul>
+                                                    <li><strong>Void Method</strong> A method that does not return any value. In this case, return is used to exit the method without returning a value.</li>
+                                                    <li><strong>Non-Void Method</strong> A method that returns a value. In this case, return is used to exit the method and return a value of the specified type.</li>
+                                                </ul>
+                                            </li>
+
+                                            <li><strong>Flow</strong>
+                                                <ul>
+                                                    <li>When a return statement is executed, the method immediately exits and returns to the caller.
+                                                    </li>
+                                                    <li>If the method is of type void, the return statement does not return any value; it simply exits the method.
+                                                    </li>
+                                                    <li>If the method has a return type (e.g., int, String), the return statement must provide a value of that type.
+                                                    </li>
+                                                </ul>
+
+                                            </li>
+
+                                            <li><strong>Example of Different Condition</strong>
+                                                <ul>
+                                                    <li> When you want to terminate a method early and optionally return a result, use return to exit the method and provide the result.
+                                                    </li>
+                                                    <li> In conditional methods where you need to exit based on specific conditions (e.g., if a parameter is invalid), return can be used to stop further execution and return an appropriate value or error.
+                                                    </li>
+                                                    <li> When implementing methods that perform calculations or data processing, use return to provide the final result back to the caller.
+                                                    </li>
+                                                    <li> In recursive methods, return is used to pass the result of recursive calls back up the call stack.
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ol>
+
+                                    </li>
+
+
+
+                                    <li class="mt-3">
+                                        <h6 class="notes-sub-subheading">E-R Diagram</h6>
+                                        diagram required
+
+                                    </li>
+
+
+
+                                    <li class="mt-3">
+                                        <h6 class="notes-sub-subheading">Program</h6>
+<pre><code class="language-java">public class ReturnInVoidMethodExample {
+    public static void main(String[] args) {
+        printMessage();
+    }
+
+    // Method with void return type
+    public static void printMessage() {
+        System.out.println("This method demonstrates the return statement.");
+        return; // Exit the method
+        // Any code here will be unreachable
+    }
+}
+</code></pre>
+<pre><code class="language-java">This method demonstrates the return statement.</code></pre>
+                                    </li>
+
+
+
+                                    <li class="mt-3">
+                                        <h6 class="notes-sub-subheading">Real-life Example</h6>
+                                        <ul style="list-style-type: disc;">
+                                            <li><strong>In Methods</strong>When performing operations or calculations, such as computing a total or checking conditions, return allows you to send the result back to the caller or exit the method when a specific condition is met.</li>
+                                            <li><strong>In Error Handling</strong> If a method encounters an error or invalid input, return can be used to exit the method early and return an error code or message.</li>
+                                        </ul>
+
+                                    </li>
+
+                                    <li class="mt-3">
+                                        <h6 class="notes-sub-subheading">Use case</h6>
+                                        <ul style="list-style-type: disc;">
+                                            <li><strong>Terminate Method Execution</strong> Use return to exit a method as soon as a result is computed or when certain conditions are met, avoiding unnecessary code execution
+                                            </li>
+                                            
+                                            <li><strong>Return Results</strong>When a method performs a calculation or data retrieval, use return to pass the result back to the caller.
+                                            </li>
+                                            
+                                            <li><strong>Early Exit</strong>If a method is processing data and encounters an invalid state or error, return can be used to exit and handle the error or state appropriately.
+                                            </li>
+                                            
+                                            <li><strong>Recursive Methods</strong>In recursive methods, return is essential for passing the result of recursive calls back up the call stack.
+                                            </li>
+                                        </ul>
+                                    </li>
+
+
+
+                                    <li class="mt-3">
+                                        <h6 class="notes-sub-subheading">Some more example of <em>(while loop)</em> statement</h6>
+                                        <strong>Program 1</strong>
+<pre><code class="language-java">public class ReturnInConditionalExample {
+    public static void main(String[] args) {
+        System.out.println("Factorial of 5 is: " + factorial(5));
+        System.out.println("Factorial of -1 is: " + factorial(-1));
+    }
+
+    // Method to calculate factorial
+    public static int factorial(int n) {
+        if (n < 0) {
+            return -1; // Return error code for invalid input
+        }
+        if (n == 0) {
+            return 1; // Base case for recursion
+        }
+        return n * factorial(n - 1); // Recursive call
+    }
+}
+</code></pre>
+
+<!-- output section -->
+<div class="java-output">
+<h5 class="output-heading">Output</h5><hr>
+<pre><code>Factorial of 5 is: 120
+Factorial of -1 is: -1
+</code></pre>
+</div>
+                                    </li>
+
+                                </ul>
+                            </section>
+                        </section>
+                    </section>
+                    
+                </div>
+            </div>
+
+            <!-- Button COde -->
+            <div class="row my-4">
+                <div class="col-6 d-flex justify-content-start">
+                    <button class="btn btn-warning"> <i class="bi bi-arrow-left-short"></i> Previous
+                        Topic</button>
+                </div>
+                <div class="col-6 d-flex justify-content-end">
+                    <button class="btn btn-success">Next Topic <i class="bi bi-arrow-right-short"></i></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-2 col-12 bg-secondary">this is for
+            advertisement</div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer mt-4">
+        <div class="container">
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <h5 class="text-white">Menus</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="footer-link">Home</a></li>
+                        <li>
+                            <a href="free-courses-by-smart-programming.html" class="footer-link">Free Courses</a>
+                        </li>
+                        <li>
+                            <a href="premium-courses-by-smart-programming.html" class="footer-link">Premium Courses</a>
+                        </li>
+                        <li>
+                            <a href="trainings-by-smart-programming.html" class="footer-link">Trainings</a>
+                        </li>
+                        <li>
+                            <a href="development-by-smart-programming.html" class="footer-link">Development</a>
+                        </li>
+                        <li>
+                            <a href="contact-smart-programming.html" class="footer-link">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-8">
+                    <h5 class="text-white">
+                        Useful links for Industrial Training in Chandigarh
+                    </h5>
+                    <div class="row">
+                        <div class="col-md-6 col-12">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="core-java-free-course-by-deepak-smart-programming.html"
+                                        class="footer-link">Core Java Free
+                                        Course</a>
+                                </li>
+                                <li>
+                                    <a href="advance-java-free-course-by-deepak-smart-programming.html"
+                                        class="footer-link">Advance Java
+                                        Free Course</a>
+                                </li>
+                                <li>
+                                    <a href="spring-framework-free-course-by-deepak-smart-programming.html"
+                                        class="footer-link">Spring Framework
+                                        Free Course</a>
+                                </li>
+                                <li>
+                                    <a href="springboot-framework-free-course-by-deepak-smart-programming.html"
+                                        class="footer-link">Springboot Free
+                                        Course</a>
+                                </li>
+                                <li>
+                                    <a href="android-free-course-by-deepak-smart-programming.html"
+                                        class="footer-link">Android Free
+                                        Course</a>
+                                </li>
+                                <li>
+                                    <a href="java-logical-questions-free-course-by-deepak-smart-programming.html"
+                                        class="footer-link">Java Logical
+                                        Questioning Free Course</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="https://courses.smartprogramming.in/learn/Core-Java-With-5-Projects"
+                                        target="_blank" class="footer-link">Core Java
+                                        Premium Course</a>
+                                </li>
+                                <li>
+                                    <a href="https://courses.smartprogramming.in/learn/Advance-Java" target="_blank"
+                                        class="footer-link">Advance Java
+                                        Premium Course</a>
+                                </li>
+                                <li>
+                                    <a href="https://courses.smartprogramming.in/learn/Spring-Framework" target="_blank"
+                                        class="footer-link">Spring Framework
+                                        Premium Course</a>
+                                </li>
+                                <li>
+                                    <a href="https://courses.smartprogramming.in/learn/Spring-Boot-Framework"
+                                        target="_blank" class="footer-link">Springboot
+                                        Premium Course</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center mt-5">
+                <div class="col-md-8">
+                    <footer>
+                        <p>
+                            &copy; 2024 Smart Programming, Chandigarh. All
+                            Rights Reserved.
+                            <br />
+                            <a href="privacy-policy.html" class="footer-link">Privacy Policy</a>
+                            &nbsp; | &nbsp;
+                            <a href="terms-of-service.html" class="footer-link">Terms Of Services</a>
+                            &nbsp; | &nbsp;
+                            <a href="cancellation-refund-policy.html" class="footer-link">Cancellation/Refund
+                                Policy</a>
+                        </p>
+                    </footer>
+                </div>
+                <div class="col-md-4">
+                    <div class="social-icons">
+                        <a href="https://www.youtube.com/c/SmartProgramming" target="_blank"
+                            class="me-2 text-decoration-none">
+                            <i class="bi bi-youtube"></i>
+                        </a>
+                        <a href="https://www.facebook.com/smartprogramming.india" target="_blank"
+                            class="me-2 text-decoration-none">
+                            <i class="bi bi-facebook"></i></a>
+                        <a href="https://www.instagram.com/smart_programming/" target="_blank"
+                            class="me-2 text-decoration-none">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="https://t.me/smart_programming_deepak" target="_blank"
+                            class="me-2 text-decoration-none">
+                            <i class="bi bi-telegram"></i>
+                        </a>
+                        <a href="https://discord.gg/Up9dQ3gP6k" target="_blank" class="me-2 text-decoration-none">
+                            <i class="bi bi-discord"></i>
+                        </a>
+                        <a href="https://whatsapp.com/channel/0029Va6n2Gs42Dckpa2T1U1i" target="_blank"
+                            class="me-2 text-decoration-none">
+                            <i class="bi bi-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document
+            .getElementById("notes-hamburger-btn")
+            .addEventListener("click", function () {
+                document.getElementById("notes-sidebar").classList.toggle("active");
+            });
+
+        document
+            .getElementById("notes-sidebar-close-btn")
+            .addEventListener("click", function () {
+                document.getElementById("notes-sidebar").classList.remove("active");
+            });
+    </script>
+
+    <!-- Prism.js for Syntax Highlighting -->
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/prism.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/components/prism-java.min.js"></script>
+</body>
+
+</html>
